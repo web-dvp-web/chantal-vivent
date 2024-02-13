@@ -1,0 +1,198 @@
+@media screen and (max-width: 768px) {
+  div.footerContainer {
+    min-height: 0;
+    background-color: #ededed;
+  }
+  div.infoFooterContainer {
+    width: 100%;
+    min-height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cfcac6;
+  }
+  div.titreLogoRsContainer {
+    width: 100%;
+  }
+  div.iconeFooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img.iconeFooter {
+    margin: 0;
+    width: 45px;
+  }
+  p.infoFooter {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    color: #18444a;
+  }
+  img.logoInstagram {
+    width: 25px;
+    height: 25px;
+  }
+
+  img.logoFacebook {
+    margin: 5px;
+    width: 13px;
+    height: 25px;
+  }
+  img.logoTwitter {
+    width: 25px;
+    height: 25px;
+  }
+  img.logoFooter {
+    width: 40%;
+    margin: 10px;
+  }
+  div.info2FooterContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+  }
+  div.part1Footer {
+    border: none;
+  }
+  p.aFooter {
+    margin: 0;
+    font-size: 15px;
+    color: #3a9696;;
+  }
+}
+
+/*grand écran*/
+.footerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px white;
+  background-color: #ededed;
+}
+.infoFooterContainer {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #cfcac6;
+}
+.titreLogoRsContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ededed;
+}
+.h1Footer {
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #2E808C;
+}
+.h2Footer {
+  margin-bottom: 5%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #242223;
+}
+.logoRsContainer {
+  padding-left: 0;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logoInstagram {
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  transition-duration: 0.5s;
+}
+.logoInstagram:hover {
+  transition-duration: 0.5s;
+  rotate: 20deg;
+}
+.logoFacebook {
+  margin: 5px;
+  width: 21px;
+  height: 35px;
+}
+.logoFacebook:hover {
+  width: 21px;
+  height: 35px;
+  transition-duration: 0.5s;
+  rotate: 20deg;
+}
+.logoTwitter {
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  transition-duration: 0.5s;
+}
+.logoTwitter:hover {
+  width: 35px;
+  height: 35px;
+  transition-duration: 0.5s;
+  rotate: 20deg;
+}
+.logoFooter {
+  width: 20%;
+}
+.info2FooterContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ededed;
+}
+.part1Footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
+}
+.iconeFooterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconeFooter {
+  margin-right: 20px;
+  width: 65px;
+}
+.infoFooter {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  color: #18444a;
+}
+.part2Footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.aFooter {
+  margin: 0;
+  font-size: 20px;
+  color: #3a9696;
+}
+.aFooter:hover {
+  margin: 0;
+  color: black;
+}
+.ligne {
+  width: 70%;
+  border-top: 1px solid white;
+}

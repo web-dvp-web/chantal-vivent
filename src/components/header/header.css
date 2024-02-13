@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+  /*mobile*/
+  div.headerContainer {
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ededed;
+  }
+  div.h1Container {
+    width: 70%;
+  }
+  div.titreSousTitreContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  h1.h1Header {
+    font-size: xx-large;
+    color: #242223;
+  }
+  p.sousTitreHeader {
+    font-size: large;
+    color: #242223;
+  }
+  img.logoEntreprise {
+    margin: 10px;
+    width: 44%;
+  }
+}
+/*grand écran*/
+.headerContainer {
+  margin-bottom: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ededed;
+}
+.titreSousTitreContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.h1Header {
+  margin-bottom: 0;
+  font-family: "Dancing Script";
+  font-weight: 200;
+  color: #242223;
+}
+.sousTitreHeader {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  color: #242223;
+}
+.logoEntreprise {
+  margin: 10px;
+  padding: 10px;
+  width: 14%;
+  border-radius: 200px;
+}

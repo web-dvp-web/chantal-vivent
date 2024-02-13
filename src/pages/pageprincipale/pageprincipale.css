@@ -1,0 +1,16 @@
+.PagePrincipaleContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E808C;
+}
+.PagePrincipaleContainer2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #709ca7;
+}

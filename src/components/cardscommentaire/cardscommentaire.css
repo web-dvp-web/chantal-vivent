@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  div.cardsCommentaireContainer {
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #8f7f5c9e;
+    box-shadow: 2px 2px 7px 2px black;
+  }
+}
+
+.cardsCommentaireContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.imgNameContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imgUser {
+  margin-right: 10%;
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+}
+.nameUser {
+  color: #f5f0d0;
+}
+.commentaireUser {
+  width: 77%;
+  font-size: 17px;
+  text-align: left;
+  color: white;
+}

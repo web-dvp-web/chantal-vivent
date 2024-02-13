@@ -1,0 +1,92 @@
+/*mobile*/
+@media screen and (max-width: 768px) {
+  div.pageContactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #24222300;
+  }
+  div.horairesContainer {
+    margin-bottom: 7%;
+    padding-left: 0%;
+    text-align: center;
+    width: 100%;
+  }
+  h1.h1Horaires {
+    font-size: 2em;
+    color: white;
+  }
+  img.imgContact {
+    width: 100%;
+  }
+  div.mailTelAdresseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+  }
+  div.logoTexteContainer {
+    width: 100%;
+  }
+  img.logoTel {
+    margin: 0px;
+    width: 38px;
+  }
+  img.logoMail {
+    margin: 0px;
+    width: 51px;
+  }
+  img.logoAdresse {
+    margin: 0px;
+    width: 25px;
+  }
+}
+
+/*grand écran*/
+.pageContactContainer {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.horairesContainer {
+  padding-left: 2%;
+  width: 30%;
+  text-align: left;
+}
+.pHoraires {
+  margin: 0;
+  font-size: large;
+}
+.imgContact {
+  width: 80%;
+}
+.jour-de-la-semaine {
+  margin-bottom: 0;
+}
+.mailTelAdresseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logoTexteContainer {
+  margin-top: 2%;
+  width: 20%;
+}
+.logoTel {
+  margin: 10px;
+  width: 50px;
+}
+.logoMail {
+  margin: 10px;
+  width: 65px;
+}
+.logoAdresse {
+  margin: 10px;
+  width: 35px;
+}
+.pInfo {
+  font-size: medium;
+}
