@@ -33,7 +33,7 @@ function App() {
                 samedi="8h-12h 13h30-16h30"
                 dimanche="férmé"
                 tel="06.00.00.00.82"
-                mail="ciseauxdor@gmail.com"
+                mail="sbnaturo9@gmail.com"
                 adresse="33 rue de neneak 09348 Juejsa"
               />
             }

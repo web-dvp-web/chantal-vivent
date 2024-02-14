@@ -11,14 +11,14 @@ const Footer = (props) => {
           <h1 className="h1Footer">{props.titre}</h1>
           <h2 className="h2Footer">{props.soustitre}</h2>
           <div className="logoRsContainer">
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/sbnaturosport/">
               <img
                 className="logoInstagram"
                 src={instagram}
                 alt="logo instagram"
               />
             </a>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/profile.php?id=61555318679708">
               <img
                 className="logoFacebook"
                 src={facebook}

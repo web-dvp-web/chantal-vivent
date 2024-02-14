@@ -1,0 +1,71 @@
+/*mobile*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Nanum+Myeongjo:wght@700&family=Roboto:wght@100&family=Smooch+Sans:wght@100&display=swap');
+@media screen and (max-width: 768px) {
+    div.carteInformations5Container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+      }
+      div.imgCi6Container{
+        display: flex;
+        width: 100%;
+      }
+      img.imgCi6{
+        min-height: 0;
+        height: auto;
+      }
+      div.infoCi6Container{
+      width: 100%;
+      min-height: auto;
+      height: auto;
+      text-align: center;
+      }
+      h2.h2Ci6{
+        font-size: 22px;
+        font-weight: 700;
+      }
+      p.pCi6{
+        font-family: 'Cormorant Garamond', serif;
+      }
+    }
+/*grand écran*/
+
+.carteInformations5Container{
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.infoCi6Container{
+  width: 50%;
+  min-height: 100vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e1e1;
+}
+.h2Ci6{
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(34, 28, 28);
+}
+.pCi6{
+  width: 70%;
+  font-weight: 400;
+  color: rgb(34, 28, 28);
+}
+.imgCi6Container{
+  width: 50%;
+  display: flex;
+}
+.imgCi6{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+.css-zvi4ix{
+  display: flex;
+  justify-content: center;
+}

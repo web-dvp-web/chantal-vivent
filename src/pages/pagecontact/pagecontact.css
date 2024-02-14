@@ -1,14 +1,20 @@
 /*mobile*/
 @media screen and (max-width: 768px) {
   div.pageContactContainer {
+    min-height: 0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #24222300;
+    background-color: #ededed;
+    background-image: none;
   }
   div.horairesContainer {
-    margin-bottom: 7%;
+    margin-bottom: 0%;
     padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
   }
@@ -18,13 +24,21 @@
   }
   img.imgContact {
     width: 100%;
+    border: solid 0px;
   }
   div.mailTelAdresseContainer {
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 20px;
+  }
+  div.imgLogoContainer{
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
   }
   div.logoTexteContainer {
     width: 100%;
@@ -41,38 +55,53 @@
     margin: 0px;
     width: 25px;
   }
+  p.pHoraires{
+    width: 80%;
+  }
 }
 
 /*grand écran*/
 .pageContactContainer {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
+  background-image: url(../../images/montvalier.jpg);
+  background-size: cover;
+}
+h1.h1Horaires{
+  margin-top: 5%;
+  color: #2f2c2c;
 }
 .horairesContainer {
-  padding-left: 2%;
+  padding-left: 10%;
   width: 80%;
   text-align: left;
 }
 .pHoraires {
-  padding: 10px;
   margin: 0;
+  padding: 10px;
   width: 51%;
-  font-size: large;
+  font-size: 22px;
+  font-weight: 600;
+  filter: brightness(0.5);
+  font-family: 'Roboto';
+  color: #2f2c2c;
+
 }
 .imgContact {
   margin-top: 20px;
-  width: 80%;
+  width: 40%;
+  border: solid;
 }
 .jour-de-la-semaine {
   margin-bottom: 0;
 }
 .mailTelAdresseContainer {
+  padding-left: 10%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .logoTexteContainer {
   margin-top: 2%;
@@ -91,5 +120,14 @@
   width: 35px;
 }
 .pInfo {
-  font-size: medium;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: black;
+}
+.imgLogoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 10%;
 }
