@@ -1,8 +1,11 @@
 import "./pagemenu1.css";
-import videomenu1 from "../../videos/videocoiffure.mp4";
+import videomenu1 from "../../videos/videonaturo.mp4";
 import CardsServices from "../../components/cardsservices/CardsServices";
 import CardsCommentaire from "../../components/cardscommentaire/CardsCommentaire";
 import separationcommentaire1 from "../../images/separationcommentaires1.png";
+import service1 from "../../images/canva/Nathuropa.png";
+import service2 from "../../images/canva/alimentation.png";
+import service3 from "../../images/canva/forfait.png";
 /*animation du texte*/
 import { Fade } from "react-awesome-reveal";
 
@@ -12,11 +15,9 @@ const PageMenu1 = () => {
       <div className="h1VideoContainer" aria-label="fleurs rose avec des branches en avant avec un fond flou de la foret " >
         <div className="h1Container">
           <h1 className="h1Presentation">
-            Bienvenue chez Les ciseaux d'or, votre salon de coiffure de
-            Verniolle, en Occitanie. Nous sommes une équipe de coiffeurs et
-            coiffeuses professionnels passionnés par notre métier. Nous sommes
-            là pour vous aider à trouver le look qui vous correspond, qu'il soit
-            classique, moderne ou audacieux.
+            SB NaturoSport est un cabinet de naturopathie et de nutrithérapie dédié à votre bien-être et à vos performances sportives. 
+            Spécialisé dans l'accompagnement des sportifs et des personnes actives, je vous propose des solutions naturelles et personnalisées
+            pour vous aider à atteindre vos objectifs.
           </h1>
         </div>
         <video className="videoPresentation" autoPlay loop muted>
@@ -28,32 +29,23 @@ const PageMenu1 = () => {
       </Fade>
       <div className="allCards">
         <CardsServices
-          titre="Coiffures"
-          img="https://cdn.pixabay.com/photo/2017/07/20/10/51/beauty-salon-2521943_1280.jpg"
-          services=" 
-      Coupes de cheveux pour hommes, femmes et enfants
-      Coupes classiques, modernes, audacieuses
-      Coupes sur-mesure
-      Coupes de barbe pour hommes
-      "
+          titre="Rdv problèmatique passagère 1h/70€ "
+          img={service1}
+          services="SB NaturoSport vous propose un accompagnement personnalisé pour vous aider à surmonter ces problématiques passagères et retrouver une alimentation saine et équilibrée."
         />
         <CardsServices
-          titre="Coloration"
-          img="https://cdn.pixabay.com/photo/2015/12/17/10/01/colors-1097123_1280.jpg"
-          services="Colorations permanentes
-      Colorations semi-permanentes
-      Balayages
-      Ombres
-      Colorations végétales
-      Colorations sans ammoniaque"
+          titre="Rdv conseils nutritionnels 1h/60€"
+          img={service2}
+          services="Adaptée à vos besoins et à vos objectifs."
+          services2="Un service de conseil nutritionnel personnalisé qui vous accompagne vers une alimentation saine et équilibrée."
+          services3="Un suivi régulier pour vous accompagner dans la durée et vous aider à maintenir vos résultats."
         />
         <CardsServices
-          titre="Coiffures spéciales"
-          img="https://cdn.pixabay.com/photo/2020/09/30/19/43/woman-5616861_1280.jpg"
-          services="Coiffures de mariage,
-      Coiffures de soirée,
-      Coiffures de gala,
-      Coiffures pour tout autres événements particuliers"
+          titre="Forfait 3 rdv accompagnement complet 150€ (2x75€)"
+          img={service3}
+          services="RDV 1 : Bilan de vitalité + Protocole détox & réequilibrage + Fiches conseils... 1h30"
+          services2="RDV 2 : Bilan de suivi + Protocole de renforcement & revitalisation + Fiches conseils... 1h"
+          services3="RDV 3 : Bilan de suivi / Protocole de stabilisation... 30mn"
         />
       </div>
       <h2>Vos commentaires</h2>
@@ -67,17 +59,17 @@ const PageMenu1 = () => {
           <CardsCommentaire
             nom="Marie"
             img="https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_1280.jpg"
-            commentaire="Je suis venue chez Les ciseaux d'or pour une nouvelle coupe de cheveux et j'ai été ravie du résultat. Les coiffeurs sont très professionnels et à l'écoute. Ils ont pris le temps de comprendre mes envies et de me proposer une coupe qui me correspond parfaitement. Je me sens belle et confiante avec ma nouvelle coupe ! Je recommande vivement ce salon."
+            commentaire="SBNaturosport m'a permis de retrouver une santé optimale grâce à des conseils personnalisés et un suivi rigoureux."
           />
           <CardsCommentaire
             nom="Julien"
             img="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
-            commentaire="J'ai fait une coloration chez Les ciseaux d'or et je suis très contente du résultat. Les couleurs sont magnifiques et la tenue est parfaite. Les coiffeurs ont utilisé des produits de haute qualité et ils ont pris le temps de faire un travail soigné. Je reviendrai sans hésiter."
+            commentaire="J'ai été très satisfaite de la consultation avec SBNaturosport. Elle a pris le temps de m'écouter et de comprendre mes besoins."
           />
           <CardsCommentaire
             nom="Sophie"
             img="https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_1280.jpg"
-            commentaire="J'ai fait des extensions de cheveux chez Les ciseaux d'or et je suis ravie du résultat. Les cheveux sont naturels et la pose est impeccable. Les coiffeurs ont été très professionnels et ils m'ont expliqué tout le processus. Je recommande vivement ce salon."
+            commentaire="SBNaturosport est une naturopathe très compétente et à l'écoute de ses patients. Je la recommande vivement."
           />
         </Fade>
       </div>
@@ -86,17 +78,17 @@ const PageMenu1 = () => {
           <CardsCommentaire
             nom="Marie"
             img="https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_1280.jpg"
-            commentaire="Je suis venue chez Les ciseaux d'or pour une nouvelle coupe de cheveux et j'ai été ravie du résultat. Les coiffeurs sont très professionnels et à l'écoute. Ils ont pris le temps de comprendre mes envies et de me proposer une coupe qui me correspond parfaitement. Je me sens belle et confiante avec ma nouvelle coupe ! Je recommande vivement ce salon."
+            commentaire="Grâce à SBNaturosport, j'ai pu perdre du poids et améliorer mon bien-être de manière durable."
           />
           <CardsCommentaire
             nom="Anna"
             img="https://cdn.pixabay.com/photo/2016/01/10/22/07/woman-1132617_960_720.jpg"
-            commentaire="J'ai fait une coloration chez Les ciseaux d'or et je suis très contente du résultat. Les couleurs sont magnifiques et la tenue est parfaite. Les coiffeurs ont utilisé des produits de haute qualité et ils ont pris le temps de faire un travail soigné. Je reviendrai sans hésiter."
+            commentaire="SBNaturosport m'a aidé à surmonter mes problèmes de stress et d'anxiété grâce à des solutions naturelles."
           />
           <CardsCommentaire
             nom="John"
             img="https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_1280.jpg"
-            commentaire="J'ai fait des extensions de cheveux chez Les ciseaux d'or et je suis ravie du résultat. Les cheveux sont naturels et la pose est impeccable. Les coiffeurs ont été très professionnels et ils m'ont expliqué tout le processus. Je recommande vivement ce salon."
+            commentaire="La consultation avec SBNaturosport était informative et intéressante. J'ai appris beaucoup de choses sur la naturopathie."
           />
         </Fade>
       </div>

@@ -4,7 +4,9 @@ const CardsServices = (props) => {
     <div className="cardsServicesContainer">
       <img className="imgCardsServices" src={props.img} alt="img" />
       <p className="titreServices">{props.titre}</p>
-      <p className="pServices">{props.services}</p>
+      <p className="pServicesC1">{props.services}</p>
+      <p className="pServicesC2">{props.services2}</p>
+      <p className="pServicesC3">{props.services3}</p>
     </div>
   );
 };

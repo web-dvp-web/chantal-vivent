@@ -1,10 +1,8 @@
 import "./footer.css";
 import instagram from "../../images/instagram.png";
 import facebook from "../../images/facebook.png";
-import twitter from "../../images/x.png";
-import iconetel from "../../images/2.png";
 import iconemail from "../../images/5.png";
-import iconeadresse from "../../images/adresse.png";
+import imgcontactfooter from "../../images/Montage photo de voyage en forme de mosaïque.png"
 const Footer = (props) => {
   return (
     <div className="footerContainer">
@@ -27,9 +25,6 @@ const Footer = (props) => {
                 alt="logo Facebook"
               />
             </a>
-            <a href="https://twitter.com/?lang=fr">
-              <img className="logoTwitter" src={twitter} alt="logo instagram" />
-            </a>
           </div>
           <img
             className="logoFooter"
@@ -40,15 +35,7 @@ const Footer = (props) => {
         <div className="info2FooterContainer">
           <div className="part1Footer">
           <hr className="ligne" />
-          <div className="iconeFooterContainer">
-            <img
-              className="iconeFooter"
-              src={iconetel}
-              alt="icone d'un téléphone "
-            />
-            <p className="infoFooter">{props.tel} </p>
-          </div>
-          <hr className="ligne" />
+          <h2 className="h2footerContacerNous">Me contacter</h2>
           <div className="iconeFooterContainer">
             <img
               className="iconeFooter"
@@ -57,15 +44,7 @@ const Footer = (props) => {
             />
             <p className="infoFooter">{props.mail}</p>
           </div>
-          <hr className="ligne" />
-          <div className="iconeFooterContainer">
-            <img
-              className="iconeFooter"
-              src={iconeadresse}
-              alt="icone pointeur gps "
-            />
-            <p className="infoFooter">{props.adresse} </p>
-          </div>
+          <img className="imgContactFooter" src={imgcontactfooter} alt="femme en randonnée"/>
           <hr className="ligne" />
           </div>
           <div className="part2Footer">

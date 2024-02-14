@@ -20,15 +20,15 @@
 /*grand écran*/
 .cardsServicesContainer {
   margin: 10px;
-  width: 20%;
-  height: 13em;
+  width: 30%;
+  height: 22em;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   border-bottom-left-radius: 8px;
   border-radius: 8px;
-  background-color: #594b3b;
+  background-color: #efeae4;
   /*background-color: #CFC7BC;*/
 }
 .allCards {
@@ -41,20 +41,47 @@
 }
 .imgCardsServices {
   width: 100%;
-  height: 8em;
+  height: 11em;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 .titreServices {
   margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
   width: 100%;
   font-size: 22px;
   font-weight: 600;
   font-family: "forum";
-  background-color: #81715e;
+  background-color: cadetblue;
 }
-.pServices {
+.pServicesC1 {
+  margin-bottom: 0;
   padding: 10px;
+  width: 90%;
+  text-align: left;
   font-size: 20px;
+  font-weight: 600;
   font-family: "Cormorant Garamond", serif;
+  color: cadetblue ;
+}
+.pServicesC2 {
+  margin: 0;
+  padding: 10px;
+  width: 90%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Cormorant Garamond", serif;
+  color: cadetblue ;
+}
+.pServicesC3 {
+  margin-bottom: 0;
+  padding: 10px;
+  width: 90%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Cormorant Garamond", serif;
+  color: cadetblue ;
 }

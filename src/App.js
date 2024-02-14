@@ -43,10 +43,9 @@ function App() {
         </Routes>
       </header>
       <Footer
-        titre="CoifAir"
+        titre="SB NaturoSport"
         soustitre="naturopathe • nutrithérapeute"
-        tel="06.36.65.65.65"
-        mail="lesciseauxdor@gmail.com"
+        mail="sbnaturo9@gmail.com"
         adresse="14 avenue de la République 09000 Foix"
         logo={logonaturosport}
       />

@@ -2,14 +2,14 @@
   /*mobile chic et minimaliste*/
   div.cardsPagePrincipaleContainer {
     width: 90%;
-    background-color: #2E808C;
+    background-color: #264b50;
   }
   div.cards1and2Container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #2E808C;
+    background-color: #264b50;
   }
   div.cards1Container {
     margin-top: 10%;
@@ -51,7 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2E808C;
+  background-color: #264b50;
 }
 .cards1and2Container {
   width: 100%;
@@ -153,7 +153,7 @@ a {
   div.cards1and2Container2 {
     display: flex;
     flex-direction: column;
-    background-color: #709CA7;
+    background-color: #264b50;
   }
   div.cards1Container {
     text-decoration: none;
@@ -181,7 +181,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #709CA7;
+  background-color: #264b50;
 }
 .cards1and2Container {
   width: 100%;

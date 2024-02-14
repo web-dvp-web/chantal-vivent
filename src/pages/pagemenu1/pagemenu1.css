@@ -18,6 +18,7 @@
   }
   h2.h2Services {
     width: 100%;
+    background-color: #ededed;
   }
   div.allCardsCommentaireContainer {
     display: flex;
@@ -80,7 +81,7 @@
   font-weight: 200;
   font-family: "Dancing Script";
   color: #242223;
-  background-color: #cfcac6;
+  background-color: #ededed;
 }
 .allCardsCommentaireContainer {
   margin: 5%;
