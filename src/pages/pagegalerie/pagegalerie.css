@@ -18,3 +18,9 @@
   align-items: center;
   background-color: #ededed;
 }
+.texteInfoGalerie{
+  padding: 20px;
+  width: 90%;
+  font-size: 15px;
+  color: black;
+}

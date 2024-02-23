@@ -35,16 +35,16 @@ const MenuOuvrant = () => {
           </li>
           <li>
             <a href="/pagemenu1">
-              <span>Nos services</span>
+              <span>Mes services</span>
             </a>
           </li>
           <li>
             <a href="/contact">
-              <span>Nous contacter</span>
+              <span>Me contacter</span>
             </a>
           </li>
           <a href="/pagegalerie">
-            <span>notre galerie dimage</span>
+            <span>La galerie dimage</span>
           </a>
           <li>
             <a className="aEnSavoirPlus" href="/mentionslegales">

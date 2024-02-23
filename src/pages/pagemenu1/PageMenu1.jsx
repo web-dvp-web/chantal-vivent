@@ -1,5 +1,6 @@
 import "./pagemenu1.css";
 import videomenu1 from "../../videos/videonaturo.mp4";
+import galets from "../../images/galets.jpg"
 import CardsServices from "../../components/cardsservices/CardsServices";
 import CardsCommentaire from "../../components/cardscommentaire/CardsCommentaire";
 import separationcommentaire1 from "../../images/separationcommentaires1.png";
@@ -21,7 +22,7 @@ const PageMenu1 = () => {
           </h1>
         </div>
         <video className="videoPresentation" autoPlay loop muted>
-          <source src={videomenu1} type="video/mp4" />
+          <img src={galets} alt="galets empiler" />
         </video>
       </div>
       <Fade direction="right">
@@ -57,17 +58,17 @@ const PageMenu1 = () => {
       <div className="allCardsCommentaireContainer">
         <Fade cascade damping={0.4}>
           <CardsCommentaire
-            nom="Marie"
+            nom="Marie.b"
             img="https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_1280.jpg"
             commentaire="SBNaturosport m'a permis de retrouver une santé optimale grâce à des conseils personnalisés et un suivi rigoureux."
           />
           <CardsCommentaire
-            nom="Julien"
+            nom="Julien.s"
             img="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
             commentaire="J'ai été très satisfaite de la consultation avec SBNaturosport. Elle a pris le temps de m'écouter et de comprendre mes besoins."
           />
           <CardsCommentaire
-            nom="Sophie"
+            nom="Sophie.t"
             img="https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_1280.jpg"
             commentaire="SBNaturosport est une naturopathe très compétente et à l'écoute de ses patients. Je la recommande vivement."
           />
@@ -76,17 +77,17 @@ const PageMenu1 = () => {
       <div className="allCardsCommentaireContainer">
         <Fade cascade damping={0.4}>
           <CardsCommentaire
-            nom="Marie"
+            nom="Marie.v"
             img="https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_1280.jpg"
             commentaire="Grâce à SBNaturosport, j'ai pu perdre du poids et améliorer mon bien-être de manière durable."
           />
           <CardsCommentaire
-            nom="Anna"
+            nom="Anna.s"
             img="https://cdn.pixabay.com/photo/2016/01/10/22/07/woman-1132617_960_720.jpg"
             commentaire="SBNaturosport m'a aidé à surmonter mes problèmes de stress et d'anxiété grâce à des solutions naturelles."
           />
           <CardsCommentaire
-            nom="John"
+            nom="John.r"
             img="https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_1280.jpg"
             commentaire="La consultation avec SBNaturosport était informative et intéressante. J'ai appris beaucoup de choses sur la naturopathie."
           />

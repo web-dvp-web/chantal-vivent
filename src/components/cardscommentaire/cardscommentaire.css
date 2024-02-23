@@ -8,8 +8,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background-color: #8f7f5c9e;
+    background-color: #efeae4;
     box-shadow: 2px 2px 7px 2px black;
+  }
+  p.commentaireUser {
+    width: 77%;
+    font-size: 17px;
+    text-align: left;
+    color: #383636;
   }
 }
 
@@ -28,8 +34,7 @@
   justify-content: flex-start;
 }
 .imgUser {
-  margin-right: 10%;
-  width: 50%;
+  width: 0%;
   height: auto;
   border-radius: 12px;
 }
