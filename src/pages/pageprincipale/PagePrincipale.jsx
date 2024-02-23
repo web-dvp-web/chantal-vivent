@@ -4,9 +4,9 @@ const PagePrincipale = () => {
   return (
     <div className="PagePrincipaleContainer">
       <CardsPagePrincipale
-        titremenu1="Mes services"
-        titremenu2="contacter moi"
-        titremenu3="À la une"
+        titremenu1="Mes prestations"
+        titremenu2="Me contacter"
+        titremenu3="Le blog"
       />
     </div>
   );

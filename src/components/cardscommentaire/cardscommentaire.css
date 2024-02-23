@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
   div.cardsCommentaireContainer {
     margin-bottom: 40px;
     padding: 10px;
@@ -16,6 +17,9 @@
     font-size: 17px;
     text-align: left;
     color: #383636;
+  }
+  p.nameUser{
+    color: black;
   }
 }
 
@@ -39,7 +43,7 @@
   border-radius: 12px;
 }
 .nameUser {
-  color: #f5f0d0;
+  color: #f5f0d0
 }
 .commentaireUser {
   width: 77%;

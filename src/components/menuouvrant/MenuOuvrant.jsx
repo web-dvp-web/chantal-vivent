@@ -35,7 +35,7 @@ const MenuOuvrant = () => {
           </li>
           <li>
             <a href="/pagemenu1">
-              <span>Mes services</span>
+              <span>Mes prestations</span>
             </a>
           </li>
           <li>
@@ -43,8 +43,8 @@ const MenuOuvrant = () => {
               <span>Me contacter</span>
             </a>
           </li>
-          <a href="/pagegalerie">
-            <span>La galerie dimage</span>
+          <a href="/leblog">
+            <span>Le blog</span>
           </a>
           <li>
             <a className="aEnSavoirPlus" href="/mentionslegales">

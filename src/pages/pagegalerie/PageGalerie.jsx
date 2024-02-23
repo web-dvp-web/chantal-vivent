@@ -36,104 +36,87 @@ const PageGalerie = () => {
         img={img1}
       />
       <p className="texteInfoGalerie">
-        Je suis Sandrine Bosc, j'ai 45 ans, et sors de 3 années de formation à
-        l'Ecole Skill and You France / Be academie en qualité de Conseillère en
-        Naturopathie, ou plus simplement communément appelé "Naturopathe". 📚👩🏻‍🏫
-        C'est un long et très riche cursus au cours duquel j'ai également
-        effectué 2 mémoires (+ la soutenance orale), dont un sur le thème de
-        "l'accompagnement naturopathique des Basketteuses amateures" , qui m'a
-        valu la belle note de 16/20 et des félicitations face au riche travail
-        de recherche. La passion que j'y ai mise s'est également faite
-        ressentir, et je suis fière du travail accompli je dois l'avouer ! En
-        effet, ce thème m'était très cher et était la base de la spécialisation
-        dans laquelle je souhaitais me lancer: celle de l'accompagnement
-        spécifique des sportifs... et m'y voila ! 🏀🏉🥊🍀 Au-delà de l'aspect
-        purement "théorique" de ma formation, il est à noter que c'est le fruit
-        d'un total de 5 années de travail et recherches personnelles qui m'ont
-        conduites aujourd'hui à vouloir transmettre mes connaissances et
-        expériences. La première personne sur qui j'ai effectué ces changements
-        (radicaux) de mode et hygiène de vie fût tout simplement moi ! Et quels
-        changements !! 🤩✨ Sans rentrer dans de longs détails ici, mon parcours
-        de vie a été parsemé de ce que je qualifie aujourd'hui "d'initiations et
-        d'expérimentations"... 2 mots pour résumer un parcours parfois
-        chaotique, fait d'ombres et de lumières, de tâtonnements, mais surtout
-        de ce que l'on appelle "la nuit noire de l'âme", ou burn-out pour le
-        terme plus "professionnel"... en sus d’une hypothyroïdie due à une
-        thyroïde trop petite pour fonctionner seule, et qui régit à elle seule
-        mon quotidien depuis plus de 30 ans ! (je reviendrai sur ce point un
-        jour prochain )🦋 Mais c'est bel et bien mon âme qui a dit stop en 2018,
-        me conduisant à devoir stopper toute activité professionnelle, perdant
-        pied personnellement, socialement, moralement, physiquement, et dans
-        tous les aspects de ma vie... 🔛 S'en est suivi un très long chemin de
-        reconstruction sur tous les plans de mon être, mais surtout, apprendre à
-        connaitre ma maladie hormonale, ses effets, et appréhender le
-        fonctionnement de mon corps. Tout simplement, comprendre les rouages de
-        notre si belle mécanique dans tous ses aspects ⚙️ Ce que je ne savais
-        pas du tout faire jusque-là et qui a mené à ce "craquage" de tous les
-        cotés... Pour (version accélérée^^), en arriver à découvrir cette
-        merveilleuse discipline qu'est la Naturopathie ! (des post complets y
-        seront consacrés pour vous faire découvrir pas à pas ce qu'est la
-        naturopathie)😌 Aujourd'hui, je continue de m'épanouir jour après jour
-        grâce à ce merveilleux travail sur moi ! Je ne regrette rien de mon
-        passé, il m'a conduit à cette meilleure version de mon être, à la faire
-        surgir, à la faire exister. Et c'est le fondement même de la
-        naturopathie: prendre l'être de façon holistique, c'est à dire sur tous
-        ses plans : Physiquement, Mentalement, Émotionnellement,
-        Énergétiquement, Spirituellement, et trouver l'équilibre et l'harmonie
-        entre ces points. C'est ce que l'on appelle le Bien-Etre. 😎🧘🏻‍♀️☯️✨ Et
-        pourquoi l'accompagnement des sportifs ? 🤺🏊‍♀️🤾‍♂️🏋️‍♀️🥾 Je suis une ancienne
-        Basketteuse, ayant débuté à l'âge de 6 ans dans un club proche de
-        Toulouse et où j'ai évolué jusqu'en Pré-Nationale. J'ai fait une pause
-        de plus de 10 ans pour me consacrer à une autre de mes passions: la
-        musique, et j'ai été Dj pendant près de 10 ans. C'est pourquoi vous
-        aurez également très souvent des post en relation à la musique pour sa
-        partie thérapeutique, ce que l'on appelle la "musicothérapie" 🎧🎶 J'ai
-        ensuite repris le goût de la balle orange dès 2009 et 2012 après
-        l'extraordinaire épopée de l'Equipe de France Féminine de Basket (les
-        fameuses Braqueuses) et leurs mémorables médailles et exploits qui m'ont
-        valu de devenir une fan inconditionnelle de ce sport, et de pas mal de
-        joueuses depuis, qui sont même devenues des proches, et amies pour
-        certaines 🤗 Mon parcours personnel m'a amené en 2014 à quitter mes
-        racines Toulousaines pour l'Alsace 🥨 , et intégrer en 2015/2016, un
-        club de Basket proche de Strasbourg où j'ai eu l'opportunité d'être
-        salariée et passer mes diplômes d'entraineur (Niveau III), et même
-        reprendre le Basket à... 36 ans ! Malheureusement, j'ai été stoppée dans
-        mon élan comme je le précise plus haut, et ce fût une expérience
-        douloureuse et chaotique. Mais je suis toujours à ce jour reconnaissante
-        au club pour ces 3 belles saisons, et les merveilleuses personnes que
-        j'y ai connu, et qui sont toujours dans mon réseau aujourd'hui 🙏💝
-        C'est exactement le type d’événement qui peut surgir dans la vie de tout
-        un chacun. Croire que tout va bien, que nous gérons nos vies, et puis un
-        matin, la panne sèche. Plus rien ne va, un chaos dans notre vie, qui
-        sème le chaos dans celle des autres au passage. Et l'obligation de se
-        faire face: trouver la force de se regarder, s'affronter, prendre
-        conscience, comprendre, défaire les nœuds, maîtriser ce que l'on peut,
-        lâcher prise sur ce que l'on ne peut contrôler, se relever, et avancer.
-        Plus fort(e). Et redistribuer cette énergie nouvelle, ces prises de
-        conscience ! 🥷⚔️💪 Après cette saison 2018/2019 qui fût très difficile,
-        j'ai arrêté le Basket définitivement à 40 ans, et en parallèle, j'ai eu
-        la chance d'être initiée dès 2017 à la randonnée de montagne dans les
-        Vosges 🥾🐾 🌲 Une révélation, un coup de foudre, LA discipline qui m'a
-        sortie la tête de l'eau, et a contribué grandement à me faire gravir ma
-        propre montagne personnelle. Aujourd'hui rentrée dans ma région
-        Occitane, en Ariège plus précisément, je continue à randonner de façon
-        hebdomadaire dans nos belles Pyrénées, tutoyant régulièrement les hautes
-        cimes autour des 3000m d'altitude et des dénivelés moyens de 1000 à
-        2000m 🦙🏔️ C'est une véritable addiction, et surtout un art de vivre sur
-        lequel je reviendrai également dans un autre post. L'association de la
-        nature et de la marche, c'est tout simplement le combo parfait pour
-        mettre le corps en harmonie, et rééquilibrer la plupart des maux...
-        Basket, Rando... mais une passion pour à peu près tous les sports ! Et
-        un constat alarmant: celui d'un déséquilibre flagrant (souvent
-        inconscient et involontaire) dans l'hygiène de vie de la plupart des
-        athlètes, amateurs comme pros...🫤 Mon souhait le plus profond: 🧞‍♀️ VOUS
-        aider à être le plus possible en équilibre sur tous les plans de votre
-        être, afin de préserver votre organisme, et vous permettre d'être en
-        santé le plus longtemps possible ! Parce qu'on a qu'un seul corps, qu'il
-        nous appartient, que nous devons en être seul(e)s responsable(s), je
-        serai là pour vous aider à en devenir le seul maître à bord ! 🚣‍♂️ SB
-        NaturoSport - PREVENTION & OPTIMISATION 🍀 A bientôt ! 😁 N'oubliez pas:
-        contact & RDV: sbnaturo9@gmail.com
+      Qui suis-je ?
+Je suis Sandrine Bosc, jeune quadra dynamique d’origine Toulousaine et Ariégeoise.
+J’officie en qualité de Naturopathe après m’être formée pendant 3 ans à l’école Be Académie,
+institut certifié Qualiopi, où j’ai été attestée suite à mon cursus.
+J'y ai effectué 2 mémoires, dont un sur l’Accompagnement Naturopathique des Basketteuses,
+qui m’a valu les honneurs suite à la qualité de mon travail de recherche, et toute la passion que
+j’ai mise dans mon travail. En effet, ce thème m'était très cher et était la base de la
+spécialisation dans laquelle je souhaitais me lancer: celle de l'accompagnement des
+sportifs... et m'y voilà !
+Mais au-delà de l'aspect purement "théorique" de ma formation, c'est le fruit d'un total
+de 5 années de travail et de recherches personnelles qui m'ont conduites aujourd'hui à
+vouloir transmettre mes connaissances et expériences.
+La première personne sur qui j'ai effectué ces changements (radicaux) de mode et hygiène
+de vie fût tout simplement moi ! Et quels changements !
+Car mon parcours de vie a été parsemé de ce que je qualifie aujourd'hui "d'initiations et
+d'expérimentations"... 2 mots pour résumer un parcours parfois chaotique, fait d'ombres
+et de lumières, de tâtonnements, mais surtout de ce que l'on appelle "la nuit noire de
+l'âme", ou burn-out pour le terme plus généraliste...
+En sus d’une hypothyroïdie due à une thyroïde trop petite pour fonctionner seule et qui
+régit à elle seule mon quotidien depuis plus de 30 ans, mais que j’ai réussi désormais à
+stabiliser et maîtriser, grâce à mes connaissances acquises, et mes recherches
+personnelles.
+Mais c'est bel et bien mon âme qui a dit stop en 2018, me conduisant à devoir stopper
+toute activité professionnelle, perdant pied personnellement, socialement, moralement,
+physiquement, et dans tous les aspects de ma vie.
+S'en est suivi un très long chemin de reconstruction sur tous les plans de mon être, mais
+surtout, apprendre à connaître ma maladie hormonale, ses effets, et appréhender le
+fonctionnement de mon corps.
+Tout simplement, comprendre les rouages de notre si belle mécanique dans tous ses
+aspects. Ce que je ne savais pas du tout faire à l’époque, et qui a mené à ce "craquage" de
+tous les côtés... Pour (version accélérée^^), en arriver à découvrir cette merveilleuse
+discipline qu'est la Naturopathie !
+Et, aujourd'hui, je continue de m'épanouir jour après jour grâce à ce merveilleux travail
+sur moi. Je ne regrette rien de mon passé, il m'a conduit à cette meilleure version de mon
+Etre, à la faire surgir, à la faire exister.
+Et c'est le fondement même de la Naturopathie: prendre l'être de façon holistique,
+c'est-à-dire sur tous ses plans : Physiquement, Mentalement, Émotionnellement,
+Énergétiquement, Spirituellement, et trouver l'équilibre et l'harmonie entre ces points.
+C'est ce que l'on appelle le Bien-Être.
+
+Et pourquoi l'accompagnement des sportifs ?
+Je suis une ancienne basketteuse, ayant débuté à l'âge de 6 ans dans un club proche de
+Toulouse et où j'ai évolué jusqu'en Pré-Nationale. J'ai fait une pause de plus de 10 ans
+pour me consacrer à une autre de mes passions: la musique, et j'ai été DJ pendant près de
+10 ans.
+Mon parcours personnel m'a amené en 2014 à quitter mes racines Toulousaines pour
+l'Alsace, et intégrer en 2015 un club de Basket proche de Strasbourg où j'ai eu
+l'opportunité d'être salariée et passer mes diplômes d'entraîneur (Niveau III), et même
+de reprendre le Basket à... 36 ans !
+Malheureusement, j'ai été stoppée dans mon élan comme je le précise plus haut, et ce fût
+une expérience douloureuse et chaotique.
+C'est exactement le type d’événement qui peut surgir dans la vie de tout un chacun.
+Croire que tout va bien, que nous gérons nos vies, et puis un matin, la panne sèche. Plus rien
+ne va, un chaos dans notre vie, qui sème le chaos dans celle des autres au passage. Et
+l'obligation de se faire face: trouver la force de se regarder, s'affronter, prendre
+conscience, comprendre, défaire les nœuds, maîtriser ce que l'on peut, lâcher prise sur ce
+que l'on ne peut contrôler, se relever, et avancer. Plus fort(e). Et redistribuer cette
+énergie nouvelle, ces prises de conscience !
+Après l’année 2018 qui fût très difficile, j'ai arrêté le Basket définitivement tout en
+restant fan de ce sport, et en parallèle, j'ai eu la chance d'être initiée dès 2017 à la
+randonnée de montagne dans les Vosges
+Une révélation, un coup de foudre, LA discipline qui m'a sortie la tête de l'eau, et a
+contribué grandement à me faire gravir ma propre montagne personnelle.
+Aujourd'hui rentrée dans ma région Occitane, en Ariège plus précisément, je continue à
+randonner de façon hebdomadaire dans nos belles Pyrénées, tutoyant régulièrement les
+hautes cimes autour des 3000m d'altitude et des dénivelés moyens de 1000 à 2000m
+C'est une véritable addiction, et surtout un art de vivre. L'association de la nature et de
+la marche, c'est tout simplement le combo parfait pour mettre le corps en harmonie, et
+rééquilibrer la plupart des maux.
+Basket, Rando... mais une passion pour à peu près tous les sports ! Et un constat alarmant:
+celui d'un déséquilibre flagrant (souvent inconscient et involontaire) dans l'hygiène de vie
+de la plupart des athlètes, amateurs comme pros... et l’absence d’activités physiques
+régulières favorisant les pathologies chez les non-sportifs.
+
+Mon souhait le plus profond:
+VOUS aider à être le plus possible en équilibre sur tous les plans de votre être, afin de préserver
+votre organisme, et vous permettre d'être en santé le plus longtemps possible !
+Mais aussi, aider ceux qui le souhaitent, à intégrer des activités physiques adaptées à leur terrain
+afin de renforcer leur organisme et ainsi prévenir tout risque pathologique dû à la sédentarité.
+Parce qu'on a qu'un seul corps, qu'il nous appartient, et que nous devons en être
+responsable, je serai là pour vous aider à en devenir le seul maître à bord !
       </p>
       <CarteInformations6
         titre="C'est quoi la Naturopathie ? 🍀🤔"

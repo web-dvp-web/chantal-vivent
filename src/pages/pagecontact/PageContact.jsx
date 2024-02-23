@@ -1,12 +1,12 @@
 import "./pagecontact.css";
-import imgcontact from "../../images/contactok.jpg";
+import imgcontact from "../../images/Mecontacter.jpg";
 const PageContact = (props) => {
   return (
     <div className="pageContactContainer">
       <div className="horairesContainer">
         <h1 className="h1Horaires">Me Contacter</h1>
         <p className="pHoraires">
-          Vous pouvez me contacter à tout moment par email pour prendre rendez-vous poser une question ou me faire part de vos commentaires
+        Vous pouvez me contacter à l'adresse email: sbnaturo9@gmail.com pour toutes informations et les prises de rdv. Nous conviendrons ensemble de l'accompagnement le mieux adapté à vos besoins. 
         </p>
       </div>
         <div className="mailTelAdresseContainer">

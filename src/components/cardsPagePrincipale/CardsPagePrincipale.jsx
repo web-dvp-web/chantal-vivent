@@ -1,5 +1,5 @@
 import "./cardspageprincipale.css";
-import videomenu3 from "../../videos/alaune.mp4"
+import livremontagne from "../../images/leblog.jpg";
 const CardsPagePrincipale = (props) => {
   return (
     <div className="cardsPagePrincipaleContainer">
@@ -15,20 +15,10 @@ const CardsPagePrincipale = (props) => {
           </a>
         </div>
       </div>
-        <a href="/pagegalerie">
+        <a className="aLeBlog" href="/leblog">
       <div className="cards3Container">
-          <p className="titreMenu3">{props.titremenu3}</p>
-      <video
-        autoPlay
-        loop
-        muted
-        style={{
-          width: "70%",
-          height: "98%",
-                }}
-      >
-        <source src={videomenu3} type="video/mp4" />
-      </video>
+        <p className="titreMenu3">{props.titremenu3}</p>
+        <img src={livremontagne} className="imgLivreMontagne" alt="montagne" />
       </div>
         </a>
     </div>

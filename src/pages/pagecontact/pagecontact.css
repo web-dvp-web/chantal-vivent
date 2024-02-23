@@ -2,6 +2,7 @@
 @media screen and (max-width: 768px) {
   div.pageContactContainer {
     min-height: 0vh;
+    min-width: 0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +63,8 @@
 
 /*grand écran*/
 .pageContactContainer {
-  min-height: 100vh;
+  min-height: 115vh;
+  min-width: 100vh;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -91,7 +93,7 @@ h1.h1Horaires{
 }
 .imgContact {
   margin-top: 20px;
-  width: 40%;
+  width: 36%;
   border: solid;
 }
 .jour-de-la-semaine {

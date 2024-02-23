@@ -38,7 +38,7 @@ function App() {
               />
             }
           />
-          <Route exact path="/pagegalerie" element={<PageGalerie />} />
+          <Route exact path="/leblog" element={<PageGalerie />} />
       <Route exact path="/mentionslegales" element={<PageMentionsLegales />} />
         </Routes>
       </header>

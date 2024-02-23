@@ -21,7 +21,7 @@
 .cardsServicesContainer {
   margin: 10px;
   width: 30%;
-  height: 22em;
+  height: 26em;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -50,7 +50,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 600;
   font-family: "forum";
   background-color: cadetblue;
@@ -60,7 +60,7 @@
   padding: 10px;
   width: 90%;
   text-align: left;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
   color: cadetblue ;
@@ -70,17 +70,18 @@
   padding: 10px;
   width: 90%;
   text-align: left;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
   color: cadetblue ;
 }
 .pServicesC3 {
+  margin-top: 0;
   margin-bottom: 0;
   padding: 10px;
   width: 90%;
   text-align: left;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
   color: cadetblue ;
