@@ -69,3 +69,8 @@
   display: flex;
   justify-content: center;
 }
+.gras{
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+}

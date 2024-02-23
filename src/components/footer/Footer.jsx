@@ -35,7 +35,7 @@ const Footer = (props) => {
         <div className="info2FooterContainer">
           <div className="part1Footer">
           <hr className="ligne" />
-          <h2 className="h2footerContacerNous">Me contacter</h2>
+          <h2 className="h2footerContacerNous">Mon adresse mail</h2>
           <div className="iconeFooterContainer">
             <img
               className="iconeFooter"
@@ -50,7 +50,7 @@ const Footer = (props) => {
           <div className="part2Footer">
           <hr className="ligne" />
             <a className="aFooter" href="/contact">
-              <p className="aFooter">Nos horaires{props.horaires} </p>
+              <p className="aFooter">Me contacter{props.horaires} </p>
             </a>
             <hr className="ligne" />
             <a href="/mentionslegales">

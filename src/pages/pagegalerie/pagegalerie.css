@@ -21,6 +21,14 @@
 .texteInfoGalerie{
   padding: 20px;
   width: 90%;
-  font-size: 15px;
+  font-size: 22px;
+  text-align: left;
+  font-family: normal;
   color: black;
+}
+.pBleu{
+  margin-bottom: 2em;
+  font-size: 28px;
+  font-family: normal;
+  color: #2d808c;
 }
