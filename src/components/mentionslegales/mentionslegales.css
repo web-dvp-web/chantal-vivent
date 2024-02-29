@@ -6,7 +6,7 @@ div.mentionsLegaleContainer{
     align-items: center;
 }
 h1.h1MentionsLegales{
-    color: yellow;
+    color: #2E808C;
 }
 p.texteMentionsLegales{
     width: 90%;
@@ -21,13 +21,13 @@ p.texteMentionsLegales{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(66, 64, 64), black);
+    background-color: #264b50;
 }
 .h1MentionsLegales{
-    color: yellow;
+    color: #2E808C;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .texteMentionsLegales{
-    width: 60%;
+    width: 95%;
     font-size: 25px;
 }

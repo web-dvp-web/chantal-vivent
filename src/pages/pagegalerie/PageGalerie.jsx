@@ -159,67 +159,78 @@ responsable, je serai là pour vous aider à en devenir le seul maître à bord 
 </p>
       <CarteInformations6
         titre="C'est quoi la Naturopathie ? 🍀🤔"
-        texte="Dans ce post, je vais tenter de vous donner les clés pour mieux comprendre cette discipline ancestrale, avant de rentrer plus en détail dans chacune des techniques employées, lors de prochaines publications."
+        texte="C'est l'ensemble des méthodes naturelles de soin qui permettent de préserver la santé en renforçant l'organisme."
         img={img2}
       />
       <p className="texteInfoGalerie">
-        👉Premièrement, la principale mission d'un conseiller en Naturopathie
-        (ou Naturopathe, les 2 appellations sont possibles), est de jouer un
-        rôle de prévention auprès de ses consultants, en leur apportant des
-        conseils adaptés à chacun en vue d'un bien-être et une meilleure qualité
-        de vie, mais aussi en fonction des besoins et affections pour laquelle
-        il est sollicité lorsque des déséquilibres et dysfonctionnements sont
-        déjà installés. 📍L'OMS (Organisation Mondiale de la Santé) définit la
-        Naturopathie comme « l'ensemble des méthodes de soin visant à renforcer
-        les défenses de l'organisme par des moyens considérés comme naturels et
-        biologiques ». 🧘🏻‍♀️Cependant, la Naturopathie a pour but d'aller bien
-        au-delà de cette définition. C'est un véritable art de vivre qui a pour
-        mission de préserver l'intégrité de l'organisme, en prévention et/ou
-        optimisation du capital santé de chacun, et en mettant l'hygiène de vie
-        au centre 🤸🏾🥙🌅 L'OMS considère la Naturopathie comme une médecine
-        traditionnelle, aux cotés des médecines chinoise et ayurvédique, puisant
-        elle aussi ses racines dans de nombreuses traditions thérapeutiques
-        remontant jusqu'à l'Egypte ancienne, la Grèce antique ou encore les
-        Esséniens. Faisant même référence à Hippocrate, considéré comme le père
-        de la médecine occidentale 🩺, et qui faisait déjà état de la diététique
-        et la mise en place des lois de la nature pour révéler son « médecin
-        intérieur » (ou Qi en Chine, Prana en Inde...). Non, la Naturopathie n'a
-        rien d'un effet de « mode » ou de méthode « new age »✌️, mais bel et
-        bien une discipline qui tend à revenir sur le devant de la scène face
-        aux nombreux déséquilibres dus au monde moderne 🍔🍕📱🧑🏽‍💻🏭💨😴 ⚠️Si
-        l'OMS définit la Naturopathie comme une « médecine », il n'en demeure
-        pas moins qu'en France, elle n'est pas reconnue comme pratique médicale
-        par l’État. Elle est cependant reconnue et réglementée dans d'autres
-        pays comme l'Allemagne, la Belgique, le Portugal, la Suède, la Suisse
-        etc, ou encore de nombreux Etats américains, en Inde, Australie, Brésil,
-        Canada... En France, il est donc important de veiller à la déontologie
-        et l'éthique des professionnels que vous sollicitez. 👉Un Naturopathe ne
-        pose pas de diagnostic et ne vous demandera jamais de modifier ou
-        arrêter un traitement médical. Ses connaissances peuvent permettre de
-        vous diriger vers des professionnels de santé s'il le juge nécessaire,
-        et que les demandes dépassent ses compétences. La Naturopathie peut être
-        alternative ou complémentaire à des traitements médicaux UNIQUEMENT en
-        accord avec un médecin et sous étroite surveillance de celui-ci. 📚
-        L’histoire de la Naturopathie démarre officiellement aux USA début du
-        XXè siècle avec la fondation de la 1ere école de Naturopathie, et en
-        France, en 1935, P.V. Marchesseau, biologiste, professeur d'éducation
-        physique et passionné de méthodes naturelles de santé, devient le
-        fondateur de la Naturopathie dans nos contrées. C'est le pionnier de la
-        mise en avant de la prévention, en s'attachant au respect de l'hygiène
-        alimentaire 🍽️, corporelle 🏋🏿‍♀️,et mentale 🧠. C'est à lui que l'on doit
-        les « 10 techniques naturelles de santé et les 3 cures naturopathiques »
-        que chaque praticien utilise encore aujourd'hui, et que je détaillerai
-        dans une prochaine publication 👩🏻‍💻🧰 🤗Les accompagnements
-        naturopathiques et en médecine traditionnelle, ont pour buts communs : -
-        de ne pas nuire et préserver la vie - mettre la prévention en première
-        place - faire que chacun se responsabilise et devienne acteur à part
-        entière de sa santé et son bien-être 😎💫☀️ ⚙️La Naturopathie est une
-        discipline holistique qui prend en compte chaque individu dans sa
-        globalité, et sur tous ses plans : Physique, Emotionnel, Energétique,
-        Mental, Spirituel, et au sein de l'environnement social et géographique
-        dans lequel il évolue 🪬🌍 🥵 Le carnet des rdv est officiellement ouvert ! ➡️ sbnaturo9@gmail.com ‼️
-        N'hésitez-pas à me contacter pour une première approche, ou toute
-        question 🙋 🙋‍♀️. A bientôt 👋
+      C'est une discipline ancestrale qui trouve ses origines à l'ère d'Hippocrate, père de la médecine
+occidentale, qui faisait déjà état de la diététique et de la mise en place des lois de la nature pour révéler
+son « médecin intérieur » (ou Qi en Chine, Prana en Inde...).<br />
+La Naturopathie est considérée par l'OMS (Organisation Mondiale de la Santé) comme la 3è médecine
+traditionnelle après la médecine Chinoise et l'Ayurvédique.<br/>
+Si en France la discipline n'est toujours pas reconnue à ce jour, elle l'est dans de nombreux pays
+Européens, états et pays Américains, Inde ou encore dans de nombreux pays Asiatiques.
+<br/>
+<br/>
+L’histoire de la Naturopathie démarre officiellement aux USA début XXè, avec la fondation de la 1ere
+école de Naturopathie. En France, c'est P.V. Marchesseau, biologiste, professeur d'éducation physique
+et passionné de méthodes naturelles de santé, qui en 1935, fondera la Naturopathie dans nos contrées.<br/>
+C'est le pionnier de la mise en avant de la prévention, en s'attachant au respect de l'hygiène alimentaire,
+corporelle, et mentale.<br/>
+C'est à lui que l'on doit les «10 techniques naturelles de santé et les 3 cures naturopathiques» que
+chaque praticien utilise encore aujourd'hui.<br/>
+Les accompagnements naturopathiques comme en médecine traditionnelle, ont pour buts:<br/>
+- de ne pas nuire et préserver la vie<br/>
+- mettre la prévention en première place<br/>
+- faire que chacun se responsabilise et devienne acteur à part entière de sa santé et son Bien-Etre<br/><br/>
+
+Lors des consultations, le praticien s’appuie sur les <b>10 techniques naturelles de santé et les 3 cures</b>
+naturopathiques initiées par Pierre-Valentin Marchesseau :<br/>
+- <b>L’alimentation</b><br/>
+- <b>L’équilibre neuropsychique</b><br/>
+- <b>L’exercice physique</b><br/>
+Ce sont les 3 techniques majeures qui bien souvent à elles-seules, peuvent résoudre nombre de
+déséquilibres.<br/>
+Viennent ensuite 7 techniques mineures et complémentaires des 3 premières:<br/>
+- <b>L’hydrologie</b><br/>
+- <b>La phytologie</b><br/>
+- <b>Les techniques réflexes</b><br/>
+- <b>Les techniques respiratoires</b><br/><br/>
+
+- <b>Les techniques manuelles</b><br/>
+- <b>Les techniques énergétiques</b><br/>
+- <b>Les techniques vibratoires</b><br/>
+L’Iridologie (étude de l’iris) vient compléter le tout afin d’étudier plus en détail les dysfonctionnements
+organiques et métaboliques. C'est une discipline à part entière.<br/><br/>
+
+En plus des 3 principales, il n’est pas nécessaire d’utiliser toutes les techniques en accompagnement,
+mais seulement les plus adaptées aux besoins, et fonction également des affinités de la personne.<br/>
+Ces techniques sont mises en place lors des phases d’accompagnement complet divisées en 3 étapes.<br/>
+Les 3 cures :<br/>
+- <b>Cure de détox/ drainage</b><br/>
+- <b>Cure de revitalisation / renforcement</b><br/>
+- <b>Cure de stabilisation</b><br/><br/>
+
+Lors des consultations, il est réalisé un bilan de vitalité, une anamnèse qui prend en compte les
+habitudes alimentaires, le mode de vie global de la personne, son hygiène de vie, ses antécédents
+médicaux..., et en fonction des éléments récoltés, le praticien peut évaluer le terrain de la personne et sa
+vitalité (= capacité naturelle de l'organisme à s'autoguérir).<br/>
+Un protocole est alors mis en place pour répondre aux besoins de la personne, rétablir l'équilibre de
+son organisme, et renforcer sa vitalité.<br/>
+Les conseils s'appuient premièrement sur les connaissances du praticien en matière de nutrition,
+équilibre psychique et émotionnel, et activités physiques adaptées.<br/><br/>
+
+En qualité qu'hygiéniste, le Naturopathe aide à la revitalisation du corps dans son ensemble en tenant<br/>
+compte de tous ses plans : <b>Physique / Emotionnel / Energétique / Mental / Spirituel .</b><br/>
+C'est en cela que la Naturopathie est considérée comme une discipline holistique, elle prend l'Etre<br/>
+comme un tout, et en veillant à l'harmonisation de tous ses plans. C'est ce que l'on nomme : <b>Bien-Etre</b><br/><br/>
+
+La Naturopathie est un véritable art de vivre qui a pour mission de préserver l'intégrité de l'organisme<br/>
+en mettant l'hygiène de vie au centre, et en optimisant son capital-santé.<br/>
+Faire que chaque individu deviennent responsable de sa santé, de son corps, et de son évolution.<br/><br/>
+<p className="pBleu">
+Le meilleur moyen de gravir sa propre montagne personnelle !
+</p>
       </p>
       <CarteInformations7 
       titre="𝐂’𝐞𝐬𝐭 𝐪𝐮𝐨𝐢 𝐥𝐚 𝐍𝐚𝐭𝐮𝐫𝐨 ? La suite…"
