@@ -32,3 +32,8 @@
   font-family: normal;
   color: #2d808c;
 }
+.textRowContainer{
+display: flex;
+justify-content: left;
+align-items: baseline;
+}
