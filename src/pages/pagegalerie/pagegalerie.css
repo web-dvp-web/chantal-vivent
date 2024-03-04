@@ -27,9 +27,11 @@
   color: black;
 }
 .pBleu{
-  margin-bottom: 2em;
   font-size: 28px;
   font-family: normal;
+  color: #2d808c;
+}
+.pBleu2{
   color: #2d808c;
 }
 .textRowContainer{
