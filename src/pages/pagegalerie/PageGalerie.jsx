@@ -6,11 +6,137 @@ import img2 from "../../images/24.jpg";
 import altitude from "../../images/25.jpg";
 import tasse2 from "../../images/tasse2.jpg";
 import determinerterrain from "../../images/determinerleterrain.png";
+import piliers from '../../images/pilliers.png';
 const PageGalerie = () => {
   return (
     <div className="pageGalerieContainer">
       <CarteInformations6
-        titre="Pourquoi prendre RDV avec un/une naturopathe ?" /*, et comment ça se passe*/
+        titre="C'est quoi la Naturopathie ? 🍀🤔"
+        texte="C'est l'ensemble des méthodes naturelles de soin qui permettent de préserver la santé en renforçant l'organisme."
+        img={img2}
+      />
+      <p className="texteInfoGalerie">
+        C'est une discipline ancestrale qui trouve ses origines à l'ère
+        d'Hippocrate, père de la médecine occidentale, qui faisait déjà état de
+        la diététique et de la mise en place des lois de la nature pour révéler
+        son « médecin intérieur » (ou Qi en Chine, Prana en Inde...).
+        <br />
+        La Naturopathie est considérée par l'OMS (Organisation Mondiale de la
+        Santé) comme la 3è médecine traditionnelle après la médecine Chinoise et
+        l'Ayurvédique.
+        <br />
+        Si en France la discipline n'est toujours pas reconnue à ce jour, elle
+        l'est dans de nombreux pays Européens, états et pays Américains, Inde ou
+        encore dans de nombreux pays Asiatiques.
+        <br />
+        <br />
+        L’histoire de la Naturopathie démarre officiellement aux USA début XXè,
+        avec la fondation de la 1ere école de Naturopathie. En France, c'est
+        P.V. Marchesseau, biologiste, professeur d'éducation physique et
+        passionné de méthodes naturelles de santé, qui en 1935, fondera la
+        Naturopathie dans nos contrées.
+        <br />
+        C'est le pionnier de la mise en avant de la prévention, en s'attachant
+        au respect de l'hygiène alimentaire, corporelle, et mentale.
+        <br />
+        C'est à lui que l'on doit les «10 techniques naturelles de santé et les
+        3 cures naturopathiques» que chaque praticien utilise encore
+        aujourd'hui.
+        <br />
+        Les accompagnements naturopathiques comme en médecine traditionnelle,
+        ont pour buts:
+        <br />
+        - de ne pas nuire et préserver la vie
+        <br />
+        - mettre la prévention en première place
+        <br />
+        - faire que chacun se responsabilise et devienne acteur à part entière
+        de sa santé et son Bien-Etre
+        <br />
+        <br />
+        Lors des consultations, le praticien s’appuie sur les{" "}
+        <b>10 techniques naturelles de santé et les 3 cures</b>
+        naturopathiques initiées par Pierre-Valentin Marchesseau :<br />-{" "}
+        <b>L’alimentation</b>
+        <br />- <b>L’équilibre neuropsychique</b>
+        <br />- <b>L’exercice physique</b>
+        <br />
+        Ce sont les 3 techniques majeures qui bien souvent à elles-seules,
+        peuvent résoudre nombre de déséquilibres.
+        <br />
+        Viennent ensuite 7 techniques mineures et complémentaires des 3
+        premières:
+        <br />- <b>L’hydrologie</b>
+        <br />- <b>La phytologie</b>
+        <br />- <b>Les techniques réflexes</b>
+        <br />- <b>Les techniques respiratoires</b>
+        <br />
+        <br />- <b>Les techniques manuelles</b>
+        <br />- <b>Les techniques énergétiques</b>
+        <br />- <b>Les techniques vibratoires</b>
+        <br />
+        L’Iridologie (étude de l’iris) vient compléter le tout afin d’étudier
+        plus en détail les dysfonctionnements organiques et métaboliques. C'est
+        une discipline à part entière.
+        <br />
+        <br />
+        En plus des 3 principales, il n’est pas nécessaire d’utiliser toutes les
+        techniques en accompagnement, mais seulement les plus adaptées aux
+        besoins, et fonction également des affinités de la personne.
+        <br />
+        Ces techniques sont mises en place lors des phases d’accompagnement
+        complet divisées en 3 étapes.
+        <br />
+        Les 3 cures :<br />- <b>Cure de détox/ drainage</b>
+        <br />- <b>Cure de revitalisation / renforcement</b>
+        <br />- <b>Cure de stabilisation</b>
+        <br />
+        <br />
+        Lors des consultations, il est réalisé un bilan de vitalité, une
+        anamnèse qui prend en compte les habitudes alimentaires, le mode de vie
+        global de la personne, son hygiène de vie, ses antécédents médicaux...,
+        et en fonction des éléments récoltés, le praticien peut évaluer le
+        terrain de la personne et sa vitalité (= capacité naturelle de
+        l'organisme à s'autoguérir).
+        <br />
+        Un protocole est alors mis en place pour répondre aux besoins de la
+        personne, rétablir l'équilibre de son organisme, et renforcer sa
+        vitalité.
+        <br />
+        Les conseils s'appuient premièrement sur les connaissances du praticien
+        en matière de nutrition, équilibre psychique et émotionnel, et activités
+        physiques adaptées.
+        <br />
+        <br />
+        En qualité qu'hygiéniste, le Naturopathe aide à la revitalisation du
+        corps dans son ensemble en tenant
+        <br />
+        compte de tous ses plans :{" "}
+        <b>Physique / Emotionnel / Energétique / Mental / Spirituel .</b>
+        <br />
+        C'est en cela que la Naturopathie est considérée comme une discipline
+        holistique, elle prend l'Etre
+        <br />
+        comme un tout, et en veillant à l'harmonisation de tous ses plans. C'est
+        ce que l'on nomme : <b>Bien-Etre</b>
+        <br />
+        <br />
+        La Naturopathie est un véritable art de vivre qui a pour mission de
+        préserver l'intégrité de l'organisme
+        <br />
+        en mettant l'hygiène de vie au centre, et en optimisant son
+        capital-santé.
+        <br />
+        Faire que chaque individu deviennent responsable de sa santé, de son
+        corps, et de son évolution.
+        <br />
+        <br />
+        <p className="pBleu">
+          Le meilleur moyen de gravir sa propre montagne personnelle !
+        </p>
+      </p>
+      <CarteInformations6
+        titre="Pourquoi consulter un / une naturopathe ?"
         texte="Si vous êtes arrivé(e)s sur le site, bravo ! Cela signifie que vous êtes intéressé(e), ou peut-être simplement curieux-se, mais c’est déjà le premier pas de fait ! Alors, soyez les bienvenu(e)s !	
      Dans cet article, je vais vous expliquer à la fois ma pratique, mais aussi les raisons qui peuvent vous amener à vouloir prendre RDV avec moi. 
      "
@@ -192,286 +318,6 @@ const PageGalerie = () => {
       <p className="pBleu">
         Je vous y aiderai et vous guiderai pas à pas avec plaisir et passion !{" "}
       </p>
-
-      <CarteInformations7
-        titre="Qui suis-je"
-        texte="Lors de nos rendez-vous et dans le cadre de mon activité, je serai amenée à vous poser de nombreuses questions, notament sur votre vie et votre parcours afin de mieux vous connaître, et ainsi dispenser les conseils les mieux adaptés à votre profil. Il est de ce fait totalement légitime que vous sachiez en amont à qui vous aurez affaire! ALors c'est parti ! Un exercice qui n'est pas simple, mais je vais essayer de faire au mieux ! "
-        img={img1}
-      />
-      <p className="texteInfoGalerie">
-        <p className="gras"> Qui suis-je ?</p>
-        <br />
-        <br />
-        Je suis Sandrine Bosc, jeune quadra dynamique d’origine Toulousaine et
-        Ariégeoise.
-        <br />
-        <br />
-        J’officie en qualité de <b>Naturopathe </b>après m’être formée pendant 3
-        ans à l’école Be Académie, institut certifié Qualiopi, où j’ai été
-        attestée suite à mon cursus. J'y ai effectué 2 mémoires, dont un sur l’
-        <b>Accompagnement Naturopathique des Basketteuses</b>, qui m’a valu les
-        honneurs suite à la qualité de mon travail de recherche, et toute la
-        passion que j’ai mise dans mon travail. En effet, ce thème m'était très
-        cher et était la base de la spécialisation dans laquelle je souhaitais
-        me lancer: celle de l'accompagnement des sportifs... et m'y voilà !
-        <br />
-        <br />
-        Mais au-delà de l'aspect purement "théorique" de ma formation, c'est le
-        fruit d'un total de{" "}
-        <b>5 années de travail et de recherches personnelles</b> qui m'ont
-        conduites aujourd'hui à vouloir transmettre mes connaissances et
-        expériences.
-        <br />
-        La première personne sur qui j'ai effectué ces changements (radicaux) de
-        mode et hygiène de vie fût tout simplement moi ! Et quels changements !
-        <br />
-        <br />
-        Car mon parcours de vie a été parsemé de ce que je qualifie aujourd'hui
-        "<b>d'initiations et d'expérimentations</b>"... 2 mots pour résumer un
-        parcours parfois chaotique, fait d'ombres et de lumières, de
-        tâtonnements, mais surtout de ce que l'on appelle "la nuit noire de
-        l'âme", ou <b>burn-out</b> pour le terme plus généraliste...
-        <br />
-        En sus d’une <b>hypothyroïdie</b> due à une thyroïde trop petite pour
-        fonctionner seule et qui régit à elle seule mon quotidien depuis plus de
-        30 ans, mais que j’ai réussi désormais à stabiliser et maîtriser, grâce
-        à mes connaissances acquises, et mes recherches personnelles.
-        <br />
-        <br />
-        Mais c'est bel et bien <b>mon âme</b> qui a dit stop en 2018, me
-        conduisant à devoir stopper toute activité professionnelle, perdant pied
-        personnellement, socialement, moralement, physiquement, et dans tous les
-        aspects de ma vie.
-        <br />
-        S'en est suivi un très <b>long chemin de reconstruction</b> sur tous les
-        plans de mon être, mais surtout, apprendre à connaître ma maladie
-        hormonale, ses effets, et appréhender le fonctionnement de mon corps.
-        <br />
-        <br />
-        Tout simplement, comprendre les rouages de notre si belle mécanique dans
-        tous ses aspects. Ce que je ne savais pas du tout faire à l’époque, et
-        qui a mené à ce "craquage" de tous les côtés... Pour (version
-        accélérée^^), en arriver à découvrir cette merveilleuse discipline
-        qu'est <b>la Naturopathie</b> !
-        <br />
-        <br />
-        Et, aujourd'hui, je continue de m'épanouir jour après jour grâce à ce
-        merveilleux travail sur moi. Je ne regrette rien de mon passé, il m'a
-        conduit à cette <b>meilleure version de mon Etre</b>, à la faire surgir,
-        à la faire exister. Et c'est le fondement même de la Naturopathie:
-        prendre l'être de façon holistique, c'est-à-dire sur tous ses plans :{" "}
-        <b>
-          Physiquement, Mentalement, Émotionnellement, Énergétiquement,
-          Spirituellement,
-        </b>{" "}
-        et trouver l'équilibre et l'harmonie entre ces points. C'est ce que l'on
-        appelle le <b>Bien-Être</b>.
-        <br />
-        <br />
-        <b>Et pourquoi l'accompagnement des sportifs ?</b>
-        Je suis une ancienne <b>basketteuse</b>, ayant débuté à l'âge de 6 ans
-        dans un club proche de Toulouse et où j'ai évolué jusqu'en
-        Pré-Nationale. J'ai fait une pause de plus de 10 ans pour me consacrer à
-        une autre de mes passions: la musique, et j'ai été <b>DJ</b> pendant
-        près de 10 ans.
-        <br />
-        <br />
-        Mon parcours personnel m'a amené en 2014 à{" "}
-        <b>quitter mes racines Toulousaines pour l'Alsace</b>, et intégrer en
-        2015 un club de Basket proche de Strasbourg où j'ai eu l'opportunité
-        d'être salariée et passer mes <b>diplômes d'entraîneur</b> (Niveau III),
-        et même de reprendre le Basket à... 36 ans ! Malheureusement, j'ai été
-        stoppée dans mon élan comme je le précise plus haut, et ce fût une
-        expérience douloureuse et chaotique.
-        <br />
-        <br />
-        <b>
-          C'est exactement le type d’événement qui peut surgir dans la vie de
-          tout un chacun.
-        </b>
-        Croire que tout va bien, que nous gérons nos vies, et puis un matin, la
-        panne sèche. Plus rien ne va, un chaos dans notre vie, qui sème le chaos
-        dans celle des autres au passage. Et l'
-        <b>obligation de se faire face</b>: trouver la force de se regarder,
-        s'affronter, prendre conscience, comprendre, défaire les nœuds,
-        maîtriser ce que l'on peut, lâcher prise sur ce que l'on ne peut
-        contrôler, se relever, et avancer. Plus fort(e). Et{" "}
-        <b>redistribuer cette énergie nouvelle</b>, ces prises de conscience !
-        <br />
-        <br />
-        Après l’année 2018 qui fût très difficile, j'ai arrêté le Basket
-        définitivement tout en restant fan de ce sport, et en parallèle, j'ai eu
-        la chance d'être initiée dès 2017 à la
-        <b>randonnée de montagne</b> dans les Vosges
-        <br />
-        Une révélation, un coup de foudre, LA discipline qui m'a sortie la tête
-        de l'eau, et a contribué grandement à me faire gravir ma propre{" "}
-        <b>montagne personnelle.</b>
-        <br />
-        <br />
-        Aujourd'hui rentrée dans ma région Occitane, en Ariège plus précisément,
-        je continue à randonner de façon hebdomadaire dans{" "}
-        <b>nos belles Pyrénées</b>, tutoyant régulièrement les hautes cimes
-        autour des 3000m d'altitude et des dénivelés moyens de 1000 à 2000m
-        <br />
-        <br />
-        C'est une véritable addiction, et surtout un <b>art de vivre</b>.
-        L'association de la nature et de la marche, c'est tout simplement le
-        combo parfait pour mettre le corps en harmonie, et rééquilibrer la
-        plupart des maux.
-        <br />
-        <br />
-        Basket, Rando... mais une passion pour à peu près tous les sports ! Et
-        un constat alarmant: celui d'un <b>déséquilibre flagrant</b> (souvent
-        inconscient et involontaire) dans{" "}
-        <b> l'hygiène de vie de la plupart des athlètes</b>, amateurs comme
-        pros... et l’<b>absence d’activités physiques</b>
-        régulières favorisant les pathologies chez les non-sportifs.
-        <br />
-        <br />
-        <b>Mon souhait le plus profond:</b>
-        <b>VOUS aider</b> à être le plus possible en équilibre sur tous les
-        plans de votre être, afin de préserver votre organisme, et vous
-        permettre d'être en santé le plus longtemps possible ! Mais aussi, aider
-        ceux qui le souhaitent, à intégrer des{" "}
-        <b>activités physiques adaptées</b> à leur terrain afin de renforcer
-        leur organisme et ainsi{" "}
-        <b>prévenir tout risque pathologique dû à la sédentarité.</b>
-        <br />
-        <br />
-      </p>
-      <p className="pBleu">
-        Parce qu'on a qu'un seul corps, qu'il nous appartient, et que nous
-        devons en être
-        <br />
-        responsable, je serai là pour vous aider à en devenir le seul maître à
-        bord !
-      </p>
-      <CarteInformations6
-        titre="C'est quoi la Naturopathie ? 🍀🤔"
-        texte="C'est l'ensemble des méthodes naturelles de soin qui permettent de préserver la santé en renforçant l'organisme."
-        img={img2}
-      />
-      <p className="texteInfoGalerie">
-        C'est une discipline ancestrale qui trouve ses origines à l'ère
-        d'Hippocrate, père de la médecine occidentale, qui faisait déjà état de
-        la diététique et de la mise en place des lois de la nature pour révéler
-        son « médecin intérieur » (ou Qi en Chine, Prana en Inde...).
-        <br />
-        La Naturopathie est considérée par l'OMS (Organisation Mondiale de la
-        Santé) comme la 3è médecine traditionnelle après la médecine Chinoise et
-        l'Ayurvédique.
-        <br />
-        Si en France la discipline n'est toujours pas reconnue à ce jour, elle
-        l'est dans de nombreux pays Européens, états et pays Américains, Inde ou
-        encore dans de nombreux pays Asiatiques.
-        <br />
-        <br />
-        L’histoire de la Naturopathie démarre officiellement aux USA début XXè,
-        avec la fondation de la 1ere école de Naturopathie. En France, c'est
-        P.V. Marchesseau, biologiste, professeur d'éducation physique et
-        passionné de méthodes naturelles de santé, qui en 1935, fondera la
-        Naturopathie dans nos contrées.
-        <br />
-        C'est le pionnier de la mise en avant de la prévention, en s'attachant
-        au respect de l'hygiène alimentaire, corporelle, et mentale.
-        <br />
-        C'est à lui que l'on doit les «10 techniques naturelles de santé et les
-        3 cures naturopathiques» que chaque praticien utilise encore
-        aujourd'hui.
-        <br />
-        Les accompagnements naturopathiques comme en médecine traditionnelle,
-        ont pour buts:
-        <br />
-        - de ne pas nuire et préserver la vie
-        <br />
-        - mettre la prévention en première place
-        <br />
-        - faire que chacun se responsabilise et devienne acteur à part entière
-        de sa santé et son Bien-Etre
-        <br />
-        <br />
-        Lors des consultations, le praticien s’appuie sur les{" "}
-        <b>10 techniques naturelles de santé et les 3 cures</b>
-        naturopathiques initiées par Pierre-Valentin Marchesseau :<br />-{" "}
-        <b>L’alimentation</b>
-        <br />- <b>L’équilibre neuropsychique</b>
-        <br />- <b>L’exercice physique</b>
-        <br />
-        Ce sont les 3 techniques majeures qui bien souvent à elles-seules,
-        peuvent résoudre nombre de déséquilibres.
-        <br />
-        Viennent ensuite 7 techniques mineures et complémentaires des 3
-        premières:
-        <br />- <b>L’hydrologie</b>
-        <br />- <b>La phytologie</b>
-        <br />- <b>Les techniques réflexes</b>
-        <br />- <b>Les techniques respiratoires</b>
-        <br />
-        <br />- <b>Les techniques manuelles</b>
-        <br />- <b>Les techniques énergétiques</b>
-        <br />- <b>Les techniques vibratoires</b>
-        <br />
-        L’Iridologie (étude de l’iris) vient compléter le tout afin d’étudier
-        plus en détail les dysfonctionnements organiques et métaboliques. C'est
-        une discipline à part entière.
-        <br />
-        <br />
-        En plus des 3 principales, il n’est pas nécessaire d’utiliser toutes les
-        techniques en accompagnement, mais seulement les plus adaptées aux
-        besoins, et fonction également des affinités de la personne.
-        <br />
-        Ces techniques sont mises en place lors des phases d’accompagnement
-        complet divisées en 3 étapes.
-        <br />
-        Les 3 cures :<br />- <b>Cure de détox/ drainage</b>
-        <br />- <b>Cure de revitalisation / renforcement</b>
-        <br />- <b>Cure de stabilisation</b>
-        <br />
-        <br />
-        Lors des consultations, il est réalisé un bilan de vitalité, une
-        anamnèse qui prend en compte les habitudes alimentaires, le mode de vie
-        global de la personne, son hygiène de vie, ses antécédents médicaux...,
-        et en fonction des éléments récoltés, le praticien peut évaluer le
-        terrain de la personne et sa vitalité (= capacité naturelle de
-        l'organisme à s'autoguérir).
-        <br />
-        Un protocole est alors mis en place pour répondre aux besoins de la
-        personne, rétablir l'équilibre de son organisme, et renforcer sa
-        vitalité.
-        <br />
-        Les conseils s'appuient premièrement sur les connaissances du praticien
-        en matière de nutrition, équilibre psychique et émotionnel, et activités
-        physiques adaptées.
-        <br />
-        <br />
-        En qualité qu'hygiéniste, le Naturopathe aide à la revitalisation du
-        corps dans son ensemble en tenant
-        <br />
-        compte de tous ses plans :{" "}
-        <b>Physique / Emotionnel / Energétique / Mental / Spirituel .</b>
-        <br />
-        C'est en cela que la Naturopathie est considérée comme une discipline
-        holistique, elle prend l'Etre
-        <br />
-        comme un tout, et en veillant à l'harmonisation de tous ses plans. C'est
-        ce que l'on nomme : <b>Bien-Etre</b>
-        <br />
-        <br />
-        La Naturopathie est un véritable art de vivre qui a pour mission de
-        préserver l'intégrité de l'organisme
-        <br />
-        en mettant l'hygiène de vie au centre, et en optimisant son
-        capital-santé.
-        <br />
-        Faire que chaque individu deviennent responsable de sa santé, de son
-        corps, et de son évolution.
-        <br />
-        <br />
-        <p className="pBleu">
-          Le meilleur moyen de gravir sa propre montagne personnelle !
-        </p>
-      </p>
       <CarteInformations7
         titre="Les 5 principes fondateurs de la naturopathie."
         texte="Tout comprendre des enjeux de la pratique
@@ -611,11 +457,229 @@ const PageGalerie = () => {
         corps humain.
       </p>
 
+      <CarteInformations6 
+      titre="Les 3 Piliers de la Naturopathie"
+      texte="Équilibre alimentaire, neuropsychique, et musculaire."
+      img={piliers}
+      />
+      <p className="pBleu">Dans la boîte à outils du naturopathe, on retrouve en priorité les trois piliers initiés par le père de la naturopathie en France, Pierre-Valentin Marchesseau. A elles-seules, ces 3 techniques permettent bien souvent de prévenir et rectifier des déséquilibres, et d'optimiser l’intégrité de l’organisme.</p>
+      <p className="texteInfoGalerie"><span className="pBleu2">⇒</span> “Que ton aliment soit ton seul médicament” disait Hippocrate.<br/>
+<b>Notre état de santé dépend à plus de 80% de ce que nous mangeons !</b>
+<br/>
+<br/>
+L'importance de comprendre l'impact de chaque aliment ou boisson que nous ingérons. On ne mange pas juste pour se nourrir comme un besoin primaire de survie, mais bel et bien pour alimenter notre formidable machine qu'est le corps humain. Pour que tous ses rouages et mécanismes tournent, il faut lui donner tout ce dont il a besoin, et apprendre à le connaître et l'appréhender pour y répondre favorablement.
+<br/>
+<br/>
+<b>Vous ne mettriez pas de l'essence dans un moteur diésel, n'est-ce pas ?</b> 
+Il en va de même pour notre organisme. S’il a des besoins spécifiques pour faire ronronner son moteur, chaque individu aura des besoins différents en fonction de son métabolisme basal, son tempérament naturopathique, et son terrain. Mais aussi ses affinités, goûts, allergies, intolérances... et ses activités du quotidien qui demandent plus ou moins d'énergie.
+<br/>
+<br/>
+Un rééquilibrage alimentaire va nécessairement débuter par restreindre, voire éliminer totalement les aliments responsables des encrassements et des surcharges, et qui favorisent les déséquilibres et inflammations.
+<br/>
+En fonction du terrain de la personne, cela peut aller jusqu'à une refonte totale des habitudes alimentaires.<br/>
+<span className="pBleu2">Chez les sportifs</span>, <b>une alimentation déséquilibrée, c'est-à-dire déficiente en nutriments essentiels pour favoriser les processus métaboliques et l'énergie à l'effort, ainsi qu'une meilleure récupération post-effort</b>, cela se traduit par une fatigue physiologique, psychique, des difficultés à l'effort ou à le maintenir, des inflammations telles que tendinites, ou encore une fragilisation générale qui peut mener aux blessures.
+<br/>
+Les efforts répétés nécessitent une attention particulière sur l'équilibre nutritionnel afin de maintenir l'intégrité de l'organisme, et optimiser ses performances. Pour que le sport demeure un bienfait, et non une source de déséquilibres. Pour exemple, <span className="pBleu2">vous pouvez retrouver mes articles sur le site de WeBasketTV</span>, consacrés à l'équilibre nutritionnel des Basketteur/ses: 
+<br/>
+<br/>
+<a href="https://www.webasket.tv/equilibre-nutritionnel-basketteur-prevention-optimisation-1-macronutrition/">1/ les macronutriments </a>
+<br/>
+<br/>
+<a href="https://www.webasket.tv/micronutrition-equilibre-nutritionnel-basketteur/">2/ les micronutriments, partie 1: les vitamines</a>
+<br/>
+<br/>
+<a href="https://www.webasket.tv/limportance-de-la-micronutrition-pour-maintenir-les-performances-du-basketteur/">3/ suite de la micronutrition </a> <br/>
+<br/>
+<br/>
+<b>Prendre conscience de ses excès </b> est déjà l'étape première vers une meilleure hygiène diététique.
+<br/>
+<br/>
+<u>Les aliments les plus intoxinants au quotidien sont (entre autres)</u> :
+<br/>
+<br/>
+-les protéines animales en excès et les acides-gras saturés
+<br/>
+<br/>
+-le sucre et les céréales raffinés, les édulcorants de synthèse, additifs, colorants…
+<br/>
+<br/>
+-les plats industriels, les conserves, charcuteries, les aliments transformés, la junk-food..
+<br/>
+<br/>
+-le café ou le thé en excès,l'alcool...
+<br/>
+<br/>
+Il ne s'agit pas de tout arrêter d'un coup et se mettre en "privation", ce qui aura un effet tout aussi négatif, mais bel et bien de comprendre les différents impacts, et apprendre à modérer, voire éliminer en priorité les aliments qui posent problème. 
+<br/>
+Exemple le plus classique: le gluten pour les maladies cœliaques.
+<br/>
+<b>La mise au repos du système digestif</b> est également une étape régulière et indispensable lorsque l'organisme est trop surchargé. Cela permet de libérer l'énergie nécessaire à l'organisme pour opérer plus facilement un travail en profondeur d'élimination des déchets. Cela peut passer par le jeûne intermittent, ou une mono-diète (= ingestion d'un seul aliment sur une période donnée afin d'apaiser le système digestif ).
+<br/>
+<br/>
+Un travail sur le <b>microbiote</b> est également à envisager, notamment chez les sportifs, où l'activité physique intense, mêlée au stress psychique et physiologique, allié le plus souvent à une alimentation mal équilibrée, affaiblie le siège de nos formidables bactéries intestinales, où se créent nombre d'importants mécanismes.
+<br/>
+<br/>
+Les <b>carences / déficits en nutriments essentiels</b> sont sources de déséquilibres au quotidien: -Fatigue qui perdure
+<br/>
+-Sommeil non réparateur
+<br/>
+-Mauvaise digestion
+<br/>
+-Perte d'élasticité de la peau
+<br/>
+-Baisse et fonte de la force musculaire
+<br/>
+-Accumulation graisseuse abdominale
+<br/>
+-Douleurs articulaires et déformations osseuses
+<br/>
+-Remontées acides
+<br/>
+-Vieillissement prématuré...etc.
+<br/>
+<br/>
+<b>Chez les non-sportifs</b> ou les personnes à l’activité modérée ou irrégulière, ou chez les personnes qui ne pratiquent aucune activité physique, <b>l’absence de moyens réguliers d’élimination des déchets combiné à un déséquilibre nutritionnel</b>, entraînent des troubles encore plus nombreux qui peuvent mener à des pathologies graves. Même si le corps arrive pour un temps à s’adapter au manque de certains nutriments en compensant, certaines réactions métaboliques s’en trouvent désorganisées ou absentes, entraînant un affaiblissement progressif et l’apparition des troubles.
+<br/>
+<br/>
+De façon générale, privilégier une alimentation variée, biologique, brute, avec des céréales complètes, des fruits, des légumes, des oléagineux, des légumineuses, de l'eau de qualité, des protéines végétales - animales, avec les bonnes associations d’aliments, en prenant le temps de manger, mastiquer, et de cuisiner maison, en réduisant les quantités pour faciliter le travail digestif, on s'offre les chances d'une meilleure qualité nutritionnelle. 
+<br/>
+<br/>
+<b><span className="pBleu2">Me consulter, c’est permettre d'individualiser les protocoles diététiques et nutritionnels adaptés à chaque individu en fonction de ses besoins et de son terrain. Soit dans le cadre des 3 cures, soit en rdv unique basé sur le rééquilibrage alimentaire.</span></b>
+<br/>
+<br/>
 
+<span className="pBleu2">⇒</span><b>Et quand on parle alimentation, on parle également émotions.</b>
+<br/>
+<br/>
+Le lien entre les deux est très étroit. <b>L’équilibre alimentaire tient une part dominante dans le bon fonctionnement des neurotransmetteurs impliqués dans l’équilibre émotionnel</b>, tels la dopamine, la sérotonine et l’adrénaline, dont les précurseurs sont amenés par l’alimentation, et qui lorsque les voies intestinales sont équilibrées, permettent leur métabolisme. 
+<br/>
+ <span className="pBleu2">La sérotonine</span> favorise la régulation du sommeil (en tant que précurseur de la mélatonine), de l’humeur, de l’appétit, de la thermogenèse en impactant le système nerveux, la régulation du système cardiaque, la tonicité des muscles lisses, ou encore la motilité intestinale, la contraction utérine et des bronches. La sérotonine permet une meilleure résistance au stress et à la douleur. 
+ <br/>
+Un <b>déficit</b> va s’observer par des insomnies, une forte intolérance à la frustration, de la vulnérabilité, de l’impatience, une certaine agressivité, des besoins compulsifs en sucre notamment, ou encore, des difficultés dans la gestion de son humeur. 
+<br/>
+Ces déficits peuvent provenir d’une <b>insuffisance d’apports en aliments riches en tryptophane</b>, soit par un déséquilibre nutritionnel, soit par des régimes trop stricts comme chez certains sportifs de haut niveau, ou encore une flore intestinale (microbiote) déséquilibrée.
+<br/>
+Mais aussi, des syndromes inflammatoires répétés, un déficit en cofacteurs vitaminiques et minéraux dus au stress chronique, à l’abus d’alcool, certains contraceptifs, corticothérapie, l’obésité ou même le sevrage tabagique. <br/>
+Un <b>déséquilibre en sérotonine va engendrer un déséquilibre en mélatonine</b>, hormone qui régit la totalité du cycle circadien et biologique du corps, et donc favoriser un sommeil de moins bonne qualité, voire un déficit. Ce qui engendra divers troubles et déséquilibres organiques et psychiques sur le long terme. L’organisme se régénérant la nuit, le sommeil est un des facteurs principaux de notre état de santé général. 
+<br/>
+<br/>
+Les catécholamines <span className="pBleu2">dopamine, adrénaline et noradrénaline</span>, ont pour précurseur la tyrosine, un acide-aminé également apporté par notre alimentation, mais aussi synthétisé à partir d'un autre acide-aminé, la phénylalanine. 
+<br/>
+<br/>
+ <b>La dopamine</b> est sécrétée lors de moments procurant du plaisir, et entraîne un surcroît de motivation, de désirs, d’envies, d’explorations, d’apprentissages. Elle agit sur le système nerveux central pour une meilleure mémorisation, une augmentation de la vigilance, une baisse de la fatigue et des besoins en sommeil. Elle stimule les mouvements locomoteurs ainsi que la croissance des tissus et la sécrétion de l’hormone de croissance. 
+ <br/>
+<b>Un déficit</b> se remarque par un manque de motivation, une perte d’envie, de l’indécision, une dépression traduire par un repli sur soi, de l’apathie, et une baisse de la libido entre autres. 
+La dopamine est directement liée à la maladie de Parkinson, qui s’explique par la perte des neurones dopaminergiques au niveau des noyaux gris centraux. (Un article complet y sera consacré, où comment la naturopathie peut accompagner les malades atteints de Parkinson pour mieux gérer la lourdeur du traitement).
+<br/> 
+L’activité sportive stimule la production de dopamine, elle en est le moteur même, poussant à atteindre des objectifs, à se dépasser.
+<br/>
+<b>En excès</b>, elle peut également entraîner des insomnies, de l’anorexie, des dépendances psychiques (addictions = actions sur le système de la récompense) et sexuelles, des délires et troubles hallucinatoires, de l’agressivité, des prises d'initiatives excessives…
+<br/>
+<br/>
+Si <b>la sérotonine est sécrétée en fin de journée</b> pour favoriser apaisement et sommeil, <b>la dopamine, elle, est sécrétée le matin</b>, donnant l’impulsion et la motivation pour commencer sa journée. C’est aussi pour cela que l’ordre des aliments que nous ingérons est important afin de favoriser la bonne production au bon moment.  
+<br/>
+<br/>
+ <b>L’adrénaline</b>, c'est <b>l’hormone du stress</b>, qui agit comme neurotransmetteurs dans le système nerveux central, et comme hormone dans la circulation sanguine. 
+ <br/>
+Elle est sécrétée pour décupler les capacités physiques et mentales, et procure une sensation d’euphorie. Elle entraîne une hausse du rythme cardiaque, de la vitesse de la contraction du cœur, une hausse de la pression artérielle, et la dilatation des bronches et des pupilles.
+<br/> 
+Elle est un “booster” à effet temporaire, mais une présence en trop grande quantité dans l’organisme entraîne à long terme un épuisement.<br/>
+Notamment de la <b>thyroïde</b>, qui doit accroître sa production d’hormones pour répondre à ce stress interne, et des glandes surrénales par une <b>surproduction de cortisol</b>, menant à un ralentissement métabolique si ce stress devient chronique. L’état d’euphorie laissera peu à peu place à un état léthargique et d'épuisement. <b>Les sources de stress pouvant être physiques comme psychiques</b> (un article y sera également consacré ).
+<br/>
+<br/>
+ La <b>noradrénaline</b> est quant à elle, directement issue de la dopamine. Elle est sécrétée par les surrénales et agit sur le système cardiaque et circulatoire, en préparant le corps à la réaction face à un événement ou une émotion. Elle a un rôle dans les facultés d’apprentissage, de l’attention, les cycles du sommeil, la vigilance. 
+ <br/>
+ Elle permet également l’afflux de sang et d’oxygène dans le cerveau et les muscles.
+<br/>
+<br/>
+L’équilibre de certains acides-aminés sont également des facteurs déterminant de l’état neuropsychique. <b><span className="pBleu2">Le GABA et le glutamate</span></b> sont des neurotransmetteurs majeurs et excitateurs du système nerveux central. <br/>
+<b>Le glutamate</b>, c’est l’acide-aminé le plus présent dans notre alimentation sous sa forme libre et qui a pour précurseur le GABA (acide gamma aminobutyrique). <b>Certains industriels n’hésitant pas par ailleurs, à en user dans leurs préparations pour stimuler l'appétence vers ces produits et les sensations de bien-être qu’ils procurent.</b> Ce qui est dangereux car en excès, le glutamate est responsable de la mort des neurones par hyperstimulation de ceux-ci.
+<br/>
+Le glutamate a pour précurseur le <b>GABA</b>, inhibiteur du système nerveux central, qui contrebalance les effets du glutamate. Il favorise détente et relaxation, et régule les états de peur et d’anxiété manifestés par la surexcitation des neurones engendrée par les excès de glutamate. <br/>
+<b>En déficit</b>, se manifestent des excès de tonicité et des spasmes musculaires entraînant des douleurs récurrentes, des troubles du sommeil, de la nervosité, des difficultés de concentration, tremblements, transpiration excessive, des sautes d'humeur, de l’inconstance dans les pensées ou encore des confusions. 
+<br/>
+<br/>
+<b>L’équilibre émotionnel et psycho-affectif dépendent pour beaucoup de l'équilibre de ces neurotransmetteurs et des acides-aminés précurseurs que l’on retrouve majoritairement dans l’alimentation.</b> L’activité physique, le soleil, des activités plaisantes, un environnement sain et apaisant participent également à cet équilibre. 
+<br/>
+<br/>
+<span className="pBleu2">Et pour les sportifs</span>, notamment de haut niveau, maintenir cet équilibre n’est pas toujours simple. S’ils sont souvent entourés par des coachs en diététique, ou préparateurs mentaux pour maintenir les efforts physiques répétés et les performances, l’émotionnel n’est pas toujours évoqué, notamment au niveau de l’assiette. 
+<br/>
+C’est pourtant un <b>facteur important</b>, car si les émotions peuvent être vectrices de vitalité, elles sont aussi sources de déséquilibres et de baisses de performances physiques et psychiques lorsqu’elles sont instables. 
+<br/>
+Apprendre à gérer ses émotions, les entendre, les ressentir, et en comprendre les origines est essentiel pour maintenir l’intégrité de l’organisme. Tant pour soi, que pour sa relation aux autres. Sportifs ou non. 
+<br/>
+<b>Dans la gestion du poids également, car l’émotionnel en est un facteur déterminant. (Article à venir)</b>
 
+<b><span className="pBleu2">L’hygiène émotionnelle</span></b> tient une grande place dans l’accompagnement naturopathique, <b>et d’autres articles détaillés seront amenés peu à peu sur le site</b>, pour évoquer les sujets comme le stress, les angoisses, l’anxiété chronique ou encore le burnout, les traumatismes, et les effets sur l’organisme de certaines émotions même “temporaires”. Nous vivons tous au quotidien dans un “état limite”, devant faire face à des événements qui mettent l’organisme en état d’alerte permanent. Mais ces troubles émotionnels et psychiques ont un fort impact sur notre organisme, et l’organisme ne trouve pas le repos qui lui est nécessaire pour se régénérer et se réguler. 
+<br/>
+<br/>
+<b><span className="pBleu2">En vous accompagnant individuellement, je vous aide à évaluer votre état psychique et émotionnel, en mesurant votre état de stress notamment. Nous pouvons voir ensemble quelles sont les sources qui provoquent des troubles et déséquilibres, en allant jusque dans les profondeurs de vos émotions si cela est nécessaire, vos habitudes alimentaires, vos ressources pour vous détendre, vous recharger, vous stimuler, vous défouler…</span></b>
+<br/>
+<br/>
+<b><span className="pBleu2">⇒</span></b> Cependant, les déséquilibres neuropsychiques ne peuvent se résoudre seuls sans un accompagnement nutritionnel, et la mise en place <span className="pBleu2">d’activités physiques</span> qui favorisent une bonne hygiène émotionnelle.
+<br/>
+<br/>
+“La vie c’est le mouvement”, disait Andrew Still, père de l’ostéopathie.
+<br/>
+<br/>
+En effet, <b>le corps n'est pas fait pour rester sédentaire</b>, mais est conçu pour se mouvoir. La sédentarité étant par ailleurs, le 4è facteur de risque de décès dans le monde selon l'OMS, avec des risques accrus de cancers du sein et du côlon, de diabète, et maladies cardio-vasculaires.
+<br/>
+<br/>
+<b>L’activité physique est indispensable dans le maintien d’une bonne santé.</b> 
+Elle permet un nettoyage du corps et de ses toxines, en activant tous les émonctoires . C’est la seule technique naturopathique qui permet cet effet. 
+<br/>
+<br/>
+<b>Le sport et les activités physiques permettent un entretien global de l’organisme, et les bienfaits sont nombreux:</b>
+<br/>
+<br/>
+ activation de la circulation sanguine et lymphatique.
+ <br/>
+ <br/>
+ activation des émonctoires (organes chargés de l'élimination et d'excrétion des déchets de l'organisme: foie, reins, poumons, intestins, peau..).
+ <br/>
+ <br/>
+ libération de la respiration et de la circulation sanguine.
+ <br/>
+ <br/>
+ brassage intestinal de qualité par le mouvement du diaphragme à la respiration
+ <br/>
+ <br/>
+ meilleure vidange rénale et basification du corps.
+ <br/>
+ <br/>
+ apaisement du système nerveux et psychologique, et libération des endorphines, qui ont une action analgésique équivalentes à la morphine, et favorisent le renouvellement cellulaire et de nouvelles connexions synaptiques (plasticité cérébrale).
+ <br/>
+ <br/>
+sécrétion des neurotransmetteurs, sommeil de qualité, apaisement du mental, redynamisation de l’énergie, amélioration des émotions, de la concentration, de l’attention, des capacités d’apprentissage et de mémorisation.
+<br/>
+<br/>
+ confiance en soi, aide à la force et à la stabilité, la motivation et l'atteinte d’objectifs.
+ <br/>
+ <br/>
+ entretien et meilleure mobilité articulaire par activation du liquide synovial.
+ <br/>
+ <br/>
+ évite la fonte musculaire et garde les os en bonne santé, etc.
+ <br/>
+ <br/>
+Les activités physiques doivent être pratiquées de façon régulière et avec l’intensité que chacun est susceptible d’y mettre. <b>Faire du sport doit demeurer un plaisir et non une contrainte, afin d’en tirer tous les bienfaits.</b>
+<br/>
+<br/> 
+Toutes les activités physiques et/ou sports n'ont cependant pas le même impact sur l'organisme. <span className="pBleu2">C'est pour cela que les Naturopathes vont conseiller des activités qui répondent aux besoins des consultants</span> (prévention, ressource, élimination, dynamisation, optimisation, augmentation des performances...), et en se basant sur les Tempéraments Hippocratique et Naturopathique pour coller au plus près à leur organisme.
+<br/>
+<br/>
+Pour les non-sportifs: mise en place d'une ou plusieurs activités préventives ou correctives placées sous le signe de la régularité.
+<br/>
+<br/>
+Pour les sportifs: mise en place d'une activité secondaire préventive ou corrective, ou visant à optimiser les performances. 
+<b><span className="pBleu2">A chacun son biotype, à chacun son activité. Avec un but commun: que le sport reste une source de Bien-Être, et non de désagréments supplémentaires.</span></b>
+<br/>
+<br/>
+<b>Ces 3 techniques majeures sont les bases d’un accompagnement naturopathique</b>, soit dans un but préventif, soit pour rééquilibrer des dysfonctionnements.<b> Peuvent venir s’y ajouter des techniques complémentaires qui sont détaillées dans un autre article </b> 
 
-
-
+infos et rdv: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
+</p>
+     
       <CarteInformations6  
       titre="Les 7 techniques complémentaires en Naturopathie"
       texte="Quelles sont celles que je propose ?
@@ -1019,7 +1083,160 @@ Mais la formule tempéramentale (pourcentage de chaque entre le tempérament de 
 <br/>
 <br/>
 Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
-
+</p>
+<CarteInformations7
+        titre="Qui suis-je"
+        texte="Lors de nos rendez-vous et dans le cadre de mon activité, je serai amenée à vous poser de nombreuses questions, notament sur votre vie et votre parcours afin de mieux vous connaître, et ainsi dispenser les conseils les mieux adaptés à votre profil. Il est de ce fait totalement légitime que vous sachiez en amont à qui vous aurez affaire! ALors c'est parti ! Un exercice qui n'est pas simple, mais je vais essayer de faire au mieux ! "
+        img={img1}
+      />
+      <p className="texteInfoGalerie">
+        <p className="gras"> Qui suis-je ?</p>
+        <br />
+        <br />
+        Je suis Sandrine Bosc, jeune quadra dynamique d’origine Toulousaine et
+        Ariégeoise.
+        <br />
+        <br />
+        J’officie en qualité de <b>Naturopathe </b>après m’être formée pendant 3
+        ans à l’école Be Académie, institut certifié Qualiopi, où j’ai été
+        attestée suite à mon cursus. J'y ai effectué 2 mémoires, dont un sur l’
+        <b>Accompagnement Naturopathique des Basketteuses</b>, qui m’a valu les
+        honneurs suite à la qualité de mon travail de recherche, et toute la
+        passion que j’ai mise dans mon travail. En effet, ce thème m'était très
+        cher et était la base de la spécialisation dans laquelle je souhaitais
+        me lancer: celle de l'accompagnement des sportifs... et m'y voilà !
+        <br />
+        <br />
+        Mais au-delà de l'aspect purement "théorique" de ma formation, c'est le
+        fruit d'un total de{" "}
+        <b>5 années de travail et de recherches personnelles</b> qui m'ont
+        conduites aujourd'hui à vouloir transmettre mes connaissances et
+        expériences.
+        <br />
+        La première personne sur qui j'ai effectué ces changements (radicaux) de
+        mode et hygiène de vie fût tout simplement moi ! Et quels changements !
+        <br />
+        <br />
+        Car mon parcours de vie a été parsemé de ce que je qualifie aujourd'hui
+        "<b>d'initiations et d'expérimentations</b>"... 2 mots pour résumer un
+        parcours parfois chaotique, fait d'ombres et de lumières, de
+        tâtonnements, mais surtout de ce que l'on appelle "la nuit noire de
+        l'âme", ou <b>burn-out</b> pour le terme plus généraliste...
+        <br />
+        En sus d’une <b>hypothyroïdie</b> due à une thyroïde trop petite pour
+        fonctionner seule et qui régit à elle seule mon quotidien depuis plus de
+        30 ans, mais que j’ai réussi désormais à stabiliser et maîtriser, grâce
+        à mes connaissances acquises, et mes recherches personnelles.
+        <br />
+        <br />
+        Mais c'est bel et bien <b>mon âme</b> qui a dit stop en 2018, me
+        conduisant à devoir stopper toute activité professionnelle, perdant pied
+        personnellement, socialement, moralement, physiquement, et dans tous les
+        aspects de ma vie.
+        <br />
+        S'en est suivi un très <b>long chemin de reconstruction</b> sur tous les
+        plans de mon être, mais surtout, apprendre à connaître ma maladie
+        hormonale, ses effets, et appréhender le fonctionnement de mon corps.
+        <br />
+        <br />
+        Tout simplement, comprendre les rouages de notre si belle mécanique dans
+        tous ses aspects. Ce que je ne savais pas du tout faire à l’époque, et
+        qui a mené à ce "craquage" de tous les côtés... Pour (version
+        accélérée^^), en arriver à découvrir cette merveilleuse discipline
+        qu'est <b>la Naturopathie</b> !
+        <br />
+        <br />
+        Et, aujourd'hui, je continue de m'épanouir jour après jour grâce à ce
+        merveilleux travail sur moi. Je ne regrette rien de mon passé, il m'a
+        conduit à cette <b>meilleure version de mon Etre</b>, à la faire surgir,
+        à la faire exister. Et c'est le fondement même de la Naturopathie:
+        prendre l'être de façon holistique, c'est-à-dire sur tous ses plans :{" "}
+        <b>
+          Physiquement, Mentalement, Émotionnellement, Énergétiquement,
+          Spirituellement,
+        </b>{" "}
+        et trouver l'équilibre et l'harmonie entre ces points. C'est ce que l'on
+        appelle le <b>Bien-Être</b>.
+        <br />
+        <br />
+        <b>Et pourquoi l'accompagnement des sportifs ?</b>
+        Je suis une ancienne <b>basketteuse</b>, ayant débuté à l'âge de 6 ans
+        dans un club proche de Toulouse et où j'ai évolué jusqu'en
+        Pré-Nationale. J'ai fait une pause de plus de 10 ans pour me consacrer à
+        une autre de mes passions: la musique, et j'ai été <b>DJ</b> pendant
+        près de 10 ans.
+        <br />
+        <br />
+        Mon parcours personnel m'a amené en 2014 à{" "}
+        <b>quitter mes racines Toulousaines pour l'Alsace</b>, et intégrer en
+        2015 un club de Basket proche de Strasbourg où j'ai eu l'opportunité
+        d'être salariée et passer mes <b>diplômes d'entraîneur</b> (Niveau III),
+        et même de reprendre le Basket à... 36 ans ! Malheureusement, j'ai été
+        stoppée dans mon élan comme je le précise plus haut, et ce fût une
+        expérience douloureuse et chaotique.
+        <br />
+        <br />
+        <b>
+          C'est exactement le type d’événement qui peut surgir dans la vie de
+          tout un chacun.
+        </b>
+        Croire que tout va bien, que nous gérons nos vies, et puis un matin, la
+        panne sèche. Plus rien ne va, un chaos dans notre vie, qui sème le chaos
+        dans celle des autres au passage. Et l'
+        <b>obligation de se faire face</b>: trouver la force de se regarder,
+        s'affronter, prendre conscience, comprendre, défaire les nœuds,
+        maîtriser ce que l'on peut, lâcher prise sur ce que l'on ne peut
+        contrôler, se relever, et avancer. Plus fort(e). Et{" "}
+        <b>redistribuer cette énergie nouvelle</b>, ces prises de conscience !
+        <br />
+        <br />
+        Après l’année 2018 qui fût très difficile, j'ai arrêté le Basket
+        définitivement tout en restant fan de ce sport, et en parallèle, j'ai eu
+        la chance d'être initiée dès 2017 à la
+        <b>randonnée de montagne</b> dans les Vosges
+        <br />
+        Une révélation, un coup de foudre, LA discipline qui m'a sortie la tête
+        de l'eau, et a contribué grandement à me faire gravir ma propre{" "}
+        <b>montagne personnelle.</b>
+        <br />
+        <br />
+        Aujourd'hui rentrée dans ma région Occitane, en Ariège plus précisément,
+        je continue à randonner de façon hebdomadaire dans{" "}
+        <b>nos belles Pyrénées</b>, tutoyant régulièrement les hautes cimes
+        autour des 3000m d'altitude et des dénivelés moyens de 1000 à 2000m
+        <br />
+        <br />
+        C'est une véritable addiction, et surtout un <b>art de vivre</b>.
+        L'association de la nature et de la marche, c'est tout simplement le
+        combo parfait pour mettre le corps en harmonie, et rééquilibrer la
+        plupart des maux.
+        <br />
+        <br />
+        Basket, Rando... mais une passion pour à peu près tous les sports ! Et
+        un constat alarmant: celui d'un <b>déséquilibre flagrant</b> (souvent
+        inconscient et involontaire) dans{" "}
+        <b> l'hygiène de vie de la plupart des athlètes</b>, amateurs comme
+        pros... et l’<b>absence d’activités physiques</b>
+        régulières favorisant les pathologies chez les non-sportifs.
+        <br />
+        <br />
+        <b>Mon souhait le plus profond:</b>
+        <b>VOUS aider</b> à être le plus possible en équilibre sur tous les
+        plans de votre être, afin de préserver votre organisme, et vous
+        permettre d'être en santé le plus longtemps possible ! Mais aussi, aider
+        ceux qui le souhaitent, à intégrer des{" "}
+        <b>activités physiques adaptées</b> à leur terrain afin de renforcer
+        leur organisme et ainsi{" "}
+        <b>prévenir tout risque pathologique dû à la sédentarité.</b>
+        <br />
+        <br />
+      </p>
+      <p className="pBleu">
+        Parce qu'on a qu'un seul corps, qu'il nous appartient, et que nous
+        devons en être
+        <br />
+        responsable, je serai là pour vous aider à en devenir le seul maître à
+        bord !
       </p>
     </div>
   );
