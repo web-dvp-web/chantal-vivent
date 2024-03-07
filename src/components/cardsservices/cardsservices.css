@@ -21,7 +21,8 @@
 .cardsServicesContainer {
   margin: 10px;
   width: 30%;
-  height: 26em;
+  min-height: 27em;
+  height: auto;
   display: flex;
   justify-content: flex-start;
   align-items: center;
