@@ -55,7 +55,7 @@ const PageGalerie = () => {
         <br />
         <br />
         Lors des consultations, le praticien s’appuie sur les{" "}
-        <b>10 techniques naturelles de santé et les 3 cures</b>
+        <b>10 techniques naturelles de santé et les 3 cures</b> 
         naturopathiques initiées par Pierre-Valentin Marchesseau :<br />-{" "}
         <b>L’alimentation</b>
         <br />- <b>L’équilibre neuropsychique</b>
@@ -70,10 +70,10 @@ const PageGalerie = () => {
         <br />- <b>La phytologie</b>
         <br />- <b>Les techniques réflexes</b>
         <br />- <b>Les techniques respiratoires</b>
-        <br />
         <br />- <b>Les techniques manuelles</b>
         <br />- <b>Les techniques énergétiques</b>
         <br />- <b>Les techniques vibratoires</b>
+        <br />
         <br />
         L’Iridologie (étude de l’iris) vient compléter le tout afin d’étudier
         plus en détail les dysfonctionnements organiques et métaboliques. C'est
@@ -86,6 +86,7 @@ const PageGalerie = () => {
         <br />
         Ces techniques sont mises en place lors des phases d’accompagnement
         complet divisées en 3 étapes.
+        <br />
         <br />
         Les 3 cures :<br />- <b>Cure de détox/ drainage</b>
         <br />- <b>Cure de revitalisation / renforcement</b>
@@ -175,8 +176,9 @@ const PageGalerie = () => {
         <b>
           <u>la cause de la cause de la cause”</u>
         </b>
+        &nbsp
         peut amener à chercher dans les profondeurs de notre âme (spiritualité)
-        comme le disait Hippocrate.
+        comme le disait Hippocrate.&nbsp
         <b>
           Ce sont les bases même de la pratique naturopathique, aller chercher
           la ou les causes d’un trouble, plutôt que de traiter uniquement le
@@ -238,7 +240,7 @@ const PageGalerie = () => {
         <b>
           Les RDV en 3 cures sont destinés aux besoins relatifs à des troubles
           chroniques, réguliers, dans la durée ou qui nécessitent un
-          accompagnement sur une longue période.
+          accompagnement sur une longue période.&nbsp
         </b>
         Cela peut-être pour une blessure (tendinite, inflammation, entorses,
         grave blessure…), maladie, troubles hormonaux, du sommeil, digestifs,
@@ -304,8 +306,9 @@ const PageGalerie = () => {
         <b>
           <u>sbnaturo9@gmail.com</u>
         </b>
-        , mais aussi et surtout <b>vers vous-même.</b>
+        , mais aussi et surtout <b>vers vous-même.</b>&nbsp
         Faites-vous ce cadeau de découvrir{" "}
+        <br/>
         <b>votre Etre véritable, naturel, inné</b>, débarrassé de toute
         pollution externe intoxicante, de quelque nature que ce soit, et{" "}
         <b>
@@ -320,11 +323,11 @@ const PageGalerie = () => {
       </p>
       <CarteInformations7
         titre="Les 5 principes fondateurs de la naturopathie."
-        texte="Tout comprendre des enjeux de la pratique
-        Quelles sont les bases qui permettent au naturopathe d'évaluer le terrain d'une personne, et ainsi orienter ses protocoles d'accompagnement ?"
+        texte="Tout comprendre des enjeux de la pratique"
         img={img2}
       />
       <p className="texteInfoGalerie">
+          Quelles sont les bases qui permettent au naturopathe d'évaluer le terrain d'une personne, et ainsi orienter ses protocoles d'accompagnement ?
           <p className="pBleu">Le Vitalisme</p>
           <p>
              Le praticien cherche à renforcer l'énergie vitale, ou souffle de
@@ -352,7 +355,7 @@ const PageGalerie = () => {
         <br />
         <br />
         
-          <p className="pBleu">L'Humorisme</p> non, rien de comique là-dedans ^^ ;
+          <span className="pBleu">L'Humorisme</span> non, rien de comique là-dedans ^^ ;
         Les humeurs, ce sont <u>les liquides de l'organisme</u>: le sang, la
         lymphe, le liquide intra et extra-cellulaire. Tous communiquent entre
         eux et sont en perpétuels mouvements. Ils véhiculent les nutriments et
@@ -366,7 +369,7 @@ const PageGalerie = () => {
         <br />
         <br />
           <p className="pBleu">L'Hygiénisme</p> un naturopathe est avant tout
-          un &nbsp; <u> hygiéniste </u>.
+          un <u> hygiéniste </u>.&nbsp;
         <b>L'hygiène de vie se définit</b> par le contact avec l'ensemble des
         sources de "bonne santé":{" "}
         <b>
@@ -436,9 +439,9 @@ const PageGalerie = () => {
         <br />
         <br />
         
-          <p className="pBleu">L'Holisme</p> holos signifie en Grec: "entier".
+          <span className="pBleu">L'Holisme</span><br/>holos signifie en Grec: "entier".
         A l'inverse de la médecine allopathique, le{" "}
-        <u>naturopathe a une vision globale de l'Etre.&nbsp;</u>
+        <u>naturopathe a une vision globale de l'Etre</u>.&nbsp;
         Nous sommes un TOUT: <b>corps, âme, esprit, psyché et énergie.</b>
         <br />
         <br />
@@ -464,16 +467,20 @@ const PageGalerie = () => {
 L'importance de comprendre l'impact de chaque aliment ou boisson que nous ingérons. On ne mange pas juste pour se nourrir comme un besoin primaire de survie, mais bel et bien pour alimenter notre formidable machine qu'est le corps humain. Pour que tous ses rouages et mécanismes tournent, il faut lui donner tout ce dont il a besoin, et apprendre à le connaître et l'appréhender pour y répondre favorablement.
 <br/>
 <br/>
-<b>Vous ne mettriez pas de l'essence dans un moteur diésel, n'est-ce pas ?</b> 
+<b>Vous ne mettriez pas de l'essence dans un moteur diésel, n'est-ce pas ? </b> 
 Il en va de même pour notre organisme. S’il a des besoins spécifiques pour faire ronronner son moteur, chaque individu aura des besoins différents en fonction de son métabolisme basal, son tempérament naturopathique, et son terrain. Mais aussi ses affinités, goûts, allergies, intolérances... et ses activités du quotidien qui demandent plus ou moins d'énergie.
 <br/>
 <br/>
 Un rééquilibrage alimentaire va nécessairement débuter par restreindre, voire éliminer totalement les aliments responsables des encrassements et des surcharges, et qui favorisent les déséquilibres et inflammations.
 <br/>
 En fonction du terrain de la personne, cela peut aller jusqu'à une refonte totale des habitudes alimentaires.<br/>
+<br/>
+<br/>
 <span className="pBleu2">Chez les sportifs</span>, <b>une alimentation déséquilibrée, c'est-à-dire déficiente en nutriments essentiels pour favoriser les processus métaboliques et l'énergie à l'effort, ainsi qu'une meilleure récupération post-effort</b>, cela se traduit par une fatigue physiologique, psychique, des difficultés à l'effort ou à le maintenir, des inflammations telles que tendinites, ou encore une fragilisation générale qui peut mener aux blessures.
 <br/>
-Les efforts répétés nécessitent une attention particulière sur l'équilibre nutritionnel afin de maintenir l'intégrité de l'organisme, et optimiser ses performances. Pour que le sport demeure un bienfait, et non une source de déséquilibres. Pour exemple, <span className="pBleu2">vous pouvez retrouver mes articles sur le site de WeBasketTV</span>, consacrés à l'équilibre nutritionnel des Basketteur/ses: 
+Les efforts répétés nécessitent une attention particulière sur l'équilibre nutritionnel afin de maintenir l'intégrité de l'organisme, et optimiser ses performances.
+<br/>
+<br/> Pour que le sport demeure un bienfait, et non une source de déséquilibres. Pour exemple, <span className="pBleu2">vous pouvez retrouver mes articles sur le site de WeBasketTV</span>, consacrés à l'équilibre nutritionnel des Basketteur/ses: 
 <br/>
 <br/>
 <a href="https://www.webasket.tv/equilibre-nutritionnel-basketteur-prevention-optimisation-1-macronutrition/">1/ les macronutriments </a>
@@ -507,13 +514,16 @@ Il ne s'agit pas de tout arrêter d'un coup et se mettre en "privation", ce qui 
 <br/>
 Exemple le plus classique: le gluten pour les maladies cœliaques.
 <br/>
+<br/>
 <b>La mise au repos du système digestif</b> est également une étape régulière et indispensable lorsque l'organisme est trop surchargé. Cela permet de libérer l'énergie nécessaire à l'organisme pour opérer plus facilement un travail en profondeur d'élimination des déchets. Cela peut passer par le jeûne intermittent, ou une mono-diète (= ingestion d'un seul aliment sur une période donnée afin d'apaiser le système digestif ).
 <br/>
 <br/>
 Un travail sur le <b>microbiote</b> est également à envisager, notamment chez les sportifs, où l'activité physique intense, mêlée au stress psychique et physiologique, allié le plus souvent à une alimentation mal équilibrée, affaiblie le siège de nos formidables bactéries intestinales, où se créent nombre d'importants mécanismes.
 <br/>
 <br/>
-Les <b>carences / déficits en nutriments essentiels</b> sont sources de déséquilibres au quotidien: -Fatigue qui perdure
+Les <b>carences / déficits en nutriments essentiels</b> sont sources de déséquilibres au quotidien: 
+<br/>
+-Fatigue qui perdure
 <br/>
 -Sommeil non réparateur
 <br/>
@@ -535,7 +545,7 @@ Les <b>carences / déficits en nutriments essentiels</b> sont sources de déséq
 <b>Chez les non-sportifs</b> ou les personnes à l’activité modérée ou irrégulière, ou chez les personnes qui ne pratiquent aucune activité physique, <b>l’absence de moyens réguliers d’élimination des déchets combiné à un déséquilibre nutritionnel</b>, entraînent des troubles encore plus nombreux qui peuvent mener à des pathologies graves. Même si le corps arrive pour un temps à s’adapter au manque de certains nutriments en compensant, certaines réactions métaboliques s’en trouvent désorganisées ou absentes, entraînant un affaiblissement progressif et l’apparition des troubles.
 <br/>
 <br/>
-De façon générale, privilégier une alimentation variée, biologique, brute, avec des céréales complètes, des fruits, des légumes, des oléagineux, des légumineuses, de l'eau de qualité, des protéines végétales - animales, avec les bonnes associations d’aliments, en prenant le temps de manger, mastiquer, et de cuisiner maison, en réduisant les quantités pour faciliter le travail digestif, on s'offre les chances d'une meilleure qualité nutritionnelle. 
+De façon générale, privilégier une alimentation variée, biologique, brute, avec des céréales complètes, des fruits, des légumes, des oléagineux, des légumineuses, de l'eau de qualité, des protéines végétales &gt; animales, avec les bonnes associations d’aliments, en prenant le temps de manger, mastiquer, et de cuisiner maison, en réduisant les quantités pour faciliter le travail digestif, on s'offre les chances d'une meilleure qualité nutritionnelle. 
 <br/>
 <br/>
 <b><span className="pBleu2">Me consulter, c’est permettre d'individualiser les protocoles diététiques et nutritionnels adaptés à chaque individu en fonction de ses besoins et de son terrain. Soit dans le cadre des 3 cures, soit en rdv unique basé sur le rééquilibrage alimentaire.</span></b>
@@ -547,13 +557,17 @@ De façon générale, privilégier une alimentation variée, biologique, brute, 
 <br/>
 Le lien entre les deux est très étroit. <b>L’équilibre alimentaire tient une part dominante dans le bon fonctionnement des neurotransmetteurs impliqués dans l’équilibre émotionnel</b>, tels la dopamine, la sérotonine et l’adrénaline, dont les précurseurs sont amenés par l’alimentation, et qui lorsque les voies intestinales sont équilibrées, permettent leur métabolisme. 
 <br/>
+<br/>
  <span className="pBleu2">La sérotonine</span> favorise la régulation du sommeil (en tant que précurseur de la mélatonine), de l’humeur, de l’appétit, de la thermogenèse en impactant le système nerveux, la régulation du système cardiaque, la tonicité des muscles lisses, ou encore la motilité intestinale, la contraction utérine et des bronches. La sérotonine permet une meilleure résistance au stress et à la douleur. 
+ <br/>
  <br/>
 Un <b>déficit</b> va s’observer par des insomnies, une forte intolérance à la frustration, de la vulnérabilité, de l’impatience, une certaine agressivité, des besoins compulsifs en sucre notamment, ou encore, des difficultés dans la gestion de son humeur. 
 <br/>
 Ces déficits peuvent provenir d’une <b>insuffisance d’apports en aliments riches en tryptophane</b>, soit par un déséquilibre nutritionnel, soit par des régimes trop stricts comme chez certains sportifs de haut niveau, ou encore une flore intestinale (microbiote) déséquilibrée.
 <br/>
 Mais aussi, des syndromes inflammatoires répétés, un déficit en cofacteurs vitaminiques et minéraux dus au stress chronique, à l’abus d’alcool, certains contraceptifs, corticothérapie, l’obésité ou même le sevrage tabagique. <br/>
+<br/>
+<br/>
 Un <b>déséquilibre en sérotonine va engendrer un déséquilibre en mélatonine</b>, hormone qui régit la totalité du cycle circadien et biologique du corps, et donc favoriser un sommeil de moins bonne qualité, voire un déficit. Ce qui engendra divers troubles et déséquilibres organiques et psychiques sur le long terme. L’organisme se régénérant la nuit, le sommeil est un des facteurs principaux de notre état de santé général. 
 <br/>
 <br/>
@@ -562,10 +576,12 @@ Les catécholamines <span className="pBleu2">dopamine, adrénaline et noradréna
 <br/>
  <b>La dopamine</b> est sécrétée lors de moments procurant du plaisir, et entraîne un surcroît de motivation, de désirs, d’envies, d’explorations, d’apprentissages. Elle agit sur le système nerveux central pour une meilleure mémorisation, une augmentation de la vigilance, une baisse de la fatigue et des besoins en sommeil. Elle stimule les mouvements locomoteurs ainsi que la croissance des tissus et la sécrétion de l’hormone de croissance. 
  <br/>
+ <br/>
 <b>Un déficit</b> se remarque par un manque de motivation, une perte d’envie, de l’indécision, une dépression traduire par un repli sur soi, de l’apathie, et une baisse de la libido entre autres. 
 La dopamine est directement liée à la maladie de Parkinson, qui s’explique par la perte des neurones dopaminergiques au niveau des noyaux gris centraux. (Un article complet y sera consacré, où comment la naturopathie peut accompagner les malades atteints de Parkinson pour mieux gérer la lourdeur du traitement).
 <br/> 
 L’activité sportive stimule la production de dopamine, elle en est le moteur même, poussant à atteindre des objectifs, à se dépasser.
+<br/>
 <br/>
 <b>En excès</b>, elle peut également entraîner des insomnies, de l’anorexie, des dépendances psychiques (addictions = actions sur le système de la récompense) et sexuelles, des délires et troubles hallucinatoires, de l’agressivité, des prises d'initiatives excessives…
 <br/>
@@ -586,25 +602,38 @@ Notamment de la <b>thyroïde</b>, qui doit accroître sa production d’hormones
  Elle permet également l’afflux de sang et d’oxygène dans le cerveau et les muscles.
 <br/>
 <br/>
-L’équilibre de certains acides-aminés sont également des facteurs déterminant de l’état neuropsychique. <b><span className="pBleu2">Le GABA et le glutamate</span></b> sont des neurotransmetteurs majeurs et excitateurs du système nerveux central. <br/>
+L’équilibre de certains acides-aminés sont également des facteurs déterminant de l’état neuropsychique.
+<br/>
+ <b><span className="pBleu2">Le GABA et le glutamate</span></b> sont des neurotransmetteurs majeurs et excitateurs du système nerveux central. <br/>
+<br/>
 <b>Le glutamate</b>, c’est l’acide-aminé le plus présent dans notre alimentation sous sa forme libre et qui a pour précurseur le GABA (acide gamma aminobutyrique). <b>Certains industriels n’hésitant pas par ailleurs, à en user dans leurs préparations pour stimuler l'appétence vers ces produits et les sensations de bien-être qu’ils procurent.</b> Ce qui est dangereux car en excès, le glutamate est responsable de la mort des neurones par hyperstimulation de ceux-ci.
 <br/>
+<br/>
 Le glutamate a pour précurseur le <b>GABA</b>, inhibiteur du système nerveux central, qui contrebalance les effets du glutamate. Il favorise détente et relaxation, et régule les états de peur et d’anxiété manifestés par la surexcitation des neurones engendrée par les excès de glutamate. <br/>
+<br/>
+<br/>
 <b>En déficit</b>, se manifestent des excès de tonicité et des spasmes musculaires entraînant des douleurs récurrentes, des troubles du sommeil, de la nervosité, des difficultés de concentration, tremblements, transpiration excessive, des sautes d'humeur, de l’inconstance dans les pensées ou encore des confusions. 
 <br/>
 <br/>
-<b>L’équilibre émotionnel et psycho-affectif dépendent pour beaucoup de l'équilibre de ces neurotransmetteurs et des acides-aminés précurseurs que l’on retrouve majoritairement dans l’alimentation.</b> L’activité physique, le soleil, des activités plaisantes, un environnement sain et apaisant participent également à cet équilibre. 
+<b>L’équilibre émotionnel et psycho-affectif dépendent pour beaucoup de l'équilibre de ces neurotransmetteurs et des acides-aminés précurseurs que l’on retrouve majoritairement dans l’alimentation.</b>
+<br/>
+ L’activité physique, le soleil, des activités plaisantes, un environnement sain et apaisant participent également à cet équilibre. 
 <br/>
 <br/>
 <span className="pBleu2">Et pour les sportifs</span>, notamment de haut niveau, maintenir cet équilibre n’est pas toujours simple. S’ils sont souvent entourés par des coachs en diététique, ou préparateurs mentaux pour maintenir les efforts physiques répétés et les performances, l’émotionnel n’est pas toujours évoqué, notamment au niveau de l’assiette. 
 <br/>
 C’est pourtant un <b>facteur important</b>, car si les émotions peuvent être vectrices de vitalité, elles sont aussi sources de déséquilibres et de baisses de performances physiques et psychiques lorsqu’elles sont instables. 
 <br/>
+<br/>
 Apprendre à gérer ses émotions, les entendre, les ressentir, et en comprendre les origines est essentiel pour maintenir l’intégrité de l’organisme. Tant pour soi, que pour sa relation aux autres. Sportifs ou non. 
 <br/>
-<b>Dans la gestion du poids également, car l’émotionnel en est un facteur déterminant. (Article à venir)</b>
+<br/>
+<b>Dans la gestion du poids également, car l’émotionnel en est un facteur déterminant.</b>
 
-<b><span className="pBleu2">L’hygiène émotionnelle</span></b> tient une grande place dans l’accompagnement naturopathique, <b>et d’autres articles détaillés seront amenés peu à peu sur le site</b>, pour évoquer les sujets comme le stress, les angoisses, l’anxiété chronique ou encore le burnout, les traumatismes, et les effets sur l’organisme de certaines émotions même “temporaires”. Nous vivons tous au quotidien dans un “état limite”, devant faire face à des événements qui mettent l’organisme en état d’alerte permanent. Mais ces troubles émotionnels et psychiques ont un fort impact sur notre organisme, et l’organisme ne trouve pas le repos qui lui est nécessaire pour se régénérer et se réguler. 
+<b><span className="pBleu2">L’hygiène émotionnelle</span></b>
+<br/>
+<br/>
+ tient une grande place dans l’accompagnement naturopathique, <b>et d’autres articles détaillés seront amenés peu à peu sur le site</b>, pour évoquer les sujets comme le stress, les angoisses, l’anxiété chronique ou encore le burnout, les traumatismes, et les effets sur l’organisme de certaines émotions même “temporaires”. Nous vivons tous au quotidien dans un “état limite”, devant faire face à des événements qui mettent l’organisme en état d’alerte permanent. Mais ces troubles émotionnels et psychiques ont un fort impact sur notre organisme, et l’organisme ne trouve pas le repos qui lui est nécessaire pour se régénérer et se réguler. 
 <br/>
 <br/>
 <b><span className="pBleu2">En vous accompagnant individuellement, je vous aide à évaluer votre état psychique et émotionnel, en mesurant votre état de stress notamment. Nous pouvons voir ensemble quelles sont les sources qui provoquent des troubles et déséquilibres, en allant jusque dans les profondeurs de vos émotions si cela est nécessaire, vos habitudes alimentaires, vos ressources pour vous détendre, vous recharger, vous stimuler, vous défouler…</span></b>
@@ -626,50 +655,56 @@ Elle permet un nettoyage du corps et de ses toxines, en activant tous les émonc
 <b>Le sport et les activités physiques permettent un entretien global de l’organisme, et les bienfaits sont nombreux:</b>
 <br/>
 <br/>
- activation de la circulation sanguine et lymphatique.
+ -activation de la circulation sanguine et lymphatique.
  <br/>
  <br/>
- activation des émonctoires (organes chargés de l'élimination et d'excrétion des déchets de l'organisme: foie, reins, poumons, intestins, peau..).
+ -activation des émonctoires (organes chargés de l'élimination et d'excrétion des déchets de l'organisme: foie, reins, poumons, intestins, peau..).
  <br/>
  <br/>
- libération de la respiration et de la circulation sanguine.
+ -libération de la respiration et de la circulation sanguine.
  <br/>
  <br/>
- brassage intestinal de qualité par le mouvement du diaphragme à la respiration
+ -brassage intestinal de qualité par le mouvement du diaphragme à la respiration
  <br/>
  <br/>
- meilleure vidange rénale et basification du corps.
+ -meilleure vidange rénale et basification du corps.
  <br/>
  <br/>
- apaisement du système nerveux et psychologique, et libération des endorphines, qui ont une action analgésique équivalentes à la morphine, et favorisent le renouvellement cellulaire et de nouvelles connexions synaptiques (plasticité cérébrale).
+ -apaisement du système nerveux et psychologique, et libération des endorphines, qui ont une action analgésique équivalentes à la morphine, et favorisent le renouvellement cellulaire et de nouvelles connexions synaptiques (plasticité cérébrale).
  <br/>
  <br/>
-sécrétion des neurotransmetteurs, sommeil de qualité, apaisement du mental, redynamisation de l’énergie, amélioration des émotions, de la concentration, de l’attention, des capacités d’apprentissage et de mémorisation.
+ -sécrétion des neurotransmetteurs, sommeil de qualité, apaisement du mental, redynamisation de l’énergie, amélioration des émotions, de la concentration, de l’attention, des capacités d’apprentissage et de mémorisation.
 <br/>
 <br/>
- confiance en soi, aide à la force et à la stabilité, la motivation et l'atteinte d’objectifs.
+ -confiance en soi, aide à la force et à la stabilité, la motivation et l'atteinte d’objectifs.
  <br/>
  <br/>
- entretien et meilleure mobilité articulaire par activation du liquide synovial.
+ -entretien et meilleure mobilité articulaire par activation du liquide synovial.
  <br/>
  <br/>
- évite la fonte musculaire et garde les os en bonne santé, etc.
+ -évite la fonte musculaire et garde les os en bonne santé, etc.
  <br/>
  <br/>
-Les activités physiques doivent être pratiquées de façon régulière et avec l’intensité que chacun est susceptible d’y mettre. <b>Faire du sport doit demeurer un plaisir et non une contrainte, afin d’en tirer tous les bienfaits.</b>
+Les activités physiques doivent être pratiquées de façon régulière et avec l’intensité que chacun est susceptible d’y mettre.
+<br/> 
+<b>Faire du sport doit demeurer un plaisir et non une contrainte, afin d’en tirer tous les bienfaits.</b>
 <br/>
 <br/> 
-Toutes les activités physiques et/ou sports n'ont cependant pas le même impact sur l'organisme. <span className="pBleu2">C'est pour cela que les Naturopathes vont conseiller des activités qui répondent aux besoins des consultants</span> (prévention, ressource, élimination, dynamisation, optimisation, augmentation des performances...), et en se basant sur les Tempéraments Hippocratique et Naturopathique pour coller au plus près à leur organisme.
+Toutes les activités physiques et/ou sports n'ont cependant pas le même impact sur l'organisme.
+<br/>
+ <span className="pBleu2">C'est pour cela que les Naturopathes vont conseiller des activités qui répondent aux besoins des consultants</span> (prévention, ressource, élimination, dynamisation, optimisation, augmentation des performances...), et en se basant sur les Tempéraments Hippocratique et Naturopathique pour coller au plus près à leur organisme.
 <br/>
 <br/>
-Pour les non-sportifs: mise en place d'une ou plusieurs activités préventives ou correctives placées sous le signe de la régularité.
+<b>Pour les non-sportifs: </b> mise en place d'une ou plusieurs activités préventives ou correctives placées sous le signe de la régularité.
 <br/>
 <br/>
-Pour les sportifs: mise en place d'une activité secondaire préventive ou corrective, ou visant à optimiser les performances. 
-<b><span className="pBleu2">A chacun son biotype, à chacun son activité. Avec un but commun: que le sport reste une source de Bien-Être, et non de désagréments supplémentaires.</span></b>
+<b>Pour les sportifs:</b> mise en place d'une activité secondaire préventive ou corrective, ou visant à optimiser les performances. 
+<br/>
+<b>
+  <span className="pBleu2">A chacun son biotype à chacun son activité. Avec un but commun: que le sport reste une source de Bien-Être, et non de désagréments supplémentaires.</span></b>
 <br/>
 <br/>
-<b>Ces 3 techniques majeures sont les bases d’un accompagnement naturopathique</b>, soit dans un but préventif, soit pour rééquilibrer des dysfonctionnements.<b> Peuvent venir s’y ajouter des techniques complémentaires qui sont détaillées dans un autre article </b> 
+<b>Ces 3 techniques majeures sont les bases d’un accompagnement naturopathique</b>, soit dans un but préventif, soit pour rééquilibrer des dysfonctionnements.<br/><b> Peuvent venir s’y ajouter des techniques complémentaires qui sont détaillées dans un autre article </b> 
 
 infos et rdv: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
 </p>
@@ -707,13 +742,13 @@ Pour ma part, <b>en plus des 3 techniques majeures</b> qui seront présentes à 
 <br/>
 <br/>
 
-<p className="pBleu">L’HYDROLOGIE:</p>
+<span className="pBleu">L’HYDROLOGIE:</span><br/>
 C'est l'utilisation thérapeutique de l'EAU sous différentes formes, en usage interne et/ou externe, pour renforcer l'organisme et le purger de ses impuretés.
 <br/>
 L'eau employée peut être minérale, douce, ou de mer. En vapeur, jet, glace, bain, sauna, hammam, douche, thermalisme... Ou simplement en veillant à la qualité et la quantité d'eau bue au quotidien.
 
 
-<p className="pBleu">La PHYTOLOGIE:</p> science de la biologie de la plante, très utilisée en Naturopathie.
+<span className="pBleu">La PHYTOLOGIE:</span><br/> Science de la biologie de la plante, très utilisée en Naturopathie.
 <br/>
 <br/>
 Elle comprend plusieurs branches :<br/><br/>
@@ -804,10 +839,11 @@ C’est une discipline sur laquelle je souhaite approfondir mes connaissances d�
       <CarteInformations7 
       titre="Comment déterminer le terrain d’une personne ?"
       img={determinerterrain}
-      texte="Les Tempéraments Hippocratiques et Naturopathiques
-      Hippocrate, père de la médecine occidentale, a réalisé un travail colossal de recherches et d'analyses pour comprendre comment les maladies pouvaient évoluer sur certaines personnes, quand elles n'en touchaient pas d'autres. "
+      texte="Les Tempéraments Hippocratiques et Naturopathiques"
       />
       <p className="texteInfoGalerie">
+      Hippocrate, père de la médecine occidentale, a réalisé un travail colossal de recherches et d'analyses pour comprendre comment les maladies pouvaient évoluer sur certaines personnes, quand elles n'en touchaient pas d'autres. 
+      <br/>
       A la faveur de Pasteur qui lui, s'était aperçu que les microbes ne poussaient pas sur n'importe quel milieu de culture.
       <br/>
       <br/>
@@ -841,7 +877,7 @@ La biotypologie d'Hippocrate (ou science des tempéraments), s'appuie sur ces di
 <br/>
 <br/>
   <u><b>I) Les tempéraments Hippocratiques:</b></u><br/>
-<p className="pBleu">LE BILIEUX:</p>
+<span className="pBleu2">LE BILIEUX:</span><br/><br/>
 
 
 <b>Sur le plan physique</b>, il est de forte ossature, les muscles sont bien dessinés, saillants, longs et durs et sans graisse. De par sa densité, la musculature a tendance à rejeter le système veineux en surface (les veines ressortent). L'appareil ostéo-musculaire du Bilieux dégage une impression de force et de robustesse.<br/>
@@ -849,20 +885,25 @@ Il est de taille généralement supérieure à la moyenne. Sa peau est sèche, s
 La chevelure est épaisse, raide, de couleur foncée en général. Les sourcils sont droits et épais, les yeux abrités dans les orbites. Les lèvres sont minces et toniques. Le menton est large, saillant, puissant.<br/>
 Les membres sont longs, l'envergure dépassant la taille. Les mains sont rectangulaires, chaudes et sèches. Les doigts sont longs, tout est en muscle avec une poignée de main tonique.<br/>
 Le Bilieux se contrôle, ses gestes sont amples, affirmés, il a peu de mouvements inconscients. Il a une démarche de militaire, marche à grands pas de façon ferme. Son élocution est aisée, articulée, sa voix est franche, claire, dominatrice.<br/>
+<br/>
+<br/>
 <b>Sur le plan émotionnel</b>, il a tendance à vouloir prendre l'ascendant sur son milieu. C'est un dominateur ambitieux. Il est naturellement autoritaire. Il peut être à l'extrême un tyran, un despote. Sa maîtrise de lui-même est ponctuée de colères terribles qui sont des explosions d'une énergie sous pression. Il peut être brutal.<br/>
 Le Bilieux est franc, droit, honnête, il ne supporte pas l'opposition à ce qu'il croit être juste.
 <br/>
 <br/>
 <b>Sur le plan mental</b>, c'est un organisateur viril, qui commande et dicte ce que les autres doivent faire. L est doté d'une bonne capacité cérébrale. Il sait observer, se concentrer, et décider avec réalisme.<br/>
+<br/>
+<br/>
 <b>Sur le plan de la santé</b>, le Bilieux est placé sous le signe de la force : physique, vitale et sexuelle.<br/>
 Il récupère vite, il a en général besoin de peu de sommeil. Mais il a tendance à vouloir trop en faire, il veut tout contrôler, prendre la responsabilité des décisions. Il use ainsi prématurément son organisme.
 <br/>
 <br/>
-<p className="pBleu">Ses tendances pathologiques:</p>
+<span className="pBleu2">Ses tendances pathologiques:</span>
+<br/>
 Ses prédispositions sont dues à ses excès, il va surmener ses émonctoires et son système nerveux. Il tendra vers des problèmes cardio-vasculaires, aux ulcères des voies digestives, à la fatigue nerveuse, aux varices, tensions musculaires, arthrose, goutte et lithiases vésiculaires (calculs).
 <br/>
 <br/>
-<span className="pBleu">L’hygiène de vie corrective</span> qui lui est adaptée sera orientée vers des activités qui demandent de l'ordre, des initiatives, de la spontanéité, de la rigueur, le sens des responsabilités. Il est naturellement doué pour les postes de commande et de direction.<br/>
+<span className="pBleu2">L’hygiène de vie corrective</span> qui lui est adaptée sera orientée vers des activités qui demandent de l'ordre, des initiatives, de la spontanéité, de la rigueur, le sens des responsabilités. Il est naturellement doué pour les postes de commande et de direction.<br/>
 En revanche, il doit éviter les activités monotones, passives, trop sédentaires ou au contraire qui mènent au surmenage. Il doit éviter de se faire ronger par ses responsabilités. Il a besoin de vivre en milieux dynamiques où il peut se relaxer, se détendre, et vivre au grand air.<br/>
 <span className="pBleu2s">Les biothérapies correctives</span> qui lui sont adaptées vont être drainantes pour ses émonctoires, régénérantes pour les voies digestives, et permettre la détente du système nerveux.
 <br/>
@@ -872,7 +913,8 @@ En revanche, il doit éviter les activités monotones, passives, trop sédentair
 <br/>
 
 
-<span className="pBleu">LE NERVEUX</span> (ou cérébral / penseur):
+<span className="pBleu2">LE NERVEUX</span> (ou cérébral / penseur):
+<br/>
 <b>Sur le plan physique</b>, son corps est longiligne, plutôt décharné, anguleux, aux muscles grêles, sans graisse, avec une cage thoracique étroite. Le dos est voûté, les épaules assez étroites.<br/>
 Les muscles de l'abdomen manquent de solidité, et ses organes estomac / intestins / reins, sont prédisposés aux ptoses (descentes d'organes). Il manque de souplesse, il a une tendance à la rigidité. Il est de taille généralement supérieure à la moyenne.<br/>
 Sa peau est froide, sèche, grisâtre. La tête est de forme triangulaire, pointe en bas. L'étage frontal domine, tandis que sa mâchoire est déficiente. Ses cheveux sont souples et ont une implantation haute, dégageant largement le front. Les sourcils sont peu fournis et les yeux plutôt enclavés. Les lèvres sont fines et tombantes, le menton est étroit et d'aspect fragile, le teint est gris.<br/> 
@@ -888,7 +930,8 @@ Il fait beaucoup de gestes inconscients (nombreux tics), avec des mouvements rap
 <br/>
 <b>Sur le plan de la santé</b>, il a peu de force physique, très peu de résistance à l'effort musculaire important. Il possède une faible vitalité, a absolument besoin de sommeil et de temps de repos dans le travail. Sa sexualité est éphémère, instable, susceptible, fluctuante, facilement inhibée ou excitée par le mental, l'imagination, les émotions, l'environnement.<br/>
 C'est un petit mangeur, mais qui se nourrit vite en pensant à autre chose. Il est porté sur les excitants tels le café ou le thé.<br/>
-<p className="pBleu">Ses tendances pathologiques :</p>
+<span className="pBleu2">Ses tendances pathologiques :</span>
+<br/>
 Porté par un mental fort et un manque de réserves physiques, le Nerveux peut s'exalter comme se déprimer. C'est un fatigué chronique, tendu, inquiet. Son sommeil est agité, il dort peu et très mal.<br/>
 L'étroitesse de sa cage thoracique fait qu'il est sous-oxygéné, et peut donc s'auto-intoxiquer. Il a une tendance aux spasmes. <br/>
 Il est prédisposé aux troubles de la minéralisation (déficiences voire carences) tant pour l'assimilation que pour l'élimination. Les tissus durs tendent à perdre leur solidité (os, dents), alors que les tissus mous ont tendance à se durcir et à perdre de leur souplesse (artères, veines, muscles). <br/>
@@ -896,9 +939,9 @@ Parfois, les minéraux se fixent de façon anarchique sur les tissus, formant de
 Il a une mauvaise circulation sanguine, et des troubles de l'hydratation des tissus (rides, sclérose). Sa colonne lombaire est particulièrement sensible, les ptoses des viscères sont fréquentes, et le Nerveux souffre de tous les problèmes du vieillissement de l’organisme.
 <br/>
 <br/>
-<p className="pBleu2">L'hygiène de vie conseillée :</p>
+<span className="pBleu2">L'hygiène de vie conseillée :</span><br/>
 
-des activités qui l'aident à penser, analyser, réfléchir, chercher, méditer, imaginer.<br/>
+Des activités qui l'aident à penser, analyser, réfléchir, chercher, méditer, imaginer.<br/>
 Le nerveux/cérébral est un solitaire et un sédentaire physique, il devra s'orienter vers des activités qui sollicitent ses capacités mentales naturelles, et une activité physique qui demande peu de force mais qui le fasse respirer, transpirer, et activer sa circulation sanguine. Une activité qui l'oblige à déconnecter mentalement.<br/>
 La relaxation par l'eau lui est tout à fait conseillée (bains à remous par ex.).<br/>
 Les activités sportives qui réclament adresse et vitesse sont bonnes pour lui, ainsi qu'un travail manuel de détente qui réclame de la dextérité.
@@ -916,7 +959,7 @@ Il est hypotonique et déminéralisé, aux tendances à la putréfaction et ferm
 <br/>
 <br/>
 
-<span className="pBleu">LE SANGUIN:</span><br/>
+<span className="pBleu2">LE SANGUIN:</span><br/>
 <b>Sur le plan physique,</b> il est pléthorique à forte vitalité. Les chairs sont fermes, sa nature est forte. Les muscles sont développés, plutôt enrobés de graisse ferme. Les tissus sont souples. Il est de taille généralement inférieure à la moyenne.<br/>
 Sa peau est tonique, humide et chaude ; rouge parce que richement vascularisée. Sa tête est de forme hexagonale, ovale ou ronde, avec prédominance à l'étage nasal. Le cou est épais, court et musclé. Les cheveux sont abondants, souples, à tendances aux crans.<br/>
 Le front est bombé, les sourcils fournis et arqués, les yeux toniques et pétillants. Les lèvres sont charnues et roses, le menton est fort à chair ferme, le teint est rosé à rouge si la pléthore est importante.<br/>
@@ -944,10 +987,10 @@ Ses problèmes de santé sont souvent liés à ses excès et à son inconstance,
 <span className="pBleu2">L'hygiène de vie</span> qui lui est conseillée: <br/>
 Les contacts sociaux, l'action, le changement, l'aventure. Il doit prioriser les sports collectifs, mais surtout les activités en extérieur.<br/>
 Accompagner un Sanguin, c’est lui faire prendre conscience de la nécessité de développer son calme, sa réflexion, sa modération, sa discipline, et ce, dans tous les domaines de sa vie, dans son travail et ses loisirs. Il doit à tout prix éviter les milieux sédentaires et les lieux confinés.<br/>
-Il a besoin de lieux calmes, et d'activités intellectuelles et physiques dynamiques, disciplinées, et avec contact fréquent au grand air.<br/>
+Il a besoin de lieux calmes, et d'activités intellectuelles et physiques dynamiques, disciplinées, et avec contact fréquent au grand air.
 <br/>
 <br/>
-<span className="pBleu2">Les thérapies correctives</span> qui lui sont adaptées doivent être décongestionnantes, drainantes, apaisantes (sophrologie, massages toniques), et les biothérapies douces.<br/>
+<span className="pBleu2">Les thérapies correctives</span> qui lui sont adaptées doivent être décongestionnantes, drainantes, apaisantes (sophrologie, massages toniques), et les biothérapies douces.
 <br/>
 <br/>
 Au niveau alimentation, le sanguin doit éviter les aliments excitants : café, thé, viandes, alcools, sont à prendre avec modération. Modérer également les aliments encrassants et gras (charcuteries, gibiers, crustacés, fromages forts, pâtisseries, fritures et sauces).
@@ -958,7 +1001,7 @@ L'alimentation biologique, brute, végétale et les aromates, lui sont salutaire
 <br/>
 <br/>
 
-<p className="pBleu">LE LYMPHATIQUE:</p>
+<span className="pBleu2">LE LYMPHATIQUE:</span><br/>
 De morphologie ronde, alourdie, aux chairs molles et à l'adiposité généralisée, il est de taille généralement inférieure à la moyenne. Sa peau est pâle, humide et froide. La forme du visage est ronde ou en forme de poire, le cou est empâté et court, le froid rond, étroit et bas.<br/>
 Les cheveux sont souples, fins et clairs, peu nombreux. Les sourcils sont arqués et peu fournis.<br/>
 Les yeux sont petits, atones, le regard est doux. Les lèvres épaisses, molles et pâles. Le menton est enrobé, le teint est pâle.<br/>
@@ -1042,7 +1085,7 @@ Froids, réservés, semblant indifférents. Ils n'aiment pas montrer leurs faibl
 Tenaces avec de grandes convictions, ils peuvent apparaître dans les cas extrêmes, comme maniaques, qui radotent, enfermés dans leurs habitudes. Ils possèdent une très bonne mémoire, mais qui laisse place à la cinquantaine, à des moments d'amnésie. Ils ont une faible vitalité, mais pour un même degré de dégénérescence, il est plus facile de faire remonter la pente à un nerveux qu'à un obèse.
 <br/>
 <br/>
-Le type <span className="pBleu">MUSCULAIRE</span> lui, est considéré comme le type idéal, peu sujet aux maladies, équilibré sur le plan émotionnel, mental, et de la santé (force vitale).<br/>
+Le type <span className="pBleu2">MUSCULAIRE</span> lui, est considéré comme le type idéal, peu sujet aux maladies, équilibré sur le plan émotionnel, mental, et de la santé (force vitale).<br/>
 Il est tenace, aime aller jusqu'au bout des choses. Peu sensible, il est maître de ses émotions et se montre peu affectueux et peu séducteur. Il est fidèle et stable.<br/>
 Il a très bonne mémoire. Sérieux, méthodique mais peu imaginatif. Sa force vitale est très importante.
 <br/>
@@ -1054,6 +1097,7 @@ On pourrait comparer cela de façon humoristique, à notre signe Astrologique pr
 <br/>
 <br/>
 Pour rappel, nous sommes gouvernés tout au long de notre existence par <span className="pBleu2">un tempérament dominant qui est basé sur le plus grand nombre de signes morphologiques correspondants.</span>
+<br/>
 <br/>
 Mais la formule tempéramentale (pourcentage de chaque entre le tempérament de base et le moins dominant) peut évoluer au fil des mouvements physiologiques de notre organisme, et de notre mode de vie.<br/>
 <br/>
@@ -1080,7 +1124,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
 </p>
 <CarteInformations7
         titre="Qui suis-je"
-        texte="Lors de nos rendez-vous et dans le cadre de mon activité, je serai amenée à vous poser de nombreuses questions, notament sur votre vie et votre parcours afin de mieux vous connaître, et ainsi dispenser les conseils les mieux adaptés à votre profil. Il est de ce fait totalement légitime que vous sachiez en amont à qui vous aurez affaire! ALors c'est parti ! Un exercice qui n'est pas simple, mais je vais essayer de faire au mieux ! "
+        texte="Lors de nos rendez-vous et dans le cadre de mon activité, je serai amenée à vous poser de nombreuses questions, notament sur votre vie et votre parcours afin de mieux vous connaître, et ainsi dispenser les conseils les mieux adaptés à votre profil. Il est de ce fait totalement légitime que vous sachiez en amont à qui vous aurez affaire! Alors c'est parti ! Un exercice qui n'est pas simple, mais je vais essayer de faire au mieux ! "
         img={img1}
       />
       <p className="texteInfoGalerie">
@@ -1154,6 +1198,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         <br />
         <b>Et pourquoi l'accompagnement des sportifs ?</b>
+        <br/>
         Je suis une ancienne <b>basketteuse</b>, ayant débuté à l'âge de 6 ans
         dans un club proche de Toulouse et où j'ai évolué jusqu'en
         Pré-Nationale. J'ai fait une pause de plus de 10 ans pour me consacrer à
@@ -1172,7 +1217,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         <b>
           C'est exactement le type d’événement qui peut surgir dans la vie de
-          tout un chacun.
+          tout un chacun. &nbsp;  
         </b>
         Croire que tout va bien, que nous gérons nos vies, et puis un matin, la
         panne sèche. Plus rien ne va, un chaos dans notre vie, qui sème le chaos
@@ -1186,7 +1231,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         Après l’année 2018 qui fût très difficile, j'ai arrêté le Basket
         définitivement tout en restant fan de ce sport, et en parallèle, j'ai eu
-        la chance d'être initiée dès 2017 à la
+        la chance d'être initiée dès 2017 à la &nbsp;
         <b>randonnée de montagne</b> dans les Vosges
         <br />
         Une révélation, un coup de foudre, LA discipline qui m'a sortie la tête
@@ -1210,12 +1255,12 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         un constat alarmant: celui d'un <b>déséquilibre flagrant</b> (souvent
         inconscient et involontaire) dans{" "}
         <b> l'hygiène de vie de la plupart des athlètes</b>, amateurs comme
-        pros... et l’<b>absence d’activités physiques</b>
+        pros... et l’<b>absence d’activités physiques</b> &nbsp;
         régulières favorisant les pathologies chez les non-sportifs.
         <br />
         <br />
-        <b>Mon souhait le plus profond:</b>
-        <b>VOUS aider</b> à être le plus possible en équilibre sur tous les
+        <b>Mon souhait le plus profond:</b>&nbsp;
+        <b>VOUS aider</b> &nbsp;à être le plus possible en équilibre sur tous les
         plans de votre être, afin de préserver votre organisme, et vous
         permettre d'être en santé le plus longtemps possible ! Mais aussi, aider
         ceux qui le souhaitent, à intégrer des{" "}
