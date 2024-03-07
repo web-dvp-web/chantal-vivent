@@ -11,7 +11,7 @@ const PageGalerie = () => {
   return (
     <div className="pageGalerieContainer">
       <CarteInformations6
-        titre="C'est quoi la Naturopathie ? 🍀🤔"
+        titre="C'est quoi la Naturopathie ?"
         texte="C'est l'ensemble des méthodes naturelles de soin qui permettent de préserver la santé en renforçant l'organisme."
         img={img2}
       />
@@ -325,13 +325,11 @@ const PageGalerie = () => {
         img={img2}
       />
       <p className="texteInfoGalerie">
-        <div className="textRowContainer">
           <p className="pBleu">Le Vitalisme</p>
           <p>
-            : Le praticien cherche à renforcer l'énergie vitale, ou souffle de
+             Le praticien cherche à renforcer l'énergie vitale, ou souffle de
             vie.
           </p>
-        </div>
         Le corps est <u>Matière + Energie vitale.</u> C'est à partir du{" "}
         <b>bilan de vitalité </b>
         que je peux déterminer la vitalité d'une personne, et orienter mon
@@ -353,9 +351,8 @@ const PageGalerie = () => {
          Celui qui active les processus naturels de guérison.
         <br />
         <br />
-        <div className="textRowContainer">
-          <p className="pBleu">L'Humorisme</p>: non, rien de comique là-dedans ^^ ;
-        </div>
+        
+          <p className="pBleu">L'Humorisme</p> non, rien de comique là-dedans ^^ ;
         Les humeurs, ce sont <u>les liquides de l'organisme</u>: le sang, la
         lymphe, le liquide intra et extra-cellulaire. Tous communiquent entre
         eux et sont en perpétuels mouvements. Ils véhiculent les nutriments et
@@ -368,10 +365,8 @@ const PageGalerie = () => {
         </b>
         <br />
         <br />
-        <div className="textRowContainer">
-          <p className="pBleu">L'Hygiénisme</p>: un naturopathe est avant tout
+          <p className="pBleu">L'Hygiénisme</p> un naturopathe est avant tout
           un &nbsp; <u> hygiéniste </u>.
-        </div>
         <b>L'hygiène de vie se définit</b> par le contact avec l'ensemble des
         sources de "bonne santé":{" "}
         <b>
@@ -440,9 +435,8 @@ const PageGalerie = () => {
         n'a pas été trouvée.
         <br />
         <br />
-        <div className="textRowContainer">
-          <p className="pBleu">L'Holisme</p>: holos signifie en Grec: "entier".
-        </div>
+        
+          <p className="pBleu">L'Holisme</p> holos signifie en Grec: "entier".
         A l'inverse de la médecine allopathique, le{" "}
         <u>naturopathe a une vision globale de l'Etre.&nbsp;</u>
         Nous sommes un TOUT: <b>corps, âme, esprit, psyché et énergie.</b>
