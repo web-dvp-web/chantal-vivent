@@ -1043,7 +1043,9 @@ La lenteur de sa circulation humorale, et notamment sanguine, le prédispose aux
 <br/>
 <br/>
 <span className="pBleu2">L'hygiène de vie conseillée sera:</span><br/>
-Tout ce qui sollicite ses capacités naturelles, c'est-à-dire des métiers tranquilles, demandant patience et persévérance, rythme et méthode. S'il doit être commandé, ça sera par une autorité calme et stimulante, et qui le décharge des responsabilités.<br/>
+Tout ce qui sollicite ses capacités naturelles, c'est-à-dire des métiers tranquilles, demandant patience et persévérance, rythme et méthode. S'il doit être commandé, ça sera par une autorité calme et stimulante, et qui le décharge des responsabilités.
+<br/>
+<br/>
 <span className="pBleu2">A l'inverse</span>, le lymphatique doit éviter les activités qui réclament spontanéité, initiative et vitesse, et les métiers trop sédentaires (à cause de la tendance à l'obésité). Les activités prolongées debout ne sont pas non plus conseillées (à cause des troubles de la circulation veineuse et lymphatique), ni les lieux humides et froids (qui aggravent les tendances).<br/>
 Le lymphatique a besoin de <span className="pBleu2">milieux correctifs</span> dynamiques, stimulants, sobres (même en nourriture), le grand air, l'activité physique régulière, mais modérée du niveau mental.
 <br/>
