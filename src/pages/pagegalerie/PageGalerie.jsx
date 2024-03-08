@@ -1149,11 +1149,14 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
       />
       <p className="texteInfoGalerie">
           Quelles sont les bases qui permettent au naturopathe d'évaluer le terrain d'une personne, et ainsi orienter ses protocoles d'accompagnement ?
+          <br/>
+          <br/>
           <span className="pBleu2">Le Vitalisme</span>
-          <p>
+          <br/>
+          <span>
              Le praticien cherche à renforcer l'énergie vitale, ou souffle de
             vie.
-          </p>
+          </span>
         Le corps est <u>Matière + Energie vitale.</u> C'est à partir du{" "}
         <b>bilan de vitalité </b>
         que je peux déterminer la vitalité d'une personne, et orienter mon
@@ -1217,7 +1220,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         <br />
         <div className="textRowContainer">
-          <p className="pBleu">Le Causalisme</p>: késako ??
+          <p className="pBleu2">Le Causalisme</p>: késako ??
         </div>
         ■ Hippocrate enseignait: "si tu veux être un bon médecin, cherche la
         cause et traite-là". <br />C'est la partie <b>PHYSIOLOGIQUE</b>. Le principe
@@ -1264,7 +1267,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         <br />
         
-          <span className="pBleu">L'Holisme</span><br/>holos signifie en Grec: "entier".
+          <span className="pBleu2">L'Holisme</span><br/>holos signifie en Grec: "entier".
           <br/>
         A l'inverse de la médecine allopathique, le{" "}
         <u>naturopathe a une vision globale de l'Etre</u>.&nbsp;
