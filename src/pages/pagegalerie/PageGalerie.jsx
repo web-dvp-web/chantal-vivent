@@ -106,7 +106,7 @@ const PageGalerie = () => {
         <br />
         <b>
           C'est exactement le type d’événement qui peut surgir dans la vie de
-          tout un chacun. &nbsp;  
+          tout un chacun.&nbsp;  
         </b>
         Croire que tout va bien, que nous gérons nos vies, et puis un matin, la
         panne sèche. Plus rien ne va, un chaos dans notre vie, qui sème le chaos
@@ -120,8 +120,8 @@ const PageGalerie = () => {
         <br />
         Après l’année 2018 qui fût très difficile, j'ai arrêté le Basket
         définitivement tout en restant fan de ce sport, et en parallèle, j'ai eu
-        la chance d'être initiée dès 2017 à la &nbsp;
-        <b>randonnée de montagne</b> dans les Vosges
+        la chance d'être initiée dès 2017 à la&nbsp;
+        <b>randonnée de montagne</b> dans les Vosges.
         <br />
         Une révélation, un coup de foudre, LA discipline qui m'a sortie la tête
         de l'eau, et a contribué grandement à me faire gravir ma propre{" "}
@@ -144,12 +144,11 @@ const PageGalerie = () => {
         un constat alarmant: celui d'un <b>déséquilibre flagrant</b> (souvent
         inconscient et involontaire) dans{" "}
         <b> l'hygiène de vie de la plupart des athlètes</b>, amateurs comme
-        pros... et l’<b>absence d’activités physiques</b> &nbsp;
-        régulières favorisant les pathologies chez les non-sportifs.
+        pros... et l’<b>absence d’activités physiques</b>&nbsp;régulières favorisant les pathologies chez les non-sportifs.
         <br />
         <br />
         <b>Mon souhait le plus profond:</b>&nbsp;
-        <b>VOUS aider</b> &nbsp;à être le plus possible en équilibre sur tous les
+        <b>VOUS aider</b>&nbsp;à être le plus possible en équilibre sur tous les
         plans de votre être, afin de préserver votre organisme, et vous
         permettre d'être en santé le plus longtemps possible ! Mais aussi, aider
         ceux qui le souhaitent, à intégrer des{" "}
@@ -206,7 +205,7 @@ const PageGalerie = () => {
         <b>
           <u>la cause de la cause de la cause”</u>
         </b>
-        &nbsp
+        &nbsp;
         peut amener à chercher dans les profondeurs de notre âme (spiritualité)
         comme le disait Hippocrate.&nbsp;
         <b>
@@ -337,8 +336,8 @@ const PageGalerie = () => {
           <u>sbnaturo9@gmail.com</u>
         </b>
         , mais aussi et surtout <b>vers vous-même.</b>&nbsp;
-        Faites-vous ce cadeau de découvrir{" "}
         <br/>
+        Faites-vous ce cadeau de découvrir{" "}
         <b>votre Etre véritable, naturel, inné</b>, débarrassé de toute
         pollution externe intoxicante, de quelque nature que ce soit, et{" "}
         <b>
@@ -652,9 +651,10 @@ Apprendre à gérer ses émotions, les entendre, les ressentir, et en comprendre
 <br/>
 <br/>
 <b>Dans la gestion du poids également, car l’émotionnel en est un facteur déterminant.</b>
-
-<b><span className="pBleu2">L’hygiène émotionnelle</span></b>
+<b><span className="pBleu2">
 <br/>
+<br/>
+L’hygiène émotionnelle</span></b>
 <br/>
  tient une grande place dans l’accompagnement naturopathique, <b>et d’autres articles détaillés seront amenés peu à peu sur le site</b>, pour évoquer les sujets comme le stress, les angoisses, l’anxiété chronique ou encore le burnout, les traumatismes, et les effets sur l’organisme de certaines émotions même “temporaires”. Nous vivons tous au quotidien dans un “état limite”, devant faire face à des événements qui mettent l’organisme en état d’alerte permanent. Mais ces troubles émotionnels et psychiques ont un fort impact sur notre organisme, et l’organisme ne trouve pas le repos qui lui est nécessaire pour se régénérer et se réguler. 
 <br/>
@@ -731,7 +731,7 @@ Toutes les activités physiques et/ou sports n'ont cependant pas le même impact
 
 infos et rdv: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
 </p>
-<CarteInformations6  
+<CarteInformations7  
       titre="Les 7 techniques complémentaires en Naturopathie"
       texte="Quelles sont celles que je propose ?
       Comme nous l’avons vu dans l’article consacré, les méthodes de prévention et d’optimisation en naturopathie consistent en l’application de techniques naturelles, qui permettent à l’organisme d’être en capacité de s’auto-réguler, et de maintenir ses fonctions de base." 
@@ -760,17 +760,14 @@ D’autres techniques d’accompagnement dites “mineures” viennent compléte
 Pour ma part, <b>en plus des 3 techniques majeures</b> qui seront présentes à chacun des protocoles, <b>je vous propose des conseils en Phytologie, Hydrologie, techniques Respiratoires, Energétiques et Vibratoires.</b> Le choix des techniques additionnelles se fait en fonction des besoins de la personne, mais aussi de ses affinités.
 <br/>
 <br/>
-<span className="pBleu">Des articles détaillés seront consacrés à chacune de ces techniques naturopathiques, mais voyons déjà les grandes lignes de celles que je peux vous proposer lors de nos échanges:</span>
-<br/>
-<br/>
 
-<span className="pBleu">L’HYDROLOGIE:</span><br/>
+<span className="pBleu2">L’HYDROLOGIE:</span><br/>
 C'est l'utilisation thérapeutique de l'EAU sous différentes formes, en usage interne et/ou externe, pour renforcer l'organisme et le purger de ses impuretés.
 <br/>
 L'eau employée peut être minérale, douce, ou de mer. En vapeur, jet, glace, bain, sauna, hammam, douche, thermalisme... Ou simplement en veillant à la qualité et la quantité d'eau bue au quotidien.
 
 
-<span className="pBleu">La PHYTOLOGIE:</span><br/> Science de la biologie de la plante, très utilisée en Naturopathie.
+<span className="pBleu2"><br/><br/>La PHYTOLOGIE:</span><br/> Science de la biologie de la plante, très utilisée en Naturopathie.
 <br/>
 <br/>
 Elle comprend plusieurs branches :<br/><br/>
@@ -784,7 +781,7 @@ Les parties utilisées sont les feuilles, les racines, les graines, les rhizomes
 Elles sont un allié de premier choix dans la correction de nombreux troubles et l'équilibre de notre terrain, tant sur la sphère physiologique que psychique.
 <br/>
 <br/>
-<span className="pBleu2">l'Aromathérapie, c'est l'utilisation des extraits de plantes obtenus par distillation pour en récolter les essences, que l'on nomme Huiles Essentielles.</span>
+<span className="pBleu2">l'Aromathérapie</span>, c'est l'utilisation des extraits de plantes obtenus par distillation pour en récolter les essences, que l'on nomme Huiles Essentielles.
 <br/>
 L'extraction des principes aromatiques donne une forte concentration dont l'action sur l'organisme peut être très dangereuse si les Huiles Essentielles (dénommées HE) sont mal utilisées.<br/>
 Leur champ d'action est vaste, et dépend des quantités prises, ce qui requiert un accompagnement pour une utilisation bien ciblée.<br/><br/>
@@ -811,7 +808,7 @@ Les élixirs sont obtenus soit par solarisation = transfert par résonance de la
 Les Fleurs de Bach ont un haut pouvoir correcteur, et sont souvent utilisées dans des situations urgentes («Rescue Remedy») comme pour affronter un deuil, une douleur émotionnelle forte, la peur à un examen…<br/><br/>
 
 
-<span className="pBleu">TECHNIQUES RESPIRATOIRES:</span><br/>
+<span className="pBleu2">TECHNIQUES RESPIRATOIRES:</span><br/>
 
 Il est tellement banal de respirer, que l’on a tendance à oublier l’importance de la respiration !<br/><br/>
 
@@ -826,7 +823,7 @@ Respirer harmonieusement s’apprend. Pour combattre stress, tensions, douleurs,
 Différentes techniques utilisent exercices et respirations tels le Yoga, Qi jong, arts martiaux, la marche Afghane, ou en statiques comme la respiration diaphragmatique, la cohérence cardiaque, la méditation, les bols d’air Jacquier, les diffuseurs d’HE, la sophrologie…<br/><br/>
 
 
-<span className="pBleu">TECHNIQUES ENERGETIQUES: (non manuelles)</span><br/>
+<span className="pBleu2">TECHNIQUES ENERGETIQUES: (non manuelles)</span><br/>
 Le corps humain est un ensemble de systèmes en relation les uns avec les autres. Il est fait de matière + énergie.<br/><br/>
 
 Lorsque des blocages apparaissent, que l’énergie vitale ne circule plus correctement, les premiers signes de déséquilibres apparaissent, pouvant mener jusqu’à la maladie.<br/>
@@ -836,7 +833,7 @@ Différentes techniques permettent d’harmoniser ces flux énergétiques:<br/><
 Je vous propose des conseils en <span className="pBleu2">Fleurs de Bach, Chromothérapie</span> (utilisation des couleurs à des fins thérapeutiques), rééquilibrage et harmonisation des <span className="pBleu2">Chakras</span>, en <span className="pBleu2">Lithothérapie</span> (cristaux, pierres…), ou encore des méthodes de <span className="pBleu2">nettoyages naturels.</span><br/><br/>
 
 
-<span className="pBleu">TECHNIQUES VIBRATOIRES:</span> (non manuelles)<br/>
+<span className="pBleu2">TECHNIQUES VIBRATOIRES:</span> (non manuelles)<br/>
 Une vibration est une oscillation, un mouvement, une énergie diffuse.<br/> 
 Chaque être vivant ressent, perçoit, et voit par ses propres canaux les vibrations intérieures comme extérieures à lui.<br/><br/>
 
@@ -858,7 +855,7 @@ C’est une discipline sur laquelle je souhaite approfondir mes connaissances d�
 <b><u>Contact & RDV</u></b>: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
 
       </p>
-      <CarteInformations7 
+      <CarteInformations6 
       titre="Comment déterminer le terrain d’une personne ?"
       img={determinerterrain}
       texte="Les Tempéraments Hippocratiques et Naturopathiques"
@@ -899,9 +896,8 @@ La biotypologie d'Hippocrate (ou science des tempéraments), s'appuie sur ces di
 <br/>
 <br/>
   <u><b>I) Les tempéraments Hippocratiques:</b></u><br/>
-<span className="pBleu2">LE BILIEUX:</span><br/><br/>
-
-
+  <br/>
+<span className="pBleu2">LE BILIEUX:</span><br/>
 <b>Sur le plan physique</b>, il est de forte ossature, les muscles sont bien dessinés, saillants, longs et durs et sans graisse. De par sa densité, la musculature a tendance à rejeter le système veineux en surface (les veines ressortent). L'appareil ostéo-musculaire du Bilieux dégage une impression de force et de robustesse.<br/>
 Il est de taille généralement supérieure à la moyenne. Sa peau est sèche, sans graisse. Sa teinte est plutôt basanée, et bronze facilement. La tête est de forme rectangulaire, les étages du visage sont d'égale importance. Les traits sont burinés, le cou est musclé.<br/>
 La chevelure est épaisse, raide, de couleur foncée en général. Les sourcils sont droits et épais, les yeux abrités dans les orbites. Les lèvres sont minces et toniques. Le menton est large, saillant, puissant.<br/>
@@ -951,7 +947,9 @@ Il fait beaucoup de gestes inconscients (nombreux tics), avec des mouvements rap
 <br/>
 <br/>
 <b>Sur le plan de la santé</b>, il a peu de force physique, très peu de résistance à l'effort musculaire important. Il possède une faible vitalité, a absolument besoin de sommeil et de temps de repos dans le travail. Sa sexualité est éphémère, instable, susceptible, fluctuante, facilement inhibée ou excitée par le mental, l'imagination, les émotions, l'environnement.<br/>
-C'est un petit mangeur, mais qui se nourrit vite en pensant à autre chose. Il est porté sur les excitants tels le café ou le thé.<br/>
+C'est un petit mangeur, mais qui se nourrit vite en pensant à autre chose. Il est porté sur les excitants tels le café ou le thé.
+<br/>
+<br/>
 <span className="pBleu2">Ses tendances pathologiques :</span>
 <br/>
 Porté par un mental fort et un manque de réserves physiques, le Nerveux peut s'exalter comme se déprimer. C'est un fatigué chronique, tendu, inquiet. Son sommeil est agité, il dort peu et très mal.<br/>
@@ -1015,7 +1013,7 @@ Il a besoin de lieux calmes, et d'activités intellectuelles et physiques dynami
 <span className="pBleu2">Les thérapies correctives</span> qui lui sont adaptées doivent être décongestionnantes, drainantes, apaisantes (sophrologie, massages toniques), et les biothérapies douces.
 <br/>
 <br/>
-Au niveau alimentation, le sanguin doit éviter les aliments excitants : café, thé, viandes, alcools, sont à prendre avec modération. Modérer également les aliments encrassants et gras (charcuteries, gibiers, crustacés, fromages forts, pâtisseries, fritures et sauces).
+Au niveau <span className="pBleu2">alimentation</span>, le sanguin doit éviter les aliments excitants : café, thé, viandes, alcools, sont à prendre avec modération. Modérer également les aliments encrassants et gras (charcuteries, gibiers, crustacés, fromages forts, pâtisseries, fritures et sauces).
 <br/>
 <br/>
 Etant placé sous <span className="pBleu2">le signe des excès</span>, de l'agitation, de la fragilité cardiovasculaire, le sanguin devra éviter tout ce qui surmène, excite son système nerveux, ainsi que tout ce qui détériore, entrave, et encombre son système capillaire, le foie, la vésicule, les reins, la vessie et les articulations.
@@ -1090,7 +1088,7 @@ Il faut ici séparer les obèses rouges des obèses blancs, ces derniers étant 
 Le caractère est effacé, les conflits sont à tout prix évités. Il y a peu de désirs. Ils ne peuvent fournir d'efforts intellectuels prolongés. A ce stade, les pathologies sont multiples et chroniques, il y a peu de vitalité. L'encrassement physique et psychique est très avancé.
 <br/>
 <br/>
-<p className="pBleu">Branche des Rétractés (ou neuro-arthritiques):</p>
+<p className="pBleu2">Branche des Rétractés (ou neuro-arthritiques):</p>
 <span className="pBleu2">1er degré, le RESPIRATOIRE:</span>
 <br/>
 Personnes actives, qui aiment les activités sportives. De forts caractères, volontaires, plutôt exclusifs. Ils intellectualisent beaucoup, esprit cartésien, scientifique, ils analysent vite et correctement.<br/>
@@ -1151,7 +1149,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
       />
       <p className="texteInfoGalerie">
           Quelles sont les bases qui permettent au naturopathe d'évaluer le terrain d'une personne, et ainsi orienter ses protocoles d'accompagnement ?
-          <p className="pBleu">Le Vitalisme</p>
+          <span className="pBleu2">Le Vitalisme</span>
           <p>
              Le praticien cherche à renforcer l'énergie vitale, ou souffle de
             vie.
@@ -1178,7 +1176,8 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         <br />
         
-          <span className="pBleu">L'Humorisme</span> non, rien de comique là-dedans ^^ ;
+          <span className="pBleu2">L'Humorisme</span><br/> non, rien de comique là-dedans ^^ ;
+        <br/>
         Les humeurs, ce sont <u>les liquides de l'organisme</u>: le sang, la
         lymphe, le liquide intra et extra-cellulaire. Tous communiquent entre
         eux et sont en perpétuels mouvements. Ils véhiculent les nutriments et
@@ -1189,10 +1188,13 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
           Une bonne hygiène de vie évite les surcharges et carences en éléments
           fondamentaux.
         </b>
+        <br/>
         <br />
-        <br />
-          <p className="pBleu">L'Hygiénisme</p> un naturopathe est avant tout
-          un <u> hygiéniste </u>.&nbsp;
+          <span className="pBleu2">L'Hygiénisme</span>
+          <br/>
+           Un naturopathe est avant tout
+          un <u> hygiéniste</u>.&nbsp;
+          <br/>
         <b>L'hygiène de vie se définit</b> par le contact avec l'ensemble des
         sources de "bonne santé":{" "}
         <b>
@@ -1263,6 +1265,7 @@ Infos & Contact: <a href="mailto:sbnaturo9@gmail.com">sbnaturo9@gmail.com</a>
         <br />
         
           <span className="pBleu">L'Holisme</span><br/>holos signifie en Grec: "entier".
+          <br/>
         A l'inverse de la médecine allopathique, le{" "}
         <u>naturopathe a une vision globale de l'Etre</u>.&nbsp;
         Nous sommes un TOUT: <b>corps, âme, esprit, psyché et énergie.</b>
