@@ -1,5 +1,4 @@
 import "./footer.css";
-import instagram from "../../images/instagram.png";
 import facebook from "../../images/facebook.png";
 import iconemail from "../../images/5.png";
 import imgcontactfooter from "../../images/Montage photo de voyage en forme de mosaïque.png"
@@ -11,13 +10,6 @@ const Footer = (props) => {
           <h1 className="h1Footer">{props.titre}</h1>
           <h2 className="h2Footer">{props.soustitre}</h2>
           <div className="logoRsContainer">
-            <a href="https://www.instagram.com/sbnaturosport/">
-              <img
-                className="logoInstagram"
-                src={instagram}
-                alt="logo instagram"
-              />
-            </a>
             <a href="https://www.facebook.com/profile.php?id=61555318679708">
               <img
                 className="logoFacebook"
@@ -25,6 +17,7 @@ const Footer = (props) => {
                 alt="logo Facebook"
               />
             </a>
+            <a href="https://www.facebook.com/profile.php?id=61555318679708"><p className="pFacebook">Ma page facebook</p></a>
           </div>
           <img
             className="logoFooter"
