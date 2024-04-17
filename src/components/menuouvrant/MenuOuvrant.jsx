@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./menuouvrant.css";
-import logomenuouvrant from "../../images/logonaturosport.png";
+import logomenuouvrant from "../../images/logochantalvivent.png";
 const MenuOuvrant = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

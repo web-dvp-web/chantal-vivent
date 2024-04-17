@@ -1,5 +1,5 @@
 import "./cardspageprincipale.css";
-import livremontagne from "../../images/leblog.jpg";
+import imgcv from "../../images/a3.jpg";
 const CardsPagePrincipale = (props) => {
   return (
     <div className="cardsPagePrincipaleContainer">
@@ -18,7 +18,7 @@ const CardsPagePrincipale = (props) => {
         <a className="aLeBlog" href="/leblog">
       <div className="cards3Container">
         <p className="titreMenu3">{props.titremenu3}</p>
-        <img src={livremontagne} className="imgLivreMontagne" alt="montagne" />
+        <img src={imgcv} className="imgLivreMontagne" alt="montagne" />
       </div>
         </a>
     </div>

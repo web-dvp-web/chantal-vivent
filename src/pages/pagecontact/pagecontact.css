@@ -64,17 +64,17 @@
 
 /*grand écran*/
 .pageContactContainer {
-  min-height: 115vh;
-  min-width: 100vh;
+  min-width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  background-image: url(../../images/montvalier.jpg);
+  background-image: url(../../images/a2.jpg);
   background-size: cover;
 }
 h1.h1Horaires{
   margin-top: 5%;
-  color: #2f2c2c;
+  color: #3d3a3a;
 }
 .horairesContainer {
   padding-left: 10%;
@@ -126,11 +126,20 @@ h1.h1Horaires{
   font-size: 22px;
   font-weight: 600;
   font-family: 'Roboto';
-  color: black;
+  color: #3d3a3a;
 }
 .imgLogoContainer{
   display: flex;
   flex-direction: column;
   align-items: baseline;
   padding-left: 10%;
+}
+.telContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.logoTel{
+  width: 25px;
 }

@@ -3,14 +3,14 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: #264b50;
+  background-color: #4aafab;
 }
 .App-header2{
   min-height: 100vh;
@@ -20,8 +20,8 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: #709CA7;
+  background-color: #4aafab;
 }
 .App-link {
-  color: #61dafb;
+  color: #4aafab;
 }

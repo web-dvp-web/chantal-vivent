@@ -7,7 +7,6 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-image: url(../../images//backgroundfleurs.jpg);
   }
   div.h1Container{
     padding: 10px;
@@ -58,9 +57,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #37948a;
 }
 .h1Container{
-  width: 60%;
+  width: 40%;
 }
 .h1VideoContainer {
   padding: 2%;
@@ -69,7 +69,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(../../images//backgroundfleurs.jpg);
+}
+.h1CV{
+  font-family: 'Dancing Script';
+  font-weight: 100;
 }
 
 .h1Presentation {
@@ -113,9 +116,15 @@
   width: 100%;
 }
 .imgSeparationCommentaire1 {
+  width: 40%;
   margin-bottom: 0%;
 }
 .imgSeparationCommentaire1-2 {
+  width: 10em;
   transform: rotate(180deg);
   margin-bottom: 5%;
+}
+.imgIntroduction{
+  width: 20em;
+  min-height: auto;
 }

@@ -29,7 +29,7 @@
   flex-direction: column;
   border-bottom-left-radius: 8px;
   border-radius: 8px;
-  background-color: #efeae4;
+  background-color: white;
   /*background-color: #CFC7BC;*/
 }
 .allCards {
@@ -37,12 +37,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: normal;
   /*background: linear-gradient(45deg, #8f8a82, #b3aca1);*/
 }
 .imgCardsServices {
   width: 100%;
-  height: 11em;
+  height: auto;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -54,7 +54,7 @@
   font-size: 17px;
   font-weight: 600;
   font-family: "forum";
-  background-color: cadetblue;
+  background-color: #3c4e4f;
 }
 .pServicesC1 {
   margin-bottom: 0;
@@ -79,11 +79,35 @@
 .pServicesC3 {
   margin-top: 0;
   margin-bottom: 0;
-  padding: 10px;
   width: 90%;
   text-align: left;
   font-size: 17px;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
+  color: cadetblue ;
+}
+.servicesG{
+  font-size: 15px;
+  color: #292727;
+}
+.separationContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.prix{
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  width: 90%;
+  text-align: left;
+  font-size: medium;
+  font-weight: 600;
+  font-family: Auto;
   color: cadetblue ;
 }

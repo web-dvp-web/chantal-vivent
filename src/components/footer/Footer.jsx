@@ -1,7 +1,8 @@
 import "./footer.css";
 import facebook from "../../images/facebook.png";
 import iconemail from "../../images/5.png";
-import imgcontactfooter from "../../images/Montage photo de voyage en forme de mosaïque.png"
+import iconetel from "../../images/2.png";
+import iconeadresse from "../../images/logoadresse.png";
 const Footer = (props) => {
   return (
     <div className="footerContainer">
@@ -10,7 +11,7 @@ const Footer = (props) => {
           <h1 className="h1Footer">{props.titre}</h1>
           <h2 className="h2Footer">{props.soustitre}</h2>
           <div className="logoRsContainer">
-            <a href="https://www.facebook.com/profile.php?id=61555318679708">
+            <a className="aFacebook" href="https://www.facebook.com/profile.php?id=61555318679708">
               <img
                 className="logoFacebook"
                 src={facebook}
@@ -24,11 +25,13 @@ const Footer = (props) => {
             src={props.logo}
             alt="logo entreprise Footer"
           />
+
         </div>
         <div className="info2FooterContainer">
           <div className="part1Footer">
           <hr className="ligne" />
-          <h2 className="h2footerContacerNous">Mon adresse mail</h2>
+          <h2 className="h2footerContacerNous">Me contacter</h2>
+          <hr className="ligne" />
           <div className="iconeFooterContainer">
             <img
               className="iconeFooter"
@@ -36,9 +39,23 @@ const Footer = (props) => {
               alt="icone d'un mail "
             />
             <p className="infoFooter">{props.mail}</p>
+            <hr className="ligne" />
+            <img 
+            className="iconeFooter"
+            src={iconetel}
+            alt="icone portable"
+            />
+             <p className="infoFooter">{props.tel}</p>
           </div>
-          <img className="imgContactFooter" src={imgcontactfooter} alt="femme en randonnée"/>
+       
           <hr className="ligne" />
+          <img 
+            className="iconeFooter"
+            src={iconeadresse}
+            alt="icone portable"
+            />
+             <p className="infoFooter">{props.adresse}</p>
+
           </div>
           <div className="part2Footer">
           <hr className="ligne" />

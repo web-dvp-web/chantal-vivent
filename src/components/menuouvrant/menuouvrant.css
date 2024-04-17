@@ -208,11 +208,13 @@
 .filtreMenuOuvrant {
   margin-top: -11px;
   height: 70vh;
-  background-color: rgb(114 180 219);
+  background-color: #4aafab;
 }
 .logoMenuLaPizzeria {
   width: 20%;
   margin-top: 2em;
+  border: solid 1px;
+  
 }
 .pApero {
   font-size: 30px;
