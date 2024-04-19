@@ -16,7 +16,7 @@ const PageMenu1 = () => {
         <div className="h1Container">
           <h1 className="h1CV">Chantal Vivent</h1>
           <h1 className="h1Presentation">
-          Chantal Vivent est une médium et énergéticienne passionnée, qui accompagne les personnes en quête d'un mieux-être profond et durable. Forte de ses dons et de son expérience, elle offre des consultations personnalisées pour vous aider
+          Chantal Vivent est une médium et énergéticienne passionnée, qui accompagne les personnes en quête d'un mieux-être profond et durable. Forte de ses capacités et de son expérience, elle offre des consultations personnalisées pour vous aider
           </h1>
         </div>
         <img className="imgIntroduction" alt="montage-images" src={imgMontage} />
@@ -106,6 +106,47 @@ const PageMenu1 = () => {
           services6="TARIF 1ère séance : 50€ SUIVI : 20€"
         />
       </div>
+      <div className="h2BandeauConnaissance">
+      </div>
+        <p className="textInfo">
+      <div className="h2ContainerConnaissance">
+        <h2 className="h2CConnaissance">QUELQUES MOTS POUR FAIRE CONNAISSANCE ……………..</h2>
+      </div>
+  J’ai grandi au sein de la campagne gersoise dans une ferme. La petite fille que j’étais avait pour
+  merveilleux amis et confidents les animaux, Dame nature, les mondes subtils et les êtres de lumière
+  qui veillaient sur moi. En tant qu’être hypersensible, j’avais ce besoin de solitude pour me ressourcer
+  et j’en ai compris la signification bien plus tard. Mon chemin a été sinueux pour accepter,
+  comprendre et accueillir quel était mon rôle d’âme terrestre ici dans cette vie.
+  <br/> <br/>
+  Tous ces mondes vibrant d’énergie m’ont accompagnée. L’évolution de mes capacités psychiques et
+  spirituelles s’est faite naturellement en grandissant et au fils des enseignements de la vie. Mes
+  canaux étaient ouverts. Je sentais, percevais, ressentais, voyais et venais en aide dans la
+  bienveillance à toutes formes de vie. Durant l’adolescence, j’ai dévoré tous les livres du rayon
+  ésotérique de la bibliothèque pour apprendre, comprendre quel était mon identité, mon rôle, et me
+  rassurer sur ma « normalité » dans cette société.
+  <br/> <br/>
+  Très vite, j’ai compris qu’il fallait se taire, mettre des masques pour se protéger, ne pas être traiter de
+  « folle ». C’était difficile car cette gamine percevait et pouvait aider, tout simplement ; j’assistais en
+  silence impuissante avec cette tristesse dans le cœur.
+  <br/> <br/>
+  Adulte, tout naturellement, je suis venue en aide à nos anciens, qui sont la mémoire de notre
+  humanité. J’ai exercé de longues années en tant que cadre médico-social pour senior, et me suis
+  engagée dans diverses actions de bénévolats auprès des plus vulnérables. Toutes ces expériences
+  m’ont enrichies, m’ont fait questionner sur ma place, mon rôle dans cette société et dans cette vie
+  pour être en accord avec mon moi profond .
+   <br/> <br/>
+  Durant cette période, je me suis engagée dans un travail de développement personnel. Pour exercer
+  sereinement en toute légitimité, en tant que Médium et Énergéticienne, j’ai travaillé sur mes
+  blessures, mes croyances limitantes, et autres freins. Avec joie, l’être spirituel que je suis, c’est
+  déployé et s’est révélé.
+  <br/> <br/>
+  Parce-que nous sommes tous en chemin sur notre propre voie, j’ai suivi et continue à me former
+  auprès de différents praticiens connus pour leurs expertises (notamment les enseignements de Serge
+  Boutboul et Mathieu Boutboul). D’autres sources d’inspirations viennent de mes guides et mentors.
+  <br/> <br/>
+  Je souhaite de tout cœur vous accompagner pour vous permettre de vous révéler pleinement.
+  Découvrez ce que votre âme veut vous dire maintenant. Permettez-vous ce chemin en écoutant la
+  voix de votre cœur.</p>
      
       <h2>Vos commentaires</h2>
       <img

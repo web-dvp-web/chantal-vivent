@@ -2,7 +2,7 @@ import "./footer.css";
 import facebook from "../../images/facebook.png";
 import iconemail from "../../images/5.png";
 import iconetel from "../../images/2.png";
-import iconeadresse from "../../images/logoadresse.png";
+import iconeadresse from "../../images/adresse.png";
 const Footer = (props) => {
   return (
     <div className="footerContainer">
@@ -63,13 +63,21 @@ const Footer = (props) => {
               <p className="aFooter">Me contacter{props.horaires} </p>
             </a>
             <hr className="ligne" />
+            <a className="aFooter" href="https://www.dvpariege.fr/">
+              <p className="aFooter">site réalisé par dvpariege</p>
+            </a>
+            <hr className="ligne" />
+            <a href="">
+              <p className="aFooter">Logo réalisé par ......</p>
+            </a>
+            <hr className="ligne" />
             <a href="/mentionslegales">
               <p className="aFooter">mentions légales</p>
             </a>
-            <hr className="ligne" />
-            <a className="aFooter" href="https://www.dvpariege.fr/">
-              <p className="aFooter">Besoin d'un site internet ?</p>
-            </a>
+          <hr className="ligne" />
+          <a href="charte">
+            <p className="aFooter">charte éthique</p>
+          </a>
           <hr className="ligne" />
           </div>
         </div>

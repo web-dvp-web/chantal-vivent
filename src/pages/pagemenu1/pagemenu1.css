@@ -128,3 +128,28 @@
   width: 20em;
   min-height: auto;
 }
+.h2BandeauConnaissance{
+  margin-top: 5%;
+  min-height: 15em;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../images/papillon2.png);
+}
+.h2ContainerConnaissance{
+  width: 100%;
+  text-align: left;
+  font-family: 'Cormorant Garamond';
+}
+.h2Connaissance{
+  text-align: left;
+}
+.textInfo{
+  margin-bottom: 5%;
+  padding: 20px;
+  width: 90%;
+  font-size: 23px;
+  text-align: left;
+  border-radius: 12px;
+  background-color: #2f5254cf;
+}

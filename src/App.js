@@ -8,6 +8,7 @@ import PageContact from "./pages/pagecontact/PageContact";
 import PageGalerie from "./pages/pagegalerie/PageGalerie";
 import PageMenu1 from "./pages/pagemenu1/PageMenu1";
 import PageMentionsLegales from "./pages/pagementionslegales/PageMentionsLegales";
+import PageCharte from "./pages/pagecharte/PageCharte";
 function App() {
   return (
     <div className="App">
@@ -39,14 +40,16 @@ function App() {
           />
           <Route exact path="/leblog" element={<PageGalerie />} />
       <Route exact path="/mentionslegales" element={<PageMentionsLegales />} />
+      <Route exact path="/charte" element={<PageCharte />} />
         </Routes>
+
       </header>
       <Footer
         titre="Chantal Vivent"
         soustitre="Medium • Voyante  •  Energéticienne "
         mail="chantalvivent65@gmail.com"
         tel="06 80 52 04 94"
-        adresse="MONTESQUIEU VOLVESTRE"
+        adresse="Montesquieu Volvestre"
         logo={logochantalvivent}
       />
     </div>
