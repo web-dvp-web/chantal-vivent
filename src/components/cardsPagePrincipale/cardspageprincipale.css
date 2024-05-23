@@ -47,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #4aafab;
+  background-color: #4aafac00;
 }
 .cards1and2Container {
   width: 100%;
@@ -172,13 +172,15 @@ a {
 }
 .cards1Container {
   margin: 5px;
+  margin-right: 2%;
   width: 100%;
   height: 10em;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url(../../images/a1.jpg);
+  background-image: url(../../images/ange.png);
+  border-radius: 4px;
 }
 a {
   list-style: none;
@@ -194,6 +196,7 @@ a {
 }
 .cards2Container {
   margin: 5px;
+  margin-left: 2%;
   width: 100%;
   height: 10em;
   display: flex;
@@ -201,6 +204,7 @@ a {
   align-items: center;
   background-size: cover;
   background-image: url(https://cdn.pixabay.com/photo/2018/04/13/11/17/paper-3316268_960_720.jpg);
+  border-radius: 4px;
 }
 .titreMenu22 {
   opacity: 90%;
@@ -233,7 +237,9 @@ a {
 }
 .imgLivreMontagne{
   width: 80%;
-  height: 98%;
+  height: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 

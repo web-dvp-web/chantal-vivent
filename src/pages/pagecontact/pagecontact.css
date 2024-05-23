@@ -94,7 +94,8 @@ h1.h1Horaires{
 }
 .imgContact {
   margin-top: 20px;
-  width: 36%;
+  margin-bottom: 4em;
+  width: 25%;
   border: solid;
 }
 .jour-de-la-semaine {

@@ -60,15 +60,19 @@
   background-color: #37948a;
 }
 .h1Container{
+  margin: 20px;
   width: 40%;
+  border-radius: 12px;
+  background-color: #2e808cb8;
 }
 .h1VideoContainer {
   padding: 2%;
   min-height: 55vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background-image: url('https://cdn.pixabay.com/photo/2020/10/12/16/45/pattern-5649403_1280.jpg');
 }
 .h1CV{
   font-family: 'Dancing Script';
@@ -76,11 +80,13 @@
 }
 
 .h1Presentation {
-  margin-right: 50px;
-  width: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
   font-size: 22px;
-  font-family: "Cormorant Garamond";
-  filter: drop-shadow(2px 1px 1px black);
 }
 .videoPresentation {
   width: 45%;
@@ -125,7 +131,7 @@
   margin-bottom: 5%;
 }
 .imgIntroduction{
-  width: 20em;
+  width: 40%;
   min-height: auto;
 }
 .h2BandeauConnaissance{
@@ -145,11 +151,20 @@
   text-align: left;
 }
 .textInfo{
-  margin-bottom: 5%;
-  padding: 20px;
-  width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  width: 100%;
   font-size: 23px;
   text-align: left;
-  border-radius: 12px;
   background-color: #2f5254cf;
+}
+.h2CommentairesContainer{
+  width: 100%;
+  min-height: 6em ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn.pixabay.com/photo/2020/10/12/16/45/pattern-5649403_1280.jpg');
 }

@@ -13,8 +13,11 @@
     width: 70%;
   }
   div.titreSousTitreContainer {
+    padding: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   h1.h1Header {
     font-size: xx-large;
@@ -28,6 +31,12 @@
     margin: 10px;
     width: 44%;
   }
+  img.medaillonContainer{
+
+  }
+  img.medaillon{
+
+  }
 }
 /*grand écran*/
 .headerContainer {
@@ -38,11 +47,21 @@
   justify-content: space-evenly;
   background-color: #ededed;
 }
-.titreSousTitreContainer {
-  width: 60%;
+.medaillonContainer{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+}
+.medaillon{
+  width: 44%;
+}
+.titreSousTitreContainer {
+    padding-left: 16%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
 }
 .h1Header {
   margin-bottom: 0;

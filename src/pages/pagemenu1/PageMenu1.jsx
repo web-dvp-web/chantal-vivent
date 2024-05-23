@@ -147,13 +147,9 @@ const PageMenu1 = () => {
   Je souhaite de tout cœur vous accompagner pour vous permettre de vous révéler pleinement.
   Découvrez ce que votre âme veut vous dire maintenant. Permettez-vous ce chemin en écoutant la
   voix de votre cœur.</p>
-     
-      <h2>Vos commentaires</h2>
-      <img
-        className="imgSeparationCommentaire1"
-        alt="img"
-        src={separationcommentaire1}
-      />
+     <div className="h2CommentairesContainer">
+      <h2 className="h2Commentaire">Vos commentaires</h2>
+     </div>
       <div className="allCardsCommentaireContainer">
         <Fade cascade damping={0.4}>
           <CardsCommentaire
