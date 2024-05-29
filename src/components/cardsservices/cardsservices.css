@@ -28,12 +28,13 @@
   align-items: center;
   flex-direction: column;
   border-bottom-left-radius: 8px;
+  border: solid 2px black;
   border-radius: 8px;
   background-color: white;
   /*background-color: #CFC7BC;*/
 }
 .allCards {
-  padding-top: 5%;
+  padding-top: 0%;
   display: flex;
   flex-direction: row;
   justify-content: center;

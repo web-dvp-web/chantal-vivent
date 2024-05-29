@@ -1,8 +1,7 @@
 import "./pagemenu1.css";
-import imgMontage from "../../images/a1.jpg"
+import imgIntroduction from "../../images/energie.png"
 import CardsServices from "../../components/cardsservices/CardsServices";
 import CardsCommentaire from "../../components/cardscommentaire/CardsCommentaire";
-import separationcommentaire1 from "../../images/a3.jpg";
 import service1 from "../../images/a1.jpg";
 import service2 from "../../images/a2.jpg";
 import service3 from "../../images/a3.jpg";
@@ -19,11 +18,12 @@ const PageMenu1 = () => {
           Chantal Vivent est une médium et énergéticienne passionnée, qui accompagne les personnes en quête d'un mieux-être profond et durable. Forte de ses capacités et de son expérience, elle offre des consultations personnalisées pour vous aider
           </h1>
         </div>
-        <img className="imgIntroduction" alt="montage-images" src={imgMontage} />
+        <div className="imgIntroductionContainer">
+          <img className="imgIntroduction" alt="montage-images" src={imgIntroduction} />
+        </div>
       </div>
-      <Fade direction="right">
+     
         <h2 className="h2Services">Mes prestations </h2>
-      </Fade>
       <div className="allCards">
         <CardsServices
           titre="Séance voyance "
@@ -108,98 +108,138 @@ const PageMenu1 = () => {
       </div>
       <div className="h2BandeauConnaissance">
       </div>
-        <p className="textInfo">
-      <div className="h2ContainerConnaissance">
-        <h2 className="h2CConnaissance">QUELQUES MOTS POUR FAIRE CONNAISSANCE ……………..</h2>
-      </div>
-  J’ai grandi au sein de la campagne gersoise dans une ferme. La petite fille que j’étais avait pour
-  merveilleux amis et confidents les animaux, Dame nature, les mondes subtils et les êtres de lumière
-  qui veillaient sur moi. En tant qu’être hypersensible, j’avais ce besoin de solitude pour me ressourcer
-  et j’en ai compris la signification bien plus tard. Mon chemin a été sinueux pour accepter,
-  comprendre et accueillir quel était mon rôle d’âme terrestre ici dans cette vie.
-  <br/> <br/>
-  Tous ces mondes vibrant d’énergie m’ont accompagnée. L’évolution de mes capacités psychiques et
-  spirituelles s’est faite naturellement en grandissant et au fils des enseignements de la vie. Mes
-  canaux étaient ouverts. Je sentais, percevais, ressentais, voyais et venais en aide dans la
-  bienveillance à toutes formes de vie. Durant l’adolescence, j’ai dévoré tous les livres du rayon
-  ésotérique de la bibliothèque pour apprendre, comprendre quel était mon identité, mon rôle, et me
-  rassurer sur ma « normalité » dans cette société.
-  <br/> <br/>
-  Très vite, j’ai compris qu’il fallait se taire, mettre des masques pour se protéger, ne pas être traiter de
-  « folle ». C’était difficile car cette gamine percevait et pouvait aider, tout simplement ; j’assistais en
-  silence impuissante avec cette tristesse dans le cœur.
-  <br/> <br/>
-  Adulte, tout naturellement, je suis venue en aide à nos anciens, qui sont la mémoire de notre
-  humanité. J’ai exercé de longues années en tant que cadre médico-social pour senior, et me suis
-  engagée dans diverses actions de bénévolats auprès des plus vulnérables. Toutes ces expériences
-  m’ont enrichies, m’ont fait questionner sur ma place, mon rôle dans cette société et dans cette vie
-  pour être en accord avec mon moi profond .
-   <br/> <br/>
-  Durant cette période, je me suis engagée dans un travail de développement personnel. Pour exercer
-  sereinement en toute légitimité, en tant que Médium et Énergéticienne, j’ai travaillé sur mes
-  blessures, mes croyances limitantes, et autres freins. Avec joie, l’être spirituel que je suis, c’est
-  déployé et s’est révélé.
-  <br/> <br/>
-  Parce-que nous sommes tous en chemin sur notre propre voie, j’ai suivi et continue à me former
-  auprès de différents praticiens connus pour leurs expertises (notamment les enseignements de Serge
-  Boutboul et Mathieu Boutboul). D’autres sources d’inspirations viennent de mes guides et mentors.
-  <br/> <br/>
-  Je souhaite de tout cœur vous accompagner pour vous permettre de vous révéler pleinement.
-  Découvrez ce que votre âme veut vous dire maintenant. Permettez-vous ce chemin en écoutant la
-  voix de votre cœur.</p>
-     <div className="h2CommentairesContainer">
-      <h2 className="h2Commentaire">Vos commentaires</h2>
-     </div>
       <div className="allCardsCommentaireContainer">
-        <Fade cascade damping={0.4}>
+      
           <CardsCommentaire
-            nom="Marie, retraitée :"
+            nom="David, retraitée :"
             img="https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_1280.jpg"
             commentaire="
-            « Sandrine m'accompagne dans la gestion des effets secondaires de ma maladie chronique et des
-            médicaments. Un soulagement. »"
+            «J'ai consulté Chantal pour des douleurs chroniques qui me handicapaient au quotidien. Grâce à ses séances d'énergétisation, j'ai ressenti une nette amélioration de mon état général. Je retrouve peu à peu ma mobilité et mon autonomie. Je suis très heureux d'avoir découvert Chantal et je la recommande vivement à tous ceux qui souffrent de douleurs chroniques. »"
           />
           <CardsCommentaire
-            nom="Thomas, sportif amateur :"
+            nom="Sophie, mère au foyer :"
             img="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
             commentaire="
-            « Je ne connaissais pas la naturopathie, mais c'est une véritable découverte qui m'a permis de mieux
-            gérer mon hygiène de vie globale, et gagner en performances. »"
+            « Ma fille souffrait d'anxiété et d'agitation depuis son entrée à l'école. Chantal a su apaiser ses peurs et l'aider à se sentir plus calme et confiante en elle-même. Elle a également donné des conseils précieux à mon mari et moi pour mieux accompagner notre fille dans cette étape importante de sa vie. Nous sommes très satisfaits des résultats obtenus. »"
           />
           <CardsCommentaire
-            nom="Fabienne, athlète professionnelle :"
+            nom=" Pierre, chef d'entreprise :"
             img="https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_1280.jpg"
-            commentaire="
-            « Vraiment top comme naturopathe ! Je recommande !»"
+            commentaire="Chantal a su me guider à travers une période de stress intense au travail. Son aide m'a permis de retrouver mon calme et ma concentration, et ainsi de surmonter les obstacles qui se dressaient sur mon chemin. Je la recommande vivement à tous ceux qui recherchent un soutien énergétique et spirituel."
           />
-        </Fade>
+      
       </div>
       <div className="allCardsCommentaireContainer">
-        <Fade cascade damping={0.4}>
           <CardsCommentaire
-            nom="Léa, étudiante non sportive :"
+            nom="Sarah, artiste :"
             img="https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_1280.jpg"
-            commentaire="« Sandrine m'a bien cernée et grâce à elle j'ai trouvé le courage de me mettre au sport en douceur et
-            améliorer mon hygiène de vie. »"
+            commentaire="« J'ai consulté Chantal pour des problèmes de sommeil qui me perturbaient depuis des mois. Grâce à ses séances, j'ai enfin pu retrouver un sommeil profond et réparateur. Elle a également su m'aider à me libérer de blocages émotionnels qui m'empêchaient de m'exprimer pleinement dans mon art. Je suis très reconnaissante de son aide précieuse. »"
           />
           <CardsCommentaire
-            nom="Sarah, sportive amateure :"
+            nom="Lucas, étudiant:"
             img="https://cdn.pixabay.com/photo/2016/01/10/22/07/woman-1132617_960_720.jpg"
-            commentaire="« Avec Sandrine, on a revu ma nutrition avec des conseils ajustés à ma situation.»"
+            commentaire="«Je traversais une période de doute et d'incertitude quant à mon avenir. Chantal m'a aidé à clarifier mes pensées et à me reconnecter à mon intuition. Ses conseils avisés m'ont permis de prendre des décisions importantes avec confiance et sérénité. Je lui suis très reconnaissant pour son soutien inestimable.»"
           />
           <CardsCommentaire
-            nom="Michelle, femme active :"
+            nom="Paul, musicien:"
             img="https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_1280.jpg"
-            commentaire="« Un grand merci pour sa patience et ses conseils. Grâce à son accompagnement, j'ai perdu du poids
-            en ayant cerné les origines émotionnelles. »"
+            commentaire="«J'ai consulté Chantal pour un blocage créatif qui me paralysait depuis plusieurs mois. Grâce à son aide, j'ai pu me libérer de mes blocages et retrouver mon inspiration. Elle m'a également donné des conseils précieux pour développer ma créativité et m'exprimer pleinement dans ma musique. »"
           />
-        </Fade>
       </div>
-      <img
-        className="imgSeparationCommentaire1-2"
-        alt="img"
-        src={separationcommentaire1}
-      />
+      <div className="h2BandeauConnaissance">
+      </div>
+      
+      <div className="texteContainer">
+      Un <a href="https://fr.wikipedia.org/wiki/M%C3%A9dium_(spiritisme)"><u>médium est</u></a> un intermédiaire. Il a cette capacité d’entendre « Les Guides de Lumière » et vous répète ce qu’il entend, c’est l’opportunité magique d’être
+guidé vers la meilleure version de vous-même
+<br/>
+<br/>
+Vos raisons qui peuvent vous pousser à consulter
+<br/>
+<br/>
+<div className="listeContainer">
+ Vos « Guides de Lumière » ont besoin de vous parler
+<br/>
+<br/>
+ Vous vous sentez connecté et avez besoin de communiquer avec vos « Guides de Lumière »
+<br/>
+<br/>
+ Vous êtes en demande d’informations et de solutions parce que vous vous sentez perdu, triste, en colère, seul, dubitatif pour prendre une décision...
+<br/>
+<br/>
+ Vous avez beaucoup d’énergie et vous ne savez pas par où commencer pour mener à bien vos projets de vie (travail, vie sociale, vie amoureuse...)
+<br/>
+<br/>
+ Vous avez besoin, envie de contacter un défunt, ou ressentez des présences subtiles
+<br/>
+<br/>
+ Vous avez une décision à prendre
+<br/>
+<br/>
+ Vous vous interrogez sur le sens de votre vie
+<br/>
+<br/>
+ Vous pensez être dans le vrai mais une petite confirmation pour aller de l’avant
+<br/>
+<br/>
+ Vous avez le sentiment que rien n’avance et vous avez envie de comprendre pourquoi
+<br/>
+<br/>
+ Vous avez des problèmes au travail, dans votre couple, au sein de votre cercle d’amis...
+<br/>
+<br/>
+ Cette liste n’est pas exhaustive, bien sur..........
+</div>
+<br/>
+<br/>
+<b>Quand Consulter un Médium ?</b>
+<br/>
+<br/>
+
+Il est important de comprendre qu’on ne consulte pas un médium à tout-va et dans n’importe quel état d’esprit. Attention aux addictions! Un bon médium ne
+vous rendra jamais accro.
+<br/>
+<br/>
+<u className="bstitre">Vous pouvez consulter un médium quand :</u>
+<br/>
+<br/>
+<div className="listeContainer">
+ Vous êtes dans une position d’ouverture et vous avez besoin d’être éclairé<br/>
+<br/>
+ Vous avez envie de bienveillance à votre égard <br/>
+<br/>
+ Vous en avez besoin et non pas envie <br/>
+<br/>
+ Vous avez besoin qu’un médium vous apporte une guidance <br/>
+<br/>
+ Vous avez envie de prendre des raccourcis <br/>
+<br/>
+ Vous avez un choix important à faire <br/>
+<br/>
+ Vous n’êtes pas heureux et vous voulez savoir pourquoi et comment vous en sortir <br/>
+<br/>
+ Vous ressentez les choses et vous avez besoin d’une confirmation <br/>
+<br/>
+ Vous avez besoin de conseils, d’amour, et de donner un sens <br/>
+<br/>
+ Vous souffrez d’un deuil et vous avez besoin, envie de contacter un défunt <br/>
+<br/>
+ Vous êtes prêt à opérer des changements en vous parce que vous avez envie d’être heureux <br/>
+<br/>
+ Vous êtes inquiet, stressé, fatigué... et vous avez envie d’aller mieux <br/>
+<br/>
+<br/>
+</div>
+<b>Brève distinction entre un médium et un voyant :</b>
+<br/>
+<br/>
+On pourrait dire que le <b>voyant</b> utilise des supports comme des cartes ou autres et fait une lecture tandis que le <b>médium</b> « entend vos guides de lumière et vous
+répète l’information. Il est canal et utilise toutes ses capacités extra- sensorielles. Pour ma part, j’ai le privilège d’accéder aux différentes sources dans le cadre
+de mes consultations.
+<br/>
+<br/>
+Bonnes consultations à toutes et à tous et soyez heureux ✨
+      </div>
     </div>
   );
 };

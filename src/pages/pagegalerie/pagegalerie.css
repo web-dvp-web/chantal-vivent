@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ededed;
+    background-color: #ffffff;
   }
 }
 
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ededed;
+  background-color: #ffffff;
 }
 .texteInfoGalerie{
   padding: 20px;
@@ -38,4 +38,8 @@
 display: flex;
 justify-content: left;
 align-items: baseline;
+}
+.textInfo{
+  font-size: 22px;
+  font-family: normal;
 }

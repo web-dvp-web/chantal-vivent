@@ -2,14 +2,12 @@
   /*mobile*/
   div.cardsPagePrincipaleContainer {
     width: 90%;
-    background-color: #4aafab;
   }
   div.cards1and2Container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #4aafab;
   }
   div.cards1Container {
     margin-top: 10%;
@@ -36,6 +34,12 @@
   }
   a.aLeBlog{
     width: 100%;
+  }
+  img.imgLivreMontagne{
+    width: 57%;
+    height: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 }
 
@@ -179,7 +183,7 @@ a {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url(../../images/ange.png);
+  background-image: url(../../images/angemodif.png);
   border-radius: 4px;
 }
 a {
