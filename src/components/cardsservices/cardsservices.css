@@ -39,6 +39,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: normal;
+  background-color: #f2ebeb;
   /*background: linear-gradient(45deg, #8f8a82, #b3aca1);*/
 }
 .imgCardsServices {

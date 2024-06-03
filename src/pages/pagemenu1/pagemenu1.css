@@ -63,7 +63,7 @@
 }
 .h1Container{
   margin: 20px;
-  width: 40%;
+  width: 55%;
   border-radius: 12px;
   background-color: #2e808cb8;
 }
@@ -71,8 +71,8 @@
   padding: 2%;
   min-height: 55vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-image: url('../../images/backgroundcouleurschaude.png');
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@
   border-left: solid 1px;
 }
 .h2Services {
-  margin-top: 4%;
+  margin-top: 0%;
   margin-bottom: 0;
   width: 100%;
   min-height: 3em;
@@ -111,7 +111,7 @@
   font-weight: 200;
   font-family: "Dancing Script";
   color: #242223;
-  background-color: #ffffff;
+  background-color: #f2ebeb;
 }
 .allCardsCommentaireContainer {
   padding: 5%;
@@ -142,11 +142,10 @@
   display: flex;
 }
 .imgIntroduction{
-  width: 100%;
+  width: 0%;
   min-height: auto;
 }
 .h2BandeauConnaissance{
-  margin-top: 5%;
   min-height: 15em;
   width: 100%;
   background-position: center;
@@ -187,8 +186,8 @@
   text-align: left;
   font-family: auto;
   font-size: 22px;
-  background-color: white;
-  color: black;
+  background-color: #42394A;
+  color: white;
 }
 .bstitre{
   font-weight: 400;
@@ -197,5 +196,5 @@
   text-align: left;
 }
 a{
-  color: black;
+  color: orange;
 }
