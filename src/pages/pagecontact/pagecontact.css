@@ -1,21 +1,14 @@
 /*mobile*/
 @media screen and (max-width: 768px) {
   div.pageContactContainer {
-    min-height: 0vh;
-    min-width: 0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ededed;
-    background-image: none;
+    background-color: #242223;
   }
   div.horairesContainer {
-    margin-bottom: 0%;
+    margin-bottom: 7%;
     padding-left: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     width: 100%;
   }
@@ -25,22 +18,13 @@
   }
   img.imgContact {
     width: 100%;
-    border: solid 0px;
   }
   div.mailTelAdresseContainer {
-    width: 100%;
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 20px;
-  }
-  div.imgLogoContainer{
-    padding-left: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
   }
   div.logoTexteContainer {
     width: 100%;
@@ -57,55 +41,40 @@
     margin: 0px;
     width: 25px;
   }
-  p.pHoraires{
-    width: 80%;
-  }
 }
 
 /*grand écran*/
 .pageContactContainer {
-  min-width: 100%;
-  min-height: 100vh;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  background-image: url(../../images/a2.jpg);
-  background-size: cover;
-}
-h1.h1Horaires{
-  margin-top: 5%;
-  color: #3d3a3a;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  background-color: #e1e1e1;;
 }
 .horairesContainer {
-  padding-left: 10%;
-  width: 80%;
+  padding-left: 2%;
+  width: 30%;
   text-align: left;
 }
 .pHoraires {
   margin: 0;
-  padding: 10px;
-  width: 51%;
-  font-size: 22px;
-  font-weight: 600;
-  filter: brightness(0.5);
-  font-family: 'Roboto';
-  color: #2f2c2c;
-
+  font-size: large;
 }
 .imgContact {
-  margin-top: 20px;
-  margin-bottom: 4em;
-  width: 25%;
-  border: solid;
+  width: 80%;
+  min-height: 14em;
 }
 .jour-de-la-semaine {
   margin-bottom: 0;
 }
 .mailTelAdresseContainer {
-  padding-left: 10%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 .logoTexteContainer {
   margin-top: 2%;
@@ -113,34 +82,16 @@ h1.h1Horaires{
 }
 .logoTel {
   margin: 10px;
-  width: 50px;
+  width: 100px;
 }
 .logoMail {
   margin: 10px;
-  width: 65px;
+  width: 100px;
 }
 .logoAdresse {
   margin: 10px;
-  width: 35px;
+  width: 78px;
 }
 .pInfo {
-  font-size: 22px;
-  font-weight: 600;
-  font-family: 'Roboto';
-  color: #3d3a3a;
-}
-.imgLogoContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  padding-left: 10%;
-}
-.telContainer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-}
-.logoTel{
-  width: 25px;
+  font-size: medium;
 }

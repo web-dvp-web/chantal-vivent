@@ -6,7 +6,7 @@ import service1 from "../../images/a1.jpg";
 import service2 from "../../images/a2.jpg";
 import service3 from "../../images/a3.jpg";
 /*animation du texte*/
-import { Fade } from "react-awesome-reveal";
+
 
 const PageMenu1 = () => {
   return (
@@ -23,13 +23,13 @@ const PageMenu1 = () => {
             durable. Forte de ses capacités et de son expérience, elle offre des
             consultations personnalisées pour vous aider
           </h1>
+          </div>
           <div className="imgIntroductionContainer">
             <img
               className="imgIntroduction"
               alt="montage-images"
               src={imgIntroduction}
             />
-          </div>
         </div>
       </div>
 

@@ -158,6 +158,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #ededed;
+  /*    background-color: #e7dec2;*/
 }
 .part1Footer {
   width: 50%;

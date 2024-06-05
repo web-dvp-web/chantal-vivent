@@ -34,7 +34,7 @@ function App() {
                 dimanche="férmé"
                 tel="06 80 52 04 94"
                 mail="chantalvivent65@gmail.com"
-                adresse="33 rue de neneak 09348 Juejsa"
+                adresse="Montesquieu Volvestre"
               />
             }
           />

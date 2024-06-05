@@ -71,7 +71,7 @@
   padding: 2%;
   min-height: 55vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-image: url('../../images/backgroundcouleurschaude.png');
@@ -142,7 +142,7 @@
   display: flex;
 }
 .imgIntroduction{
-  width: 0%;
+  width: 100%;
   min-height: auto;
 }
 .h2BandeauConnaissance{
@@ -186,8 +186,8 @@
   text-align: left;
   font-family: auto;
   font-size: 22px;
-  background-color: #42394A;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .bstitre{
   font-weight: 400;
