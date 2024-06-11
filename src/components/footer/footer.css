@@ -45,8 +45,9 @@
     height: 25px;
   }
   img.logoFooter {
-    width: 100%;
     margin: 10px;
+    margin-bottom: 0;
+    width: 100%;
   }
   div.info2FooterContainer {
     width: 100%;

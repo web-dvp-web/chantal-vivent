@@ -33,12 +33,14 @@
     margin: 10px;
     width: 44%;
   }
-  img.medaillonContainer{
-
+  div.medaillonTitreLogoContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
-  img.medaillon{
 
-  }
 }
 /*grand écran*/
 .headerContainer {
@@ -103,7 +105,7 @@
 }
 .logoEntreprise {
   margin: 10px;
-  
+
   padding: 10px;
   width: 148px;
   border-radius: 200px;

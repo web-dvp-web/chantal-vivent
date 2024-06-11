@@ -2,6 +2,9 @@
   div.pageMenu1Container {
     display: flex;
   }
+  div.allH1Container{
+    width: 97%;
+  }
   div.h1VideoContainer {
     width: 100%;
     padding: 0;
@@ -21,14 +24,21 @@
     font-family: "Cormorant Garamond";
     filter: drop-shadow(2px 1px 1px black);
   }
+  div.texteContainer{
+    text-align: center;
+  }
+  div.listeContainer{
+    text-align: center;
+  }
   video.videoPresentation {
     width: 100%;
     border: 0;
   }
   h2.h2Services {
-    width: 100%;
+    width: 66%;
     background-color: #ededed;
-  }
+    padding: 0;
+}
   div.allCardsCommentaireContainer {
     display: flex;
     flex-direction: column;
