@@ -43,11 +43,13 @@
   border-radius: 12px;
 }
 .nameUser {
+  font-size: 25px;
+  font-weight: 600;
   color: #486f9b
 }
 .commentaireUser {
   width: 77%;
-  font-size: 17px;
+  font-size: 21px;
   text-align: left;
   color: black;
 }

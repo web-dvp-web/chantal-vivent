@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @media screen and (max-width: 768px) {
   /*mobile*/
   div.headerContainer {
@@ -44,8 +46,15 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: left;
   background-color: #ffffff;
+}
+.medaillonTitreLogoContainer{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .medaillonContainer{
   display: flex;
@@ -53,30 +62,56 @@
   align-items: center;
 }
 .medaillon{
-  width: 44%;
-}
-.titreSousTitreContainer {
-    padding-left: 16%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: left;
-}
-.h1Header {
-  margin-bottom: 0;
-  font-family: "Dancing Script";
-  font-weight: 200;
-  color: #242223;
-}
-.sousTitreHeader {
-  font-size: 25px;
-  font-family: "Dancing Script";
-  color: #242223;
-}
-.logoEntreprise {
   margin: 10px;
   padding: 10px;
   width: 148px;
   border-radius: 200px;
 }
+.titreSousTitreContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold
+}
+.titreHeaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1Header {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-size: 53px;
+  font-family: "Dancing Script";
+  font-weight: 400;
+  ;
+  color: #242223;
+}
+.sousTitreHeaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sousTitreHeader {
+  font-size: 43px;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #242223;
+}
+.logoEntreprise {
+  margin: 10px;
+  
+  padding: 10px;
+  width: 148px;
+  border-radius: 200px;
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+

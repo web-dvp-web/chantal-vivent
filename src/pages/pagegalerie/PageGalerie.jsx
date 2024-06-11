@@ -3,8 +3,10 @@ import "./pagegalerie.css";
 import CarteInformations7 from "../../components/carteinformations7/CarteInformations7";
 import portrait from "../../images/portrait.jpg";
 import CarteInformations6 from "../../components/carteinformations6/CarteInformations6";
-import spirit from "../../images/pin1.png"
-
+import spirit from "../../images/pin1.png";
+import citations from "../../images/lescitations.png";
+import paulo from "../../images/logo/paulo.jpeg";
+import albert from '../../images/logo/albert-einstein.jpg';
 const PageGalerie = () => {
   return (
     <div className="pageGalerieContainer">
@@ -244,6 +246,33 @@ aurions pas pensé !
 que nous considérons que nous avons des choses plus importantes à faire... bref, lorsque nous le désirons
 le moins...c’est là que nous avons le plus besoin d’effectuer ce nettoyage !
 </p>
+<CarteInformations7
+      titre="Voyage à travers des citations inspirantes"
+      texte="Le hasard, c'est Dieu qui se promène incognito.    Albert Einstein  "
+
+      img={citations}
+      />
+  <p className="texteInfoGalerie">
+  "Rien dans ce monde n'arrive par hasard." <br/>
+   <br/>
+  <br/>
+  <img className="imgpaulo" src={paulo} alt="portrait de Paulo Coelho " />
+  <br/>
+  Paulo Coelho
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  "Le hasard, c'est Dieu qui se promène incognito."<br/>
+  <br/>
+  <img className="imgAlbert" src={albert} alt="portrait de Albert Einstein " />
+  <br/>
+  Albert Einstein
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  </p>
 </div>
     )
   

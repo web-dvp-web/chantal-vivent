@@ -2,9 +2,9 @@ import "./pagemenu1.css";
 import imgIntroduction from "../../images/plume2canva.png";
 import CardsServices from "../../components/cardsservices/CardsServices";
 import CardsCommentaire from "../../components/cardscommentaire/CardsCommentaire";
-import service1 from "../../images/a1.jpg";
-import service2 from "../../images/a2.jpg";
-import service3 from "../../images/a3.jpg";
+import service1 from "../../images/terre1.png";
+import service2 from "../../images/terre2.png";
+import service3 from "../../images/terre3.png";
 /*animation du texte*/
 
 
@@ -15,6 +15,8 @@ const PageMenu1 = () => {
         className="h1VideoContainer"
         aria-label="fleurs rose avec des branches en avant avec un fond flou de la foret "
       >
+        <div className="allH1Container">
+
         <div className="h1Container">
           <h1 className="h1CV">Chantal Vivent</h1>
           <h1 className="h1Presentation">
@@ -24,6 +26,13 @@ const PageMenu1 = () => {
             consultations personnalisées pour vous aider
           </h1>
           </div>
+          <div className="h1Container">
+          <h1 className="h1CV"> Paolo Coelho</h1>
+          <h1 className="h1Presentation">
+          Les rencontres les plus importantes ont été préparées par les âmes avant même que les corps ne se voient. 
+          </h1>
+          </div>
+        </div>
           <div className="imgIntroductionContainer">
             <img
               className="imgIntroduction"
@@ -86,7 +95,7 @@ const PageMenu1 = () => {
           je vous fais également une lecture,
           vous donnant des clès de guérison.
           (si vous le souhaitez)."
-          services6="TARIF Soin : 50€"
+          services6="TARIF Soin : 70€"
         />
         <CardsServices
           titre="Soin
@@ -117,38 +126,49 @@ const PageMenu1 = () => {
       </div>
       <div className="allCardsCommentaireContainer">
         <CardsCommentaire
-          nom="David, retraitée :"
+          nom="Alice Teboul :"
           img="https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_1280.jpg"
           commentaire="
-            «J'ai consulté Chantal pour des douleurs chroniques qui me handicapaient au quotidien. Grâce à ses séances d'énergétisation, j'ai ressenti une nette amélioration de mon état général. Je retrouve peu à peu ma mobilité et mon autonomie. Je suis très heureux d'avoir découvert Chantal et je la recommande vivement à tous ceux qui souffrent de douleurs chroniques. »"
+            «J'ai eu la chance de recevoir un soins extraordinaire de la part de Chantal. C'est une personne authentique. J'éprouve beaucoup de gratitude d'avoir croisé son chemin. Son soin a résonné en moi positivement. Son soin m'a fait du bien.
+Merci infiniment Chantal.
+Je recommande ses soins. »"
         />
         <CardsCommentaire
-          nom="Sophie, mère au foyer :"
+          nom="ressiica31 :"
           img="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
           commentaire="
-            « Ma fille souffrait d'anxiété et d'agitation depuis son entrée à l'école. Chantal a su apaiser ses peurs et l'aider à se sentir plus calme et confiante en elle-même. Elle a également donné des conseils précieux à mon mari et moi pour mieux accompagner notre fille dans cette étape importante de sa vie. Nous sommes très satisfaits des résultats obtenus. »"
+            «Chantal est en un seul mot exceptionnelle !!!
+D’une gentillesse incroyable qui a répondu à ma demande dans la journée même et qui a su cibler ma problématique et y répondre.
+Elle a aidé mon fils de 21 mois et je l’a remercie du fond du cœur !
+Vous pouvez la consulter les yeux fermés !»"
         />
         <CardsCommentaire
-          nom=" Pierre, chef d'entreprise :"
+          nom="Jonathan Glais :"
           img="https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_1280.jpg"
-          commentaire="Chantal a su me guider à travers une période de stress intense au travail. Son aide m'a permis de retrouver mon calme et ma concentration, et ainsi de surmonter les obstacles qui se dressaient sur mon chemin. Je la recommande vivement à tous ceux qui recherchent un soutien énergétique et spirituel."
+          commentaire="Milles Merci pour votre aide !
+Chantal est d’une extrême gentillesse. Elle a aidé mon fils qui ne se sentait pas en sécurité dans sa chambre et a trouvé directement le problème.
+Aussitôt contacté, elle a su nous aider dans la journée."
         />
       </div>
       <div className="allCardsCommentaireContainer">
         <CardsCommentaire
-          nom="Sarah, artiste :"
+          nom="Candice Mouanjo :"
           img="https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_1280.jpg"
-          commentaire="« J'ai consulté Chantal pour des problèmes de sommeil qui me perturbaient depuis des mois. Grâce à ses séances, j'ai enfin pu retrouver un sommeil profond et réparateur. Elle a également su m'aider à me libérer de blocages émotionnels qui m'empêchaient de m'exprimer pleinement dans mon art. Je suis très reconnaissante de son aide précieuse. »"
+          commentaire="«J’ai rencontrée Chantal à un moment difficile de ma vie ( crises d’angoisses , peur du monde extérieur) elle m’a fait un bien fou , elle m’a apaisé , confiance en moi , j’ai sentie un réelle changement dans ma vie . N’hésitez pas à aller la voire c’est une personne d’une douceur et gentillesse extrême . Encore merci Chantal 🙏🏾😘»"
         />
         <CardsCommentaire
-          nom="Lucas, étudiant:"
+          nom="Emilie Claria:"
           img="https://cdn.pixabay.com/photo/2016/01/10/22/07/woman-1132617_960_720.jpg"
-          commentaire="«Je traversais une période de doute et d'incertitude quant à mon avenir. Chantal m'a aidé à clarifier mes pensées et à me reconnecter à mon intuition. Ses conseils avisés m'ont permis de prendre des décisions importantes avec confiance et sérénité. Je lui suis très reconnaissant pour son soutien inestimable.»"
+          commentaire="«Si vous recherchez une personne lumineuse et de confiance👍. Vous devez rencontrer Chantal🙏. Elle suit mon fils de 16 ans depuis 1 an. Sa douceur, son amour, sa générosité fait que mon fils est en confiance et se sent de mieux en mieux🙏🙏. Elle est très professionnelle et maîtrise ses techniques. Je vous recommande Chantal une femme solaire au grand cœur ❤️ . Vous ne serez pas déçu 🥰»"
         />
         <CardsCommentaire
-          nom="Paul, musicien:"
+          nom="GALLARDO SYLVIE"
           img="https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_1280.jpg"
-          commentaire="«J'ai consulté Chantal pour un blocage créatif qui me paralysait depuis plusieurs mois. Grâce à son aide, j'ai pu me libérer de mes blocages et retrouver mon inspiration. Elle m'a également donné des conseils précieux pour développer ma créativité et m'exprimer pleinement dans ma musique. »"
+          commentaire="«Il n’y a pas de hasard dans la vie.
+Merci Chantal. 🌈
+Belle personne Humble avec une perception très fine et des révélations si justes.
+Disponible et à l’écoute je la remercie du fond du cœur pour avoir été présente pour mon fils lorsqu’il a eu besoin d’etre rassuré dans une situation particulière. Je l’ai consultée en séance de voyance et de rééquilibrage énergétique. Et je vais continuer 😊
+Je la recommande vivement ! 🥰»"
         />
       </div>
       <div className="h2BandeauConnaissance"></div>

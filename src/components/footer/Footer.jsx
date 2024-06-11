@@ -67,8 +67,8 @@ const Footer = (props) => {
               <p className="aFooter">site réalisé par dvpariege</p>
             </a>
             <hr className="ligne" />
-            <a href="">
-              <p className="aFooter">Logo réalisé par ......</p>
+            <a href="https://www.instagram.com/emilie.bardet.studio/?hl=fr">
+              <p className="aFooter">Logo réalisé par Emilie Bardet</p>
             </a>
             <hr className="ligne" />
             <a href="/mentionslegales">

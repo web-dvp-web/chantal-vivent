@@ -35,6 +35,7 @@
 }
 .allCards {
   padding-top: 0%;
+  padding-bottom: 6%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -44,16 +45,16 @@
 }
 .imgCardsServices {
   width: 100%;
-  height: auto;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  min-height: 10em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .titreServices {
   margin: 0;
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 600;
   font-family: "forum";
   background-color: #3c4e4f;
@@ -63,8 +64,8 @@
   padding: 10px;
   width: 90%;
   text-align: left;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 21px;
+  font-weight: bold;
   font-family: "Cormorant Garamond", serif;
   color: cadetblue ;
 }
@@ -73,8 +74,8 @@
   padding: 10px;
   width: 90%;
   text-align: left;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 21px;
+  font-weight: bold;
   font-family: "Cormorant Garamond", serif;
   color: cadetblue ;
 }
@@ -83,8 +84,8 @@
   margin-bottom: 0;
   width: 90%;
   text-align: left;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 21px;
+  font-weight: bold;
   font-family: "Cormorant Garamond", serif;
   color: cadetblue ;
 }
