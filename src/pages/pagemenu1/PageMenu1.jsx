@@ -18,7 +18,7 @@ const PageMenu1 = () => {
         <div className="allH1Container">
 
         <div className="h1Container">
-          <h1 className="h1CV"></h1>
+          <h1 className="h1CV">En quelques mots</h1>
           <h1 className="h1Presentation">
           Je suis une médium et énergéticienne passionnée, qui accompagne les personnes en quête d'un mieux-être profond et durable. Forte de mes capacités et de mon expérience, j'offre des consultations personnalisées pour vous aider
           </h1>

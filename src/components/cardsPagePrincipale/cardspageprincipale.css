@@ -229,11 +229,20 @@ a {
   background-position: center;
   background-color: #4aafab;
 }
+.titreCards3Container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #709CA7;
+}
 .titreMenu3 {
+  margin: 0;
   opacity: 90%;
   width: 78%;
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   background-color: #709CA7;
 }

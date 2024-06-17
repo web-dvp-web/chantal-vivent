@@ -6,7 +6,9 @@ const PagePrincipale = () => {
       <CardsPagePrincipale
         titremenu1="Mes prestations"
         titremenu2="Me contacter"
-        titremenu3="À propos de moi Explorer mes écrits"
+        titremenu3="À propos de moi"
+        titremenu4="La vibration de l'énergie"
+        titremenu5="Sagesse des mots"
       />
     </div>
   );
