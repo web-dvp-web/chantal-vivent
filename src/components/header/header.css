@@ -21,8 +21,8 @@
     flex-direction: column;
     align-items: center;
   }
-  h1.h1Header {
-    font-size: xx-large;
+  p.h1Header {
+    font-size: 21px;
     color: #242223;
   }
   p.sousTitreHeader {

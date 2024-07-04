@@ -1,7 +1,7 @@
 import "./pagegalerie.css";
 
 import CarteInformations7 from "../../components/carteinformations7/CarteInformations7";
-import portrait from "../../images/portrait.jpg";
+import portrait from "../../images/champdefleurs.jpg";
 import CarteInformations6 from "../../components/carteinformations6/CarteInformations6";
 import spirit from "../../images/pin1.png";
 import citations from "../../images/lescitations.png";

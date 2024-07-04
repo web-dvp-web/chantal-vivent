@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #cfcac6;
+    
   }
   div.titreLogoRsContainer {
     width: 100%;
@@ -54,10 +54,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #eee5c9;
     
   }
   div.part1Footer {
     border: none;
+    width: 80%;
   }
   p.aFooter {
     margin: 0;

@@ -44,7 +44,7 @@ const MenuOuvrant = () => {
             </a>
           </li>
           <a href="/leblog">
-            <span>Le blog</span>
+            <span>Qui suis-je </span>
           </a>
           <li>
             <a className="aEnSavoirPlus" href="/mentionslegales">

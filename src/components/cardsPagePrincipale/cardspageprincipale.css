@@ -19,7 +19,15 @@
     list-style: none;
     text-decoration: none;
   }
- 
+  div.titreCards3Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #709CA7;
+  }
   div.cards3Container {
     margin-bottom: 20%;
     width: 100%;
