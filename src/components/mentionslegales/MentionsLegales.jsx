@@ -7,7 +7,7 @@ const MentionsLegales = (props) => {
             <p className="texteMentionsLegales">
 
 Le Site est hébergé sur les serveurs de Gandi
-Numéro de téléphone : 06 31 55 06 82
+Numéro de téléphone dvpariege : 06 31 55 06 82
 Liens hypertextes vers des sites tiers
 Le Site propose des liens hypertextes pointant vers des sites Internet édités par des tiers. La mise en place de ces liens n'implique pas
 l'approbation de l'éditeur du contenu desdits sites. L'Editeur ne peut contrôler en permanence le contenu desdits sites, 

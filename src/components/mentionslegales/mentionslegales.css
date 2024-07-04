@@ -21,7 +21,8 @@ p.texteMentionsLegales{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background-color: #264b50;
+    background-color: #eee5c9;
+    color: #2E808C;;
 }
 .h1MentionsLegales{
     color: #2E808C;
