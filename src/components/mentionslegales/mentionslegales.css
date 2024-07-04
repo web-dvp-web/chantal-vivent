@@ -16,7 +16,7 @@ p.texteMentionsLegales{
 
 /*grand écran*/
 .mentionsLegaleContainer{
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
