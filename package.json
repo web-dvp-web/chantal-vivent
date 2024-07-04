@@ -1,6 +1,12 @@
 {
   "name": "chantal-vivent",
-  "lockfileVersion": 3,
-  "requires": true,
-  "packages": {}
+  "version": "1.0.0",
+  "description": "Chantal Vivent",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dvpariege",
+  "license": "ISC"
 }
