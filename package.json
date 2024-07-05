@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Chantal Vivent",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.92.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dvpariege",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
