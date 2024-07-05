@@ -9,7 +9,8 @@
   "author": "dvpariege",
   "license": "ISC",
   "dependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "usestate": "^1.1.3"
   },
   "browserslist": {
     "production": [
