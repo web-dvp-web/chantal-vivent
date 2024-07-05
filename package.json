@@ -4,7 +4,8 @@
   "description": "site internet chantal vivent Medium Voyante Energéticienne",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+     "build": "react-scripts build"
   },
   "author": "dvpariege",
   "license": "ISC",
