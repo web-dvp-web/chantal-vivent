@@ -22,7 +22,7 @@ const PageContact = (props) => {
         <p className="pHoraires">{props.samedi}</p>
         <p className="jour-de-la-semaine">Dimanche</p>
         <p className="pHoraires">{props.dimanche}</p>
-        <p>test</p>
+        <p>test2</p>
       </div>
       <div className="imgLogoContainer">
         <img
