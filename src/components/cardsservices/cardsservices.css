@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Creepster&family=EB+Garamond&family=Nanum+Myeongjo:wght@700&family=Philosopher:wght@700&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Sevillana&family=Smooch+Sans:wght@100;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Creepster&family=EB+Garamond&family=Nanum+Myeongjo:wght@700&family=Philosopher:wght@700&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Sevillana&family=Smooch+Sans:wght@100;700&display=swap");*/
 @media screen and (max-width: 768px) {
   div.cardsServicesContainer {
     display: flex;
@@ -56,7 +56,7 @@
   width: 100%;
   font-size: 22px;
   font-weight: 600;
-  font-family: "forum";
+  /*font-family: "forum";*/
   background-color: #3c4e4f;
 }
 .pServicesC1 {
@@ -66,7 +66,7 @@
   text-align: left;
   font-size: 21px;
   font-weight: bold;
-  font-family: "Cormorant Garamond", serif;
+  /*font-family: "Cormorant Garamond", serif;*/
   color: cadetblue ;
 }
 .pServicesC2 {
@@ -76,7 +76,7 @@
   text-align: left;
   font-size: 21px;
   font-weight: bold;
-  font-family: "Cormorant Garamond", serif;
+  /*font-family: "Cormorant Garamond", serif;*/
   color: cadetblue ;
 }
 .pServicesC3 {
@@ -86,7 +86,7 @@
   text-align: left;
   font-size: 21px;
   font-weight: bold;
-  font-family: "Cormorant Garamond", serif;
+  /*font-family: "Cormorant Garamond", serif;*/
   color: cadetblue ;
 }
 .servicesG{

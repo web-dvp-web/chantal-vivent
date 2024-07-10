@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@300&family=Libre+Baskerville:ital@1&family=Noto+Serif+JP:wght@200&family=Poppins:wght@200&family=Rowdies:wght@300&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@300&family=Libre+Baskerville:ital@1&family=Noto+Serif+JP:wght@200&family=Poppins:wght@200&family=Rowdies:wght@300&display=swap");*/
 @media screen and (max-width: 768px) {
   div.menu-icon {
     margin: 20px;
@@ -39,7 +39,7 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
-    font-family: "Dancing Script", cursive;
+    /*font-family: "Dancing Script", cursive;*/
   }
 
   .menu-nav.open {
@@ -105,7 +105,7 @@
   .pApero {
     font-size: 30px;
     color: black;
-    font-family: "Dancing Script", cursive;
+   /* font-family: "Dancing Script", cursive;*/
   }
 }
 
@@ -151,7 +151,7 @@
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
-  font-family: "Dancing Script", cursive;
+  /*font-family: "Dancing Script", cursive;*/
 }
 
 .menu-nav.open {
@@ -219,5 +219,5 @@
 .pApero {
   font-size: 30px;
   color: black;
-  font-family: "Dancing Script", cursive;
+  /*font-family: "Dancing Script", cursive;*/
 }
