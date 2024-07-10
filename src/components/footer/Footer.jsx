@@ -1,5 +1,5 @@
 import "./footer.css";
-import facebook from "../../images/facebook.png";
+import logofacebook from "../../images/logo/logoplante.png";
 import iconemail from "../../images/5.png";
 import iconetel from "../../images/2.png";
 import iconeadresse from "../../images/adresse.png";
@@ -12,10 +12,7 @@ const Footer = (props) => {
           <h2 className="h2Footer">{props.soustitre}</h2>
           <div className="logoRsContainer">
             <a className="aFacebook" href="https://www.facebook.com/chantal.vivent">
-              <img
-                className="logoFacebook"
-                src={facebook}
-                alt="logo Facebook"
+              <img className="logoFacebook" src={logofacebook} alt="logo Facebook"
               />
             </a>
             <a href="https://www.facebook.com/chantal.vivent"><p className="pFacebook">Ma page facebook</p></a>
