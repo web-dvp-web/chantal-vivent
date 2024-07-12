@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="App test">
+    <div className="App test test">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
