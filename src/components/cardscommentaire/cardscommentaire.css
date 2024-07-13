@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+
+  div.cardsCommentaireContainer {
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #e7dec2;
+    box-shadow: 2px 2px 7px 2px black;
+  }
+  p.commentaireUser {
+    width: 77%;
+    font-size: 17px;
+    text-align: left;
+    color: #383636;
+  }
+  p.nameUser{
+    color: black;
+  }
+}
+
+.cardsCommentaireContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.imgNameContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imgUser {
+  width: 0%;
+  height: auto;
+  border-radius: 12px;
+}
+.nameUser {
+  font-size: 25px;
+  font-weight: 600;
+  color: #486f9b
+}
+.commentaireUser {
+  width: 77%;
+  font-size: 21px;
+  text-align: left;
+  color: black;
+}

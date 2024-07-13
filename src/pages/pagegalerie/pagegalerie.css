@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+  div.pageGalerieContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+}
+
+/*grand écran*/
+.pageGalerieContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.texteInfoGalerie{
+  padding: 20px;
+  width: 90%;
+  font-size: 22px;
+  text-align: left;
+  font-family: normal;
+  color: black;
+
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pBleu{
+  font-size: 28px;
+  font-family: normal;
+  color: #2d808c;
+}
+.pBleu2{
+  color: #2d808c;
+}
+.textRowContainer{
+display: flex;
+justify-content: left;
+align-items: baseline;
+}
+.textInfo{
+  font-size: 22px;
+  font-family: normal;
+}
+.imgpaulo{
+  width: 35%;
+  border-radius: 277px;
+}
+.imgAlbert{
+  width: 35%;
+  border-radius: 277px;
+}

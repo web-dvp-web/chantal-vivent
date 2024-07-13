@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@300&family=Libre+Baskerville:ital@1&family=Noto+Serif+JP:wght@200&family=Poppins:wght@200&family=Rowdies:wght@300&display=swap");
+@media screen and (max-width: 768px) {
+  div.menu-icon {
+    margin: 20px;
+    width: 23px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .menu-icon span {
+    width: 100%;
+    height: 3px;
+    background-color: #242223;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-icon.open span:nth-child(1) {
+    background-color: black;
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-icon.open span:nth-child(2) {
+    opacity: 0;
+    background-color: black;
+  }
+
+  .menu-icon.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+    background-color: black;
+  }
+
+  .menu-nav {
+    position: fixed;
+    top: 0px;
+    left: -200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .menu-nav.open {
+    border-top-right-radius: 12px;
+    width: 100%;
+    min-height: 100vh;
+    left: 0;
+  }
+
+  .menu-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-nav li {
+    margin: 10px 0;
+  }
+
+  .menu-nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  div.menu-container {
+    width: 20%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .menu-img {
+    margin-top: -1.8em;
+    margin-left: 1em;
+    height: 11em;
+    position: fixed;
+  }
+
+  .aEnSavoirPlus {
+    background-color: #262626;
+  }
+  .spanEnSavoirPlus {
+    color: gold;
+  }
+  .filtreMenuOuvrant {
+    margin-top: -11px;
+    height: 70vh;
+    background-color: rgb(114 180 219);
+  }
+  img.logoMenuLaPizzeria {
+    width: 58%;
+    margin-top: 2em;
+  }
+  .pApero {
+    font-size: 30px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+  }
+}
+
+/*grand écran*/
+
+.menu-icon {
+  margin: 20px;
+  width: 50px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  width: 100%;
+  height: 3px;
+  background-color: #242223;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-icon.open span:nth-child(1) {
+  background-color: black;
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+  background-color: black;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+  background-color: black;
+}
+
+.menu-nav {
+  position: fixed;
+  top: 0px;
+  left: -200px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  font-family: "Dancing Script", cursive;
+}
+
+.menu-nav.open {
+  border-top-right-radius: 12px;
+  width: 100%;
+  min-height: 100vh;
+  left: 0;
+}
+
+.menu-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-nav li {
+  margin: 10px 0;
+}
+
+.menu-nav a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu-container {
+  width: 14%;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.menu-img {
+  margin-top: -1.8em;
+  margin-left: 1em;
+  height: 11em;
+  position: fixed;
+}
+
+.aEnSavoirPlus {
+  background-color: #262626;
+}
+.spanEnSavoirPlus {
+  color: gold;
+}
+.filtreMenuOuvrant {
+  margin-top: -11px;
+  height: 70vh;
+  background-color: #4aafab;
+}
+.logoMenuLaPizzeria {
+  width: 20%;
+  margin-top: 2em;
+  border: solid 1px;
+  
+}
+.pApero {
+  font-size: 30px;
+  color: black;
+  font-family: "Dancing Script", cursive;
+}

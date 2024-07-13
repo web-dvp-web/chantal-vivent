@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@media screen and (max-width: 768px) {
+  /*mobile*/
+  div.headerContainer {
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  div.h1Container {
+    width: 70%;
+  }
+  div.titreSousTitreContainer {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p.h1Header {
+    font-size: 21px;
+    color: #242223;
+  }
+  p.sousTitreHeader {
+    font-size: large;
+    color: #242223;
+  }
+  img.logoEntreprise {
+    margin: 10px;
+    width: 44%;
+  }
+  div.medaillonTitreLogoContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+/*grand écran*/
+.headerContainer {
+  margin-bottom: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: #ffffff;
+}
+.medaillonTitreLogoContainer{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.medaillonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.medaillon{
+  margin: 10px;
+  padding: 10px;
+  width: 148px;
+  border-radius: 200px;
+}
+.titreSousTitreContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold
+}
+.titreHeaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1Header {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-size: 53px;
+  font-family: "Dancing Script";
+  font-weight: 400;
+  ;
+  color: #242223;
+}
+.sousTitreHeaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sousTitreHeader {
+  font-size: 43px;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #242223;
+}
+.logoEntreprise {
+  margin: 10px;
+
+  padding: 10px;
+  width: 148px;
+  border-radius: 200px;
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
