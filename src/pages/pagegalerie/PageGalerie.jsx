@@ -17,7 +17,7 @@ const PageGalerie = () => {
       />
         <p className="textInfo">
       <div className="h2ContainerConnaissance">
-        <h2 className="h2CConnaissance">QUELQUES MOTS POUR FAIRE CONNAISSANCE ……………..</h2>
+        <h2 className="h2CConnaissance">QUELQUES MOTS POUR FAIRE CONNAISSANCE</h2>
       </div>
   J’ai grandi au sein de la campagne gersoise dans une ferme. La petite fille que j’étais avait pour
   merveilleux amis et confidents les animaux, Dame nature, les mondes subtils et les êtres de lumière
