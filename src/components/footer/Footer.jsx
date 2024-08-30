@@ -2,6 +2,8 @@ import "./footer.css";
 import iconemail from "../../images/5.png";
 import iconetel from "../../images/2.png";
 import iconeadresse from "../../images/adresse.png";
+import iconeWeb from "../../images/7.png";
+import iconeFacebook from "../../images/8.png";
 const Footer = (props) => {
   return (
     <div className="footerContainer">
@@ -10,10 +12,9 @@ const Footer = (props) => {
           <h1 className="h1Footer">{props.titre}</h1>
           <h2 className="h2Footer">{props.soustitre}</h2>
           <div className="logoRsContainer">
-            <a className="aFacebook" href="https://www.facebook.com/chantal.vivent">
-            </a>
-            <a href="https://www.facebook.com/chantal.vivent"><p className="pFacebook">Voir ma page facebook</p></a>
+           <p className="h2Footer">06 80 52 04 94</p>
           </div>
+           <p className="h2Footer">Siret : 89877682800011 </p>
           <img
             className="logoFooter"
             src={props.logo}
@@ -24,32 +25,58 @@ const Footer = (props) => {
         <div className="info2FooterContainer">
           <div className="part1Footer">
           <hr className="ligne" />
-          <h2 className="h2footerContacerNous">Me contacter</h2>
-          <hr className="ligne" />
-          <div className="iconeFooterContainer">
-            <img
-              className="iconeFooter"
-              src={iconemail}
-              alt="icone d'un mail "
-            />
-            <p className="infoFooter">{props.mail}</p>
-            <hr className="ligne" />
-            <img 
+          <div className="iconeWebContainer">
+          <img 
             className="iconeFooter"
-            src={iconetel}
-            alt="icone portable"
+            src={iconeWeb}
+            alt="icone web"
             />
-             <p className="infoFooter">{props.tel}</p>
-          </div>
-       
+          <a href="https://chantalvivent.fr/">
+            <p className="infoFooter">https://chantalvivent.fr/</p>
+          </a>
+            </div>
+      
           <hr className="ligne" />
+          <div className="iconeFacebookContainer">
+          <img 
+            className="iconeFooter"
+            src={iconeFacebook}
+            alt="icone web"
+            />
+            <a href="https://www.facebook.com/chantal.vivent/?locale=fr_FR">
+              <p className="infoFooter">Facebook</p>
+            </a>
+          </div>
+          <hr className="ligne" />
+          <div className="iconeAdresseContainer">
+
           <img 
             className="iconeFooter"
             src={iconeadresse}
             alt="icone portable"
             />
              <p className="infoFooter">{props.adresse}</p>
-
+            </div>
+            <hr className="ligne" />
+            <div className="mailContainer">
+            <img
+              className="iconeFooter"
+              src={iconemail}
+              alt="icone d'un mail "
+              />
+            <p className="infoFooter">{props.mail}</p>
+              </div>
+            <hr className="ligne" />
+      
+            <div className="telContainer">
+            <img 
+            className="iconeFooter"
+            src={iconetel}
+            alt="icone portable"
+            />
+             <p className="infoFooter">{props.tel}</p>
+            </div>
+            <hr className="ligne" />
           </div>
           <div className="part2Footer">
           <hr className="ligne" />
@@ -58,7 +85,7 @@ const Footer = (props) => {
             </a>
             <hr className="ligne" />
             <a className="aFooter" href="https://www.dvpariege.fr/">
-              <p className="aFooter">site réalisé par dvpariege</p>
+              <p className="aFooter">Site réalisé par dvpariege</p>
             </a>
             <hr className="ligne" />
             <a href="https://www.instagram.com/emilie.bardet.studio/?hl=fr">
@@ -66,11 +93,11 @@ const Footer = (props) => {
             </a>
             <hr className="ligne" />
             <a href="/mentionslegales">
-              <p className="aFooter">mentions légales</p>
+              <p className="aFooter">Mentions légales</p>
             </a>
           <hr className="ligne" />
-          <a href="charte">
-            <p className="aFooter">charte éthique</p>
+          <a href="charte-éthique">
+            <p className="aFooter">Charte éthique</p>
           </a>
           <hr className="ligne" />
           </div>

@@ -1,10 +1,9 @@
-import MentionsLegales from "../../components/mentionslegales/MentionsLegales";
+import MentionsLegales from "../../components/mentionslegales/MentionsLegales"
+
 const PageMentionsLegales= () => {
     return(
         <div className="pageMentionsLegalesContainer">
-          <MentionsLegales
-          artistes='""'
-          />
+        <MentionsLegales />
         </div>
     )
 }

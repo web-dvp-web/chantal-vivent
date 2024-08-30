@@ -20,6 +20,40 @@
     justify-content: center;
     align-items: center;
   }
+  div.iconeWebContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  div.iconeFacebookContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  div.iconeAdresseContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  div.mailContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  div.telContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
   img.iconeFooter {
     margin: 0;
     width: 45px;
@@ -28,7 +62,9 @@
     margin: 0;
     padding: 10px;
     font-size: 15px;
+    text-align: center;
     color: #18444a;
+    font-family:"Dancing Script" ;
   }
   img.logoInstagram {
     width: 25px;
@@ -47,15 +83,14 @@
   img.logoFooter {
     margin: 10px;
     width: 50%;
+    border-radius: 20px;
   }
   div.info2FooterContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #eee5c9;
-    
+    align-items: center;  
   }
   div.part1Footer {
     border: none;
@@ -70,6 +105,9 @@
     display: flex;
     flex-direction: column;
   }
+  div.part2Footer {
+    width: 80%;
+  }
 }
 
 /*grand écran*/
@@ -80,14 +118,15 @@
   align-items: center;
   border-top: solid 1px white;
   background-color: #ededed;
+  font-family: "Dancing Script";
 }
 .infoFooterContainer {
   width: 100%;
   min-height: 60vh;
   display: flex;
   flex-direction: row;
-  background-color: #eee5c9;
-  /*background-color: #e7dec2;*/
+  background-color: rgb(183 209 205);;
+  /*background-color: #eee5c9;*/
 }
 .titreLogoRsContainer {
   width: 50%;
@@ -95,22 +134,26 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #eee5c9;
+  background-color: #fdf8f8;
+  /*background-color: #eee5c9;*/
   /*background-color: #e7dec2;*/
 }
 .h1Footer {
   width: 90%;
   margin-bottom: 0;
   font-size: 3em;
-  font-weight: 400;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-family: "Dancing Script";
   color: #2E808C;
 }
 .h2Footer {
-  margin-bottom: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   font-size: 22px;
   font-weight: 600;
-  color: #242223;
+  color: cadetblue;
+  font-family: "Dancing Script";
+  /*color: #242223;*/
 }
 .logoRsContainer {
   padding-left: 0;
@@ -155,6 +198,7 @@
 }
 .logoFooter {
   width: 16%;
+  border-radius: 20px;
 }
 .info2FooterContainer {
   width: 50%;
@@ -173,21 +217,38 @@
   border-left: solid 1px white;
 }
 .iconeFooterContainer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .iconeFooter {
-  margin-right: 20px;
   width: 65px;
+}
+.iconeWebContainer{
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.iconeFacebookContainer{
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .infoFooter {
   margin: 0;
   padding: 10px;
   font-size: 19px;
   font-weight: 600;
-  color: #18444a;
+  text-align: left;
+  color: white;
+  /*color: #18444a;*/
+}
+.infoFooter:hover{
+  color: rgb(133, 170, 164);
 }
 
 .part2Footer {
@@ -200,11 +261,13 @@
   margin: 0;
   font-size: 19px;
   font-weight: 600;
-  color: #3a9696;
+   color: white;
+  /*color: #3a9696;*/
 }
 .aFooter:hover {
   margin: 0;
-  color: black;
+  color: rgb(133, 170, 164);
+  text-shadow: 1px 1px 2px #ffffff ;
 }
 .ligne {
   width: 70%;
@@ -217,4 +280,27 @@
   color: #2E808C;
   font-size: 19px;
   font-weight: 600;
+}
+.h2FooterContacterNous{
+  color: white;
+}
+.mailContainer{
+  width: 70%;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+.telContainer{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.iconeAdresseContainer{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

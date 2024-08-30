@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px) {
+div.allNavBar2Container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div.allNB2MentionsLegales{
+    height: 1px;
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 5em;
+}
+a.aNB2MentionsLegale{
+    width: 100%;
+    height: auto;
+}
+a.aNB2{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: "Dancing Script";
+    color: white;
+    transition-duration: 0.5s;
+}
+p.p1ML{
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+p.p1ML2{
+    position: unset;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    opacity: 100;
+} 
+}
+.allNavBar2Container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(183 209 205);
+}
+.logoCamion{
+    width: 5%;
+}
+.logoTelContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logoTelNavBar{
+    width: 10%;
+    margin: 10px;
+}
+.aNB2{
+    width: 30%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: "Dancing Script";
+    color: white;
+    transition-duration: 0.5s;
+}
+.allNB2MentionsLegales{
+    height: 1px;
+    display: flex;
+    margin-top: 17%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 5em;
+    
+}
+.allNB2MentionsLegales:hover{
+    height: 8em;
+    width: 100%;
+    background-color: rgb(183 209 205);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aNB2:hover{
+   transition-duration: 0.5s;
+   color: rgb(133, 170, 164);
+   text-shadow: 1px 1px 2px #ffffff ;
+}
+
+.aNB2MentionsLegale{
+    width: 30%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: "Dancing Script";
+    color: white;
+    transition-duration: 0.5s;
+}
+.aNB2MentionsLegale:hover{
+    height: 5em;
+    transition-duration: 0.5s;
+    color: rgb(133, 170, 164);
+    text-shadow: 1px 1px 2px #ffffff ;   
+}
+
+
+.aNB2MentionsLegale:hover .p1ML2 {
+  margin-top: 2%;
+  margin-left: 3%;
+  height: 3em;
+  opacity: 1;
+  width: 13%;
+  display: flex;
+}
+.pTel{
+    font-size: 30px;
+    font-family: "Dancing Script";
+    color: white;
+}
+.p1{
+    font-size: 25px;
+}
+.p1ML{
+    position: absolute;
+    top: 33px;
+    margin: 0;
+    font-size: 25px;
+}
+
+.p1ML2 {
+    position: fixed;
+    width: 13%;
+    height: 5em;
+    font-size: 25px;
+    opacity: 0; 
+   /* transition: opacity 0.3s ease-in-out;*/
+  }
+.p1ML2:hover{
+    width: 100%;
+    transition-duration: 0.5s;
+    color: rgb(133, 170, 164);
+    text-shadow: 1px 1px 2px #ffffff ; 
+}

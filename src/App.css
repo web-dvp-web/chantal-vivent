@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .App {
   text-align: center;
 }
@@ -11,7 +10,6 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: #4aafab;
 }
 .App-header2{
   min-height: 100vh;
@@ -21,9 +19,12 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: #4aafab;
 }
 .App-link {
   color: #4aafab;
 }
 
+.h1TitreCardsCommentaires{
+  width: 100%;
+  color: red;
+}

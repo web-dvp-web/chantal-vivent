@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+
+  div.cardsCommentaireContainer {
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(183 209 205);
+    box-shadow: 2px 2px 7px 2px rgb(59, 59, 59);
+  }
+ 
+  p.commentaireUser {
+    width: 77%;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+  }
+  p.nameUser{
+    color: #258083;
+  }
+}
+
+.cardsCommentaireContainer {
+  width: 100%;
+  height: 14em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(183 209 205) ;
+  box-shadow: 2px 2px 7px 2px #f5cfd2;
+
+}
+.imgNameContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imgUser {
+  width: 0%;
+  height: auto;
+  border-radius: 12px;
+}
+.nameUser {
+  font-size: 25px;
+  font-weight: 600;
+  color: #258083;
+}
+.commentaireUser {
+  width: 77%;
+  font-size: 21px;
+  text-align: center;
+  color: white;
+}
+.separationCitation{
+  width: 45%;
+}

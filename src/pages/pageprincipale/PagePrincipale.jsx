@@ -3,12 +3,11 @@ import CardsPagePrincipale from "../../components/cardsPagePrincipale/CardsPageP
 const PagePrincipale = () => {
   return (
     <div className="PagePrincipaleContainer">
+     
       <CardsPagePrincipale
-        titremenu1="Mes prestations"
-        titremenu2="Me contacter"
-        titremenu3="À propos de moi"
-        titremenu4="La vibration de l'énergie"
-        titremenu5="Sagesse des mots"
+        titremenu1="À propos de moi "
+        titremenu2="Mes Prestations"
+        titremenu3="Me Contacter"
       />
     </div>
   );

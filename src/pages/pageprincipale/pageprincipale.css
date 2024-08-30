@@ -1,4 +1,5 @@
 .PagePrincipaleContainer {
+  min-height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -7,6 +8,8 @@
   background-image: url(../../images/papillon2.png);
   background-size: cover;
   background-position: initial;
+  background-attachment: fixed;
+
 }
 .PagePrincipaleContainer2 {
   width: 100%;
@@ -15,4 +18,7 @@
   justify-content: center;
   align-items: center;
   background-color: #4aafab;
+}
+.papillonAccueil{
+  width: 100%;
 }

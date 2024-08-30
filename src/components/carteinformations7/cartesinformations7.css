@@ -1,5 +1,4 @@
 /*mobile*/
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Nanum+Myeongjo:wght@700&family=Roboto:wght@100&family=Smooch+Sans:wght@100&display=swap');
 @media screen and (max-width: 768px) {
     div.carteInformations5Container{
         width: 90%;
@@ -29,49 +28,66 @@
       }
       p.pCi6{
         width: 100%;
-        font-family: 'Cormorant Garamond', serif;
+        
       }
     }
 /*grand écran*/
 
 .carteInformations5Container{
-  margin: 10px;
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: rgb(183 209 205) ;
 }
 .infoCi6Container{
   width: 50%;
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e7dec2;
+  background-color: rgb(183 209 205) ;
 }
 .h2Ci6{
+  margin-top: 0;
+  margin-bottom: 9%;
   width: 90%;
-  text-align: left;
+  text-align: center;
   font-size: 50px;
   font-weight: 500;
-  color: rgb(34, 28, 28);
+  color: white;
+  font-family: "Dancing Script";
 }
 .pCi6{
-  width: 70%;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
   font-weight: 600;
-  color: rgb(34, 28, 28);
+  color: white;
+  font-family: "Dancing Script";
 }
 .imgCi6Container{
-  max-height: 90vh;
   width: 50%;
   display: flex;
+  border-bottom-left-radius: 22px;
+  border-top-left-radius: 22px;
+  
 }
 .imgCi6{
   width: 100%;
   height: 100%;
+  border-bottom-left-radius: 22px;
+  border-top-left-radius: 22px;
 }
 .css-zvi4ix{
   width: 90%;
   display: flex;
   justify-content: center;
+}
+.pCi6Container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

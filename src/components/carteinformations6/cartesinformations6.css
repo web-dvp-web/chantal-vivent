@@ -1,6 +1,4 @@
 /*mobile*/
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Nanum+Myeongjo:wght@700&family=Roboto:wght@100&family=Smooch+Sans:wght@100&display=swap');
-@media screen and (max-width: 768px) {
     div.carteInformations5Container{
         width: 100%;
         display: flex;
@@ -29,9 +27,9 @@
       }
       p.pCi6{
         width: 87%;
-        font-family: 'Cormorant Garamond', serif;
+     
       }
-    }
+    
 /*grand écran*/
 
 .carteInformations5Container{

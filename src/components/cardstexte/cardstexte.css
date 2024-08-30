@@ -1,0 +1,17 @@
+.texteContainer {
+    display: none; 
+    margin-bottom: 2%;
+  }
+  
+  .ouvert {
+    width: 90%;
+    display: block; 
+    margin-top: -2%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    animation-duration: 3s;
+    transition-duration: 3s;
+  }
+  .h1Test{
+    color: red;
+  }

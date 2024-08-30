@@ -1,13 +1,18 @@
 import './pagecharte.css'
+import { Fade } from "react-awesome-reveal";
 import imgcharte1 from "../../images/charte1.png";
 import imgcharte2 from "../../images/charte2.jpg";
 const PageCharte = () => {
     return(
         <div className="pageCharteContainer">
-            <div className='imgcharteContainer'>
-                <img className='imgCharte1' alt='statue justice' src={imgcharte1} />
+            <b className='bCharte'>
+                <div className='h2CharteContainer'>
+               <Fade direction="right">
+                    <h2 className='h2Charte'>Les valeurs qui nous guident </h2>
+          </Fade>
             </div>
-            <b><h2 className='h2Charte'>Charte Éthique Magnétiseur Énergéticien</h2></b>
+            </b>
+        <h2 className='sTitreCharte'>Je vous propose un accompagnement personnalisé<br/> fondé sur l'éthique et le respect<br/> de votre individualité.</h2>
             <p className='pCharte'>
 
 Guidée par la devise « D’abord ne pas nuire », je respecte scrupuleusement le parcours médical de mes consultants. Je n’interviens pas dans les diagnostics, ni dans les traitements en cours. Mon rôle en tant qu’énergéticienne est complémentaire à l’expertise médicale, visant à l’harmonisation énergétique sans jamais s’opposer à une intervention chirurgicale. Je ne conseille jamais d’interrompre un suivi médical ou des examens nécessaires. Mon approche vise à soutenir, et non à remplacer les soins médicaux traditionnels.
@@ -31,12 +36,18 @@ C’est pourquoi il conviendra <b>en premier lieu pour tous problèmes ou doule
 <b>La mise en conformité de mon activité </b>: je respecte les obligations administratives de l’État dans lequel j’exerce mon activité et je m’astreins à respecter les normes et statuts en vigueur. Enfin, je m’engage à préserver, discipliner et coordonner mes capacités et mes qualités intellectuelles et morales pour offrir le meilleur service à mes consultants.
 <br/>
 <br/>
-
+</p>
+<div className='bandeaucharteContainer'>
+<Fade direction="right">     
 <h2 className='h2Charte'>Charte Éthique Médiumnité Voyance </h2>
-<div className='imgcharteContainer'>
-                <img className='imgCharte2' alt='marteau justice' src={imgcharte2} />
+</Fade>
             </div>
+
             <br/> <br/>
+            <h2 className='sTitreCharte'>
+            Une connexion authentique, une éthique sans faille.<br/> Découvrez les valeurs <br/> qui guident mes consultations de voyance et de médiumnité.
+            </h2>
+<p className='pCharte'>
 Tout praticien s'engage à exercer son activité avec sincérité, loyauté et objectivité.
 <br/>
 <br/>
@@ -80,6 +91,7 @@ Il s'interdit de conserver tous documents personnels, objets ou photos sans l'ac
 Il s'interdit également toute voyance aux personnes mineures hors du consentement formel de leurs parents ou tuteurs.<br/>
 
 </p>
+<p>1.1</p>
         </div>
     )
 }

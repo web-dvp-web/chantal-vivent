@@ -1,7 +1,9 @@
 @media screen and (max-width: 768px) {
   /*mobile*/
   div.cardsPagePrincipaleContainer {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   div.cards1and2Container {
     display: flex;
@@ -26,15 +28,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #709CA7;
   }
   div.cards3Container {
     margin-bottom: 20%;
     width: 100%;
-    background-color: #ededed;
+    background-color: #fdf8f8;
   }
   div.titreMenu3 {
-    background-color: #e1e1e1;
+    background-color: #fdf8f8;
   }
   a{
     display: flex;
@@ -49,6 +50,15 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+  p.texteBienvenue{
+    width: 90%;
+    font-size: 32px;
+  }
+  div.portraitContainer {
+    padding-top: 20px;
+    padding-bottom: 18px;
+    width: 70%;
+}
 }
 
 
@@ -61,10 +71,11 @@
   align-items: center;
   background-color: #4aafac00;
 }
-.cards1and2Container {
-  width: 100%;
+.cards1and3Container {
+  width: 50%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .cards1Container {
   margin: 10px;
@@ -74,7 +85,6 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url(../../images/a1.jpg);
 }
 a {
   list-style: none;
@@ -87,14 +97,13 @@ a {
   font-size: 22px;
   font-weight: 600;
   transition-duration: 1s;
-  color: #2E808C;
-  background-color: #ededed;
+  color: white;
+  font-family: "Dancing Script";
 }
 .titreMenu1:hover{
   transition-duration: 0.5s;
-  color:#242223;
-  background-color: white;
-
+  font-family: "Dancing Script";
+  color:white;
 }
 .cards2Container {
   margin: 10px;
@@ -104,7 +113,6 @@ a {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url(../../images/a3.jpg);
 }
 .titreMenu2 {
   opacity: 90%;
@@ -113,14 +121,13 @@ a {
   font-size: 22px;
   font-weight: 600;
   transition-duration: 0.5s;
-  color: #2E808C;
-  background-color: #ededed;
+  font-family: "Dancing Script";
+  color: white;
 }
 .titreMenu2:hover{
-  color:#242223;
-  background-color: white;
   transition-duration: 0.5s;
-
+  font-family: "Dancing Script";
+  color: white;
 }
 .cards3Container {
   margin-top: 5%;
@@ -133,7 +140,9 @@ a {
   background-size: cover;
   border-bottom-right-radius: 5px;
   background-position: center;
-  background-color: #ededed;
+  /*background: linear-gradient(45deg, #7023a0b5, #3e8bf5ab);*/
+  /*background: linear-gradient(45deg, #2393a0b5, #3eb3f5ab);*/
+  /*background-color:#8c882e80;*/
 }
 .titreMenu3 {
   opacity: 90%;
@@ -142,8 +151,7 @@ a {
   font-weight: 600;
   padding: 10px;
   font-size: 20px;
-  color: #2E808C;
-  background-color: #e1e1e1;
+  font-family: "Dancing Script";
 }
 
 
@@ -170,72 +178,123 @@ a {
 
 
 /*grand écran*/
+.filterContainer{
+  background-color: #0000001c;
+}
+.cardsPagePrincipaleContainer{
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.titreMenu1{
+  width: 24%;
+  border-radius: 10px;
+}
+
+
 .cardsPagePrincipaleContainer2 {
   width: 50%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #4aafab;
 }
-.cards1and2Container {
-  width: 100%;
+.cards1and3Container {
+  width: 50%;
+  height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .cards1Container {
   margin: 5px;
   margin-right: 2%;
   width: 100%;
-  height: 10em;
+  height: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url(../../images/ange3.png);
   border-radius: 4px;
+  font-family: "Dancing Script";
+  /*background: linear-gradient(45deg, #7023a0b5, #3e8bf5ab);*/
+  /*background-color: #8c882e80;*/
+
 }
 a {
   list-style: none;
   text-decoration: none;
 }
-.titreMenu12 {
-  opacity: 90%;
-  width: 100%;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-  background-color: #709CA7;
+.aCards{
+  width: 22em;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183 209 205);
+}
+.aCards:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+  color: cadetblue;
+}
+.aCards2{
+  width: 22em;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183 209 205);
+}
+.aCards2:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+  color: cadetblue;
+}
+.aCards3{
+  width: 22em;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183 209 205);
+}
+.aCards3:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+  color: cadetblue;
 }
 .cards2Container {
-  margin: 5px;
-  margin-left: 2%;
   width: 100%;
-  height: 10em;
+  height: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url(../../images/backgroundmecontacter.png);
   border-radius: 4px;
+  font-family: "Dancing Script";
+  /*background: linear-gradient(45deg, #7023a0b5, #3e8bf5ab);*/
+  /*background-color: #8c882e80;*/
 }
-.titreMenu22 {
-  opacity: 90%;
-  width: 100%;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-  background-color:  #709CA7;
+.cards3Container{
+  width: 90%;
+  height: 2em;
+  border-radius: 4px;
+  font-family: "Dancing Script";
 }
 .cards3Container2 {
   width: 99%;
-  height: 10em;
+  height: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-position: center;
-  background-color: #4aafab;
 }
 .titreCards3Container{
   width: 100%;
@@ -243,19 +302,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #709CA7;
-}
-.titreMenu3 {
-  margin: 0;
-  opacity: 90%;
-  width: 78%;
-  padding: 10px;
-  font-size: 16px;
-  color: white;
-  background-color: #709CA7;
-}
-.aLeBlog{
-  width: 60%;
+  font-family: "Dancing Script";
 }
 .imgLivreMontagne{
   width: 60%;
@@ -263,6 +310,33 @@ a {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
-
-
+.portraitContainer{
+  padding-top: 20px;
+  padding-bottom: 18px;
+  width: 40%;
+}
+.imgChantalVivent{
+  width: 100%;
+  border-radius: 20px;
+}
+.titreMenu2{
+  border-radius: 10px;
+  width: 90%;
+}
+  .titreMenu3 {
+    opacity: 90%;
+      width: 100%;
+      padding: 10px;
+      font-size: 22px;
+      font-weight: 600;
+      border-radius: 10px;
+      transition-duration: 1s;
+      color: white;
+     
+  }
+  .texteBienvenue{
+    width: 40%;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #575757 ;
+    font-family: "Dancing Script";
+  }

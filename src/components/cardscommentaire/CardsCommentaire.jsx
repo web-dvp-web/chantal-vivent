@@ -1,4 +1,5 @@
 import "./cardscommentaire.css";
+import separationCitation from "../../images/separation3.png";
 const CardsCommentaire = (props) => {
   return (
     <div className="cardsCommentaireContainer">
@@ -7,6 +8,7 @@ const CardsCommentaire = (props) => {
         <p className="nameUser">{props.nom}</p>
       </div>
       <p className="commentaireUser">{props.commentaire}</p>
+      <img className="separationCitation" src={separationCitation}/>
     </div>
   );
 };

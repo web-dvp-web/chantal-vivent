@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 998px) {
   /*mobile*/
   div.headerContainer {
     margin-bottom: 0%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: #ffffff;
+    justify-content: left;
+    background-image: url(http://localhost:3000/static/media/backroundfleurs7.eda7f4f….png);
+    background-size: contain;
+    background-position: right;
+    
   }
   div.h1Container {
     width: 70%;
@@ -20,62 +20,90 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: static;
+ 
   }
   p.h1Header {
-    font-size: 21px;
-    color: #242223;
+    margin-top: 17px;
+    font-size: 18px;
+    color: #258083;
   }
-  p.sousTitreHeader {
-    font-size: large;
-    color: #242223;
+  h1.sousTitreHeader {
+    font-size: 30px;
+    color: #258083;
+  }
+  div.medaillonContainer{
+    width: 70%;
   }
   img.logoEntreprise {
     margin: 10px;
-    width: 44%;
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
   }
   div.medaillonTitreLogoContainer{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
   }
-
+ div.bar2{
+   height: 0;
+ }
+ p.contactPortable{
+  margin-top: 1px;
+  margin-bottom: 20px;
+  font-size: 31px;
+  font-weight: bold;
+  font-family: "Dancing Script";
+  color: #258083;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 }
 /*grand écran*/
+
 .headerContainer {
   margin-bottom: 0%;
+  min-height: 45vh;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: left;
-  background-color: #ffffff;
-}
+  background-image: url(../../images/backroundfleurs7.png);
+  background-size:contain;
+  background-position: right;
+  }
 .medaillonTitreLogoContainer{
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .medaillonContainer{
+  width: 28%;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  
 }
 .medaillon{
   margin: 10px;
   padding: 10px;
   width: 148px;
-  border-radius: 200px;
+  border-radius: 0;
 }
 .titreSousTitreContainer {
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    align-items: center;
+    position: absolute;
+    left: 25%;
 }
 .titreHeaderContainer{
   display: flex;
@@ -87,9 +115,9 @@
   margin-bottom: 0;
   font-size: 53px;
   font-family: "Dancing Script";
-  font-weight: 400;
-  ;
-  color: #242223;
+  font-weight: bold;
+  color: #258083;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .sousTitreHeaderContainer{
   display: flex;
@@ -97,23 +125,48 @@
   align-items: center;
 }
 .sousTitreHeader {
-  font-size: 43px;
-  font-family: "Allura", cursive;
-  font-weight: 400;
+  font-size: 53px;
+  font-family: "Dancing Script";
+  font-weight: bold;
   font-style: normal;
-  color: #242223;
+  color: #258083;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .logoEntreprise {
-  margin: 10px;
-
-  padding: 10px;
-  width: 148px;
-  border-radius: 200px;
+  margin: 0px;
+  padding: 0px;
+  width: 79%;
+  height: 100%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .great-vibes-regular {
-  font-family: "Great Vibes", cursive;
+  font-family: "Dancing Script";
   font-weight: 400;
   font-style: normal;
   color: black;
 }
-
+.logoTelHeader{
+  width: 7%;
+}
+.contactPortable{
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-size: 53px;
+  font-weight: bold;
+  font-family: "Dancing Script";
+  color: #258083;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.bar2{
+  width: 100%;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(183 209 205);
+}
+.header2{
+  width: 100%;
+}

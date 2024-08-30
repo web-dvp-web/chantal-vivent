@@ -14,7 +14,7 @@
   }
   h1.h1Horaires {
     font-size: 2em;
-    color: rgb(26, 25, 25);
+    color: #258083;
   }
   img.imgContact {
     width: 100%;
@@ -41,6 +41,17 @@
     margin: 0px;
     width: 39px;
   }
+  img.imgGoogleMap{
+    width: 90%;
+  }
+  div.logoRsContainer{
+    width: 90%;
+  }
+  h2.h2Horaires{
+    height: auto;
+    font-size: 22px;
+    text-shadow: -1px 0px rgba(0, 0, 0, 0.2);
+  }
 }
 
 /*grand écran*/
@@ -50,26 +61,35 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  color: black;
-  background-color: #f9f7f7;
+  color: #258083;
+  background: linear-gradient(45deg, #cae6e2, #caedeb);
 }
 .horairesContainer {
   padding-left: 2%;
   width: 30%;
-  text-align: left;
+  text-align: centers;
 }
 .pHoraires {
   margin: 0;
   font-size: 22px;
+  color: #258083;
+  font-family: "Dancing Script";
 }
-.imgContact {
-  width: 80%;
+.imgGoogleMap {
+  width: auto;
   min-height: 14em;
+  border: solid #2580838a;
+  border-radius: 15px;
 }
 .jour-de-la-semaine {
+  margin-right: 3%;
+  margin-top: 0;
   margin-bottom: 0;
   font-weight: 600;
+  color: cadetblue;
+  font-family: "Dancing Script";
 }
 .mailTelAdresseContainer {
   display: flex;
@@ -91,9 +111,53 @@
 }
 .logoAdresse {
   margin: 10px;
-  width: 78px;
+  width: 100px;
 }
 .pInfo {
   font-size: 19px;
   font-weight: 600;
+  color: cadetblue;
+}
+.h1Horaires {
+  font-size: 45px;
+  color: #258083;
+}
+.allPageContactContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Dancing Script";
+}
+.sTitreHoraire{
+  margin-bottom: 6%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Dancing Script";
+}
+.titreHoraireContainer{
+  width: 100%;
+  height: 11em;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-size:auto;
+  background-image: url(../../images/bandeaucontact4.png);
+}
+.h2Horaires{
+  margin-left : 2%;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Dancing Script";
+  color: #258083;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+}
+.horairec{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iconeLotus{
+  width: 20%;
 }
