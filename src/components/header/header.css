@@ -9,7 +9,7 @@
     background-image: url(http://localhost:3000/static/media/backroundfleurs7.eda7f4f….png);
     background-size: contain;
     background-position: right;
-    
+    justify-content: center;
   }
   div.h1Container {
     width: 70%;
@@ -29,11 +29,14 @@
     color: #258083;
   }
   h1.sousTitreHeader {
-    font-size: 30px;
+    font-size: 25px;
     color: #258083;
   }
   div.medaillonContainer{
     width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   img.logoEntreprise {
     margin: 10px;
@@ -53,7 +56,7 @@
  p.contactPortable{
   margin-top: 1px;
   margin-bottom: 20px;
-  font-size: 31px;
+  font-size: 25px;
   font-weight: bold;
   font-family: "Dancing Script";
   color: #258083;

@@ -1,10 +1,21 @@
 @media screen and (max-width: 768px) {
+ 
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   div.pageMenu1Container {
     display: flex;
   }
   div.allH1Container{
     width: 100%;
     flex-direction: column;
+  }
+  div.allTexteContainer{
+    width: 90%;
+
   }
   div.h1VideoContainer {
     width: 100%;
@@ -21,6 +32,11 @@
   h1.h1CV{
     margin-bottom: 0;
   }
+  div.h1CC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   h1.h1Presentation {
     margin: 0;
     padding-bottom: 1em;
@@ -30,6 +46,9 @@
     font-size: 22px;
     font-weight: 600;
     filter: drop-shadow(2px 1px 1px black);
+  }
+  h1.h1TitreCardsCommentaires{
+    font-size: 23px;
   }
   div.texteContainer{
     text-align: center;
@@ -47,10 +66,10 @@
  }
 h2.h2Services {
   margin: 0;
-  padding: 20px;
+  padding: 0px;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   display: flex;
@@ -58,12 +77,18 @@ h2.h2Services {
   align-items: center;
   font-size: 27px;
   background-color: #ededed;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.2);
+}
+h2.h2ServicesTextContainer{
+  font-size: larger;
 }
 p.titreServices{
     font-size: 35px;
+    font-size: x-large;
 }
 
   div.allCardsCommentaireContainer {
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,9 +103,15 @@ p.titreServices{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: none;
+    transition: none;
   }
   div.css-y5zeoq {
-    width: 100%;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   width: 100%;
+   animation: none;
+   transition: none;
   }
 
   img.imgSeparationCommentaire1 {
@@ -97,13 +128,13 @@ p.titreServices{
     display: flex;
 }
 img.imgIntroduction{
-    margin-bottom: 15%;
+    margin-bottom: 0;
     width: 100%;
-   
     border-radius: 8px;
   }
 img.imgIntroduction2 {
     width: 100%;
+    max-height: none;
     height: auto;
     border-radius: 0;
 }
@@ -131,19 +162,22 @@ div.allCards{
   width: 100%;
 }
 h2.h2ServicesTextContainer{
-  font-size: 53px;
+  font-size: 27px;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.2);
 }
 div.titreButtonContainer{
+  margin: 0;
+  padding: 10px;
   background-color: white;
-  width: 90%;
+  width: 100%;
   border-radius: 20px;
-  margin: 20px;
-  padding: 20px;
 }
 div.texteContainer{
-  width: 90.5%;
+  margin: -20px;
+  padding: 10px;
+  width: 100%;
   position: relative;
-  top: -26px;
+  top: 6px;
 }
 }
 div.separationContainer{
@@ -162,6 +196,36 @@ p.prix{
   font-size: 22px;
   text-align: center;
 }
+a.aButtonContact{
+  width: 80%;
+}
+
+button.buttonLaisserVotreAvis{
+  margin-bottom: 10%;
+}
+p.reservez{
+  font-size: 33Px;
+}
+h1.rappel{
+  font-size: 23px;
+}
+h1.rapell{
+  font-size: 23px;
+}
+h2.h2TextContainer{
+  font-size: 22px;
+  margin-bottom: 0;
+}
+div.texteCardContainerok{
+  width: 90%;
+}
+div.backgroundAllTexteContainer{
+  padding-bottom: 20px;
+}
+.buttonEnSavoirPlus{
+  font-size: 17px;
+}
+
 /*grand écran*/
 .allCards{
   width: 100%;
@@ -197,7 +261,8 @@ p.prix{
   align-items: center;
 }
 .h1Container{
-  margin: 20px;
+  width: auto;
+  margin: 0px;
   font-size: 25px;
   border-radius: 12px;
   /*background-color: #2e808cb8;*/
@@ -495,6 +560,11 @@ a{
   border: solid, #f5cfd2;
   background-color: #258083;
 }
+.buttonEnSavoirPlus:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+  background-color: #92b65c;
+}
 .rapell{
   font-size: 29px;
   color: #258083;
@@ -521,6 +591,7 @@ a{
     width: 64%;   
   }
   p.titreServices{
+    font-size: 33px;
     height: auto;
   }
   p.prix{
@@ -531,7 +602,7 @@ a{
     width: 100%;
     left: 0%;
     bottom: 0px;
-    font-size: 33px;
+    font-size: 24px;
     color: #258083;
     text-shadow: 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -702,10 +773,10 @@ align-items: center;
   cursor:grab;
 }
 .titreButtonContainer{
-  width: 63.9%;
+  width: 90%;
   border-radius: 20px;
-  margin: 20px;
-  padding: 20px;
+  padding: 10px;
+  background-color: white;
 }
 .texteContainer {
   display: none; 

@@ -1,8 +1,9 @@
 /*mobile*/
 @media screen and (max-width: 768px) {
     div.carteInformations5Container{
-        width: 90%;
+        width: 100%;
         display: flex;
+        border-radius: 0;
         flex-direction: column;
       }
       div.imgCi6Container{
@@ -12,22 +13,25 @@
       }
       img.imgCi6{
         min-height: 0;
+        border-radius: 0;
         height: auto;
       }
       div.infoCi6Container{
+        margin-bottom: 10%;
       width: 100%;
       min-height: auto;
       height: auto;
       text-align: center;
       }
       h2.h2Ci6{
+        margin-top: 10%;
         text-align: center;
         width: auto;
-        font-size: 22px;
+        font-size: 28px;
         font-weight: 700;
       }
       p.pCi6{
-        width: 100%;
+        width: 90%;
         
       }
     }

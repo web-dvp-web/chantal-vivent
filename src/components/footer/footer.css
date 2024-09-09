@@ -108,6 +108,14 @@
   div.part2Footer {
     width: 80%;
   }
+  h1.h1Footer{
+    font-size: 30px;
+  }
+  hr.ligne2{
+    margin: 0;
+    width: 0;
+    opacity: 0;
+  }
 }
 
 /*grand écran*/
@@ -271,6 +279,10 @@
 }
 .ligne {
   width: 70%;
+  border-top: 1px solid white;
+}
+.ligne2{
+  width:70%;
   border-top: 1px solid white;
 }
 .aFacebook{

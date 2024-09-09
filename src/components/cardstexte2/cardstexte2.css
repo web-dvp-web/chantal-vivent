@@ -1,3 +1,16 @@
+@media srcreen and (max-width:168px){
+  div.ouvert{
+  width: 100%;
+  display: block;
+  margin-top: -1%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  animation-duration: 3s;
+  transition-duration: 3s;
+  color: #258083;
+  background-color: rgb(255 255 255);
+}
+}
 .texteContainer {
     display: none; 
     margin-bottom: 2%;
@@ -5,13 +18,17 @@
   
   .ouvert {
     width: 90%;
-    display: block; 
-    margin-top: -2%;
+    margin:0;
+    padding: 10px;
+    top: -17px;
+    display: block;
+    position: relative;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     animation-duration: 3s;
     transition-duration: 3s;
-    background-color: rgba(255, 255, 255, 0);
+    color: #258083;
+    background-color: rgb(255 255 255);
   }
   .h1Test{
     color: red;

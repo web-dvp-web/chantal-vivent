@@ -24,7 +24,7 @@ const NavBar2 = (props) => {
           <p className='p1'>{props.lien3NB2}</p>
         </div>
       </a>
-      <a
+      <a href='/mensionlegale'
         className="aNB2MentionsLegale"
         onMouseEnter={() => document.querySelector('.p1ML2').classList.add('visible')}
         onMouseLeave={() => document.querySelector('.p1ML2').classList.remove('visible')}
@@ -36,7 +36,7 @@ const NavBar2 = (props) => {
         </div>
       </a>
       <div className="logoTelContainer">
-        <img className="logoTelNavBar" src={logoTel} alt="img logo telephone" />
+        <img className="logoTelNavBar" src={logoTel} alt="logo telephone" />
         <p className="pTel">{props.tel}</p>
       </div>
     </div>

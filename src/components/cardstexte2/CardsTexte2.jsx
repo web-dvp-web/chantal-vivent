@@ -17,6 +17,10 @@ const CardsTexte = (props) => {
         </div>
         <div className={ouvert ? 'texteContainer ouvert' : 'texteContainer'}>
           {props.texte}
+          <br/>
+          {props.texte2}
+          <br/>
+          {props.texte3}
         </div>
       </div>
     </div>

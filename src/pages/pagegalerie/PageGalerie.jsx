@@ -108,9 +108,9 @@ const PageGalerie = () => {
         <img className="imgchantalGalerie1" src={chantalviventlatour2} />
       </div>
       <div className="separationApropos">
-        <Fade direction="right">
+        
           <h2 className="h2APropos">GUIDANCE INTUITIVE PAR LES CITATIONS</h2>
-        </Fade>
+        
       </div>
       <CarteInformations7
         titre="Laissez les mots vous montrez le chemin"
@@ -120,17 +120,17 @@ const PageGalerie = () => {
         img={papillon}
       />
       <div className="allCardsCommentaireContainer">
-        <Fade cascade damping={0.3}>
+    
           <img className="commentaireimg" alt="paul coelho" src={commentaireimg5} />
           <img className="commentaireimg" alt="citations oscar wilde" src={commentaireimg3} />
           <img className="commentaireimg" alt="citations Albert Einstein" src={commentaireimg2} />
-        </Fade>
+     
       </div>
       <div className="allCardsCommentaireContainer">
-        <Fade cascade damping={0.3}>
+      
           <img className="commentaireimg" alt="citation bouddha" src={commentaireimg4} />
           <img className="commentaireimg" alt="citation gandhi" src={commentaireimg1} />
-        </Fade>
+       
       </div>
       <a href="contact-horaires-chantal-vivent-medium-voyante-energéticienne">
         <button className="buttonReservezVotreConsultation">

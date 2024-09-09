@@ -7,7 +7,7 @@
     background-color: #ffffff;
   }
   div.horairesContainer {
-    margin-bottom: 7%;
+    margin-bottom: -14%;
     padding-left: 0%;
     text-align: center;
     width: 100%;
@@ -39,7 +39,7 @@
   }
   img.logoAdresse {
     margin: 0px;
-    width: 39px;
+    width: 54px;
   }
   img.imgGoogleMap{
     width: 90%;
@@ -52,6 +52,27 @@
     font-size: 22px;
     text-shadow: -1px 0px rgba(0, 0, 0, 0.2);
   }
+  p.sTitreHoraire{
+    margin-bottom: 0;
+    padding: 10px;
+  }
+  p.sTitreHoraire2{
+    margin: 0;
+    margin-bottom: 6%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Dancing Script";
+  }
+
+  img.logoClick{
+    width: 22%;
+    position: relative;
+    transform: matrix(1, 0, 0, 1, 0, 102);
+    scale: 1.1;
+  }
+  
 }
 
 /*grand écran*/
@@ -160,4 +181,7 @@
 }
 .iconeLotus{
   width: 20%;
+}
+.logoClick{
+  width: 0;
 }

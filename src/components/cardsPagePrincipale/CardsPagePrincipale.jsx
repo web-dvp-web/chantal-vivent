@@ -4,10 +4,8 @@ const CardsPagePrincipale = (props) => {
   return (
     <div className="filterContainer">
     <div className="cardsPagePrincipaleContainer">
-      <p className="texteBienvenue"> "Je vous souhaite la bienvenue dans mon monde de medium voyante énergéticienne en lien avec le visible-invisible. De part ma connexion, vous recevrez les messages de votre coeur, de votre âme, de vos guides de lumière. "
+      <p className="texteBienvenue"> Vous cherchez un nouveau départ ? <br/> <br/> Prêt(e) à un changement positif dans votre vie ? <br/> <br/> Laissez-moi vous guider vers votre plein potentiel grace à la médiumnité et la connexion aux énergies. <br/> <br/> Contactez moi
 </p>
-      
-        
       <div className="portraitContainer">
         <img src={chantalvivent} className="imgChantalVivent" />
       </div>

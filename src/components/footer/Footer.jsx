@@ -76,7 +76,7 @@ const Footer = (props) => {
             />
              <p className="infoFooter">{props.tel}</p>
             </div>
-            <hr className="ligne" />
+            <hr className="ligne2" />
           </div>
           <div className="part2Footer">
           <hr className="ligne" />

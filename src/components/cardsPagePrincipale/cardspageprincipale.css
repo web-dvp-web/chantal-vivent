@@ -53,6 +53,7 @@
   p.texteBienvenue{
     width: 90%;
     font-size: 32px;
+    text-shadow: 1px 1px 2px #000000;
   }
   div.portraitContainer {
     padding-top: 20px;
@@ -335,7 +336,7 @@ a {
      
   }
   .texteBienvenue{
-    width: 40%;
+    width: 41%;
     font-size: 40px;
     text-shadow: 1px 1px 2px #575757 ;
     font-family: "Dancing Script";

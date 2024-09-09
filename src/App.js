@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="reverseHeader">
         <Navbar2 
         lien1NB2="Menu Principal"
         lien2NB2="Mes Prestations"
@@ -30,7 +31,8 @@ function App() {
           h1header="CHANTAL VIVENT"
           soustitre="Médium • Voyante  •  Energéticienne "
           logo={logochantalvivent}
-        />
+          />
+          </div>
         <Routes>
           <Route path="/" element={<PagePrincipale />} />
           <Route exact path="/prestations-chantalvivent-Medium-Voyante" element={<PagePrestations />} />
@@ -43,7 +45,7 @@ function App() {
                 mercredi="9h-20h30"
                 jeudi="9h-20h30"
                 vendredi="9h-20h30"
-                samedi="9h-20h30"
+                samedi="9h-13h"
                 dimanche="férmé"
                 tel="06 80 52 04 94"
                 mail="chantalvivent65@gmail.com"
@@ -59,7 +61,7 @@ function App() {
       </header>
       <Footer
         titre="CHANTAL VIVENT"
-        soustitre="Medium • Voyante  •  Energéticienne "
+        soustitre="Médium • Voyante  •  Energéticienne "
         mail="chantalvivent65@gmail.com"
         tel="06 80 52 04 94"
         adresse="7 Chem. de Bonzoumet, 31310 Montesquieu-Volvestre"

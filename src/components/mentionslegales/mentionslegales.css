@@ -6,12 +6,16 @@ div.mentionsLegaleContainer{
     align-items: center;
 }
 h1.h1MentionsLegales{
+    font-size: 30px;
     text-align: center;
     color: #2E808C;
 }
 p.texteMentionsLegales{
     width: 90%;
     font-size: 12px;
+}
+h2.h2ML{
+    font-size: 25px;
 }
 }
 
