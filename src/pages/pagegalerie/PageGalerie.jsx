@@ -1,11 +1,9 @@
 import "./pagegalerie.css";
 import { useState } from "react";
-import { Fade } from "react-awesome-reveal";
 import chantalviventlatour2 from "../../images/nouvelles/latour 2.jpg";
 import CarteInformations7 from "../../components/carteinformations7/CarteInformations7";
 import papillon from "../../images/papillon2.png";
 import separationGalerie from "../../images/separation2.png";
-
 import commentaireimg1 from "../../images/citations/commentaireimg1.png";
 import commentaireimg2 from "../../images/citations/citationsimg2.png";
 import commentaireimg3 from "../../images/citations/citationsimg3.png";
@@ -105,12 +103,10 @@ const PageGalerie = () => {
           </div>
         </div>
 
-        <img className="imgchantalGalerie1" src={chantalviventlatour2} />
+        <img className="imgchantalGalerie1" src={chantalviventlatour2} alt="chantalvivent" />
       </div>
       <div className="separationApropos">
-        
           <h2 className="h2APropos">GUIDANCE INTUITIVE PAR LES CITATIONS</h2>
-        
       </div>
       <CarteInformations7
         titre="Laissez les mots vous montrez le chemin"

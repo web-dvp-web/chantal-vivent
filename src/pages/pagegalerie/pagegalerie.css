@@ -39,6 +39,7 @@ div.texteContainerGalerieOuvertGalerie{
    width: 86.1%;
 }
 img.commentaireimg{
+  width: 95%;
   margin-top: 15px;
 }
 }
@@ -239,7 +240,7 @@ align-items: baseline;
   background-color: #92b65c;
 }
 .commentaireimg{
-  width: 95%;
+  width: 30%;
   transition-duration: 1s;
 }
 .commentaireimg:hover{
