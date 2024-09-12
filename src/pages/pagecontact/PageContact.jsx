@@ -1,11 +1,6 @@
 import "./pagecontact.css";
 import { Fade } from "react-awesome-reveal";
 import imggooglemap from "../../images/googlemapchantalvivent.png";
-import logoapell from "../../images/2.png";
-import logomail from "../../images/5.png";
-import logoadresse from "../../images/adresse.png";
-import logoweb from "../../images/7.png";
-import logofacebook from "../../images/8.png";
 import iconelotus from '../../images/iconelotus.png';
 import click from '../../images/logoClick.png';
 const PageContact = (props) => {

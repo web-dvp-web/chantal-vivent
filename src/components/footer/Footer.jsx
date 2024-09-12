@@ -1,9 +1,9 @@
 import "./footer.css";
 import iconemail from "../../images/5.png";
-import iconetel from "../../images/2.png";
+import iconetel from "../../images/4.png";
 import iconeadresse from "../../images/adresse.png";
 import iconeWeb from "../../images/7.png";
-import iconeFacebook from "../../images/8.png";
+import iconeFacebook from "../../images/6.png";
 const Footer = (props) => {
   return (
     <div className="footerContainer">
