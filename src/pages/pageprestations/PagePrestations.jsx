@@ -4,7 +4,7 @@ import imgIntroduction from "../../images/nouvelles/brasouvert2.png";
 import CardsCommentaire from "../../components/cardscommentaire/CardsCommentaire";
 import service1 from "../../images/nouvelles/bureau.jpg";
 import service2 from "../../images/nouvelles/CELLES 2.jpg";
-import service3 from "../../images/WhatsApp/WhatsApp Image 2024-08-06 at 16.48.30 (2).jpeg";
+import service3 from "../../images/nouvelles/WhatsApp Image 2024-08-06 at 16.48.30 (2).jpeg";
 import imgintroduction2 from "../../images/nouvelles/Montesquieu 07 24.jpg";
 import CardsTexte2 from "../../components/cardstexte2/CardsTexte2";
 /*animation du texte*/

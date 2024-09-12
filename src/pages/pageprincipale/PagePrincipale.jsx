@@ -3,7 +3,6 @@ import CardsPagePrincipale from "../../components/cardsPagePrincipale/CardsPageP
 const PagePrincipale = () => {
   return (
     <div className="PagePrincipaleContainer">
-     
       <CardsPagePrincipale
         titremenu1="À propos de moi "
         titremenu2="Mes Prestations"

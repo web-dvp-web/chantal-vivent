@@ -4,12 +4,12 @@ import './NavBar2.css';
 const NavBar2 = (props) => {
   return (
     <div className="allNavBar2Container">
-      <a className="aNB2" href="/">
+      <a className="aNB2" href="/" >
         <div className="allNB2">
           <p className='p1'>{props.lien1NB2}</p>
         </div>
       </a>
-      <a className="aNB2" href="/prestations-chantalvivent-Medium-Voyante">
+      <a className="aNB2" href="prestations-chantalvivent-Medium-Voyante">
         <div className="allNB2">
           <p className='p1'>{props.lien2NB2}</p>
         </div>

@@ -1,7 +1,5 @@
 import './pagecharte.css'
 import { Fade } from "react-awesome-reveal";
-import imgcharte1 from "../../images/charte1.png";
-import imgcharte2 from "../../images/charte2.jpg";
 const PageCharte = () => {
     return(
         <div className="pageCharteContainer">
