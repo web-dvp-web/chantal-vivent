@@ -4,13 +4,13 @@ import PagePrincipale from "./pages/pageprincipale/PagePrincipale";
 import Header from "./components/header/Header";
 import Navbar2 from "./components/navbar2/NavBar2";
 import Footer from "./components/footer/Footer";
-import logochantalvivent from "./images/logochantalvivent.png";
+import logochantalvivent from "./images/logochantalvivent.jpg";
 import PageContact from "./pages/pagecontact/PageContact";
 import PageGalerie from "./pages/pagegalerie/PageGalerie";
 import PagePrestations from "./pages/pageprestations/PagePrestations";
 import PageMentionsLegales from "./pages/pagementionslegales/PageMentionsLegales";
 import PageCharte from "./pages/pagecharte/PageCharte";
-import logochantalviventcarre from './images/logochantalvivent.png';
+import logochantalviventcarre from './images/logochantalvivent.jpg';
 
 
 function App() {
