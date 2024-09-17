@@ -38,7 +38,7 @@ const PagePrestations = () => {
           <div className="h1CC">
             <div className="h1Container">
               <CardsTexte2
-                titre="Le changement commence par une prise de conscience. Vous êtes prêt(e) à faire ce premier pas ?"
+                titre="Le changement commence par une prise de conscience. Êtes vous prêt(e) à faire le premier pas ?"
                 texte="Bienvenue sur mon site, Médium Voyante Énergéticienne."
                 texte2=" Spiritualité et bien-être se rencontrent pour
 vous guider vers une vie plus équilibrée. Je vous propose des prestations personnalisées telles que la voyance médiumnité, les séances

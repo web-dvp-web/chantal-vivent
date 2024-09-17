@@ -80,7 +80,7 @@ const Footer = (props) => {
           </div>
           <div className="part2Footer">
           <hr className="ligne" />
-            <a className="aFooter" href="/contact">
+            <a className="aFooter" href="/contact-horaires-chantal-vivent-medium-voyante-energéticienne">
               <p className="aFooter">Me contacter{props.horaires} </p>
             </a>
             <hr className="ligne" />
