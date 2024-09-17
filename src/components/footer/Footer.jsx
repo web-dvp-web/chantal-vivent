@@ -43,7 +43,7 @@ const Footer = (props) => {
             src={iconeFacebook}
             alt="icone web"
             />
-            <a href="https://www.facebook.com/chantal.vivent/?locale=fr_FR">
+            <a target="_blank" href="https://www.facebook.com/chantal.vivent/?locale=fr_FR">
               <p className="infoFooter">Facebook</p>
             </a>
           </div>
@@ -84,11 +84,11 @@ const Footer = (props) => {
               <p className="aFooter">Me contacter{props.horaires} </p>
             </a>
             <hr className="ligne" />
-            <a className="aFooter" href="https://www.dvpariege.fr/">
+            <a target="_blank" className="aFooter" href="https://www.dvpariege.fr/">
               <p className="aFooter">Site réalisé par dvpariege</p>
             </a>
             <hr className="ligne" />
-            <a href="https://www.instagram.com/emilie.bardet.studio/?hl=fr">
+            <a target="_blank" href="https://www.instagram.com/emilie.bardet.studio/?hl=fr">
               <p className="aFooter">Logo réalisé par Emilie Bardet</p>
             </a>
             <hr className="ligne" />
