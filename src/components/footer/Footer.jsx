@@ -31,8 +31,8 @@ const Footer = (props) => {
             src={iconeWeb}
             alt="icone web"
             />
-          <a href="https://chantalvivent.fr/">
-            <p className="infoFooter">https://chantalvivent.fr/</p>
+          <a href="https://mediumchantalenergie.com/">
+            <p className="infoFooter">https://mediumchantalenergie.com/</p>
           </a>
             </div>
       
