@@ -33,12 +33,11 @@ function App() {
           logo={logochantalvivent}
           />
           </div>
-              <main className="main-content">
         <Routes>
           <Route path="/" element={<PagePrincipale />} />
           <Route exact path="/prestations-chantalvivent-Medium-Voyante" element={<PagePrestations />} />
           <Route
-             exact path="/contact-horaires-chantal-vivent-medium-voyante-energéticienne"
+             exact path="/contact"
             element={
               <PageContact
                 lundi="9h-20h30"
@@ -58,7 +57,7 @@ function App() {
       <Route exact path="/mentionslegales" element={<PageMentionsLegales />} />
       <Route exact path="/charte-éthique" element={<PageCharte />} />
         </Routes>
-      </main>        
+
       </header>
       <Footer
         titre="CHANTAL VIVENT"

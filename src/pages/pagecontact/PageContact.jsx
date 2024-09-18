@@ -82,6 +82,10 @@ const PageContact = (props) => {
           </a>
         </div>
       </div>
+      <section id="ancrecontact">
+                <h2>contact </h2>
+                <p>prenom : test</p>
+            </section>
     </div>
   );
 };
