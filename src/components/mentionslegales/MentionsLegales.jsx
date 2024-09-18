@@ -1,5 +1,6 @@
 import './mentionslegales.css';
 import { Fade } from "react-awesome-reveal";
+import { NavLink } from 'react-router-dom';
 const MentionsLegales = () => {
     
     return(
@@ -11,6 +12,7 @@ const MentionsLegales = () => {
                 </h1>
             </div>
             </Fade>
+            <NavLink to='/mentionslegales#conditions-generales'>test ancre</NavLink>
              <h2 className='h2ML'>Définitions</h2>
                 <p><b>Client :</b> tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.<br/>
                 <b>Prestations et Services :</b> <a href="https://chantalvivent.fr/">https://chantalvivent.fr/</a> met à disposition des Clients :</p>
@@ -199,7 +201,16 @@ const MentionsLegales = () => {
                 Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que vous y consentiez, en continuant votre navigation sur le Site Internet ou l’application mobile de <a href="https://chantalvivent.fr/">https://chantalvivent.fr/</a>. À tout moment, l’Utilisateur peut néanmoins revenir sur son consentement à ce que <a href="https://chantalvivent.fr/">https://chantalvivent.fr/</a> dépose ce type de cookies.</p>
                  
                 <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
-                 
+
+
+
+
+                <section id="conditions-generales">
+                <h2> test ancre Conditions générales d'utilisation</h2>
+                {/* Contenu de la section */}
+                </section>
+
+
 
                 <p>
 

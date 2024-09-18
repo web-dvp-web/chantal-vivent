@@ -1,6 +1,5 @@
 import logoTel from '../../images/contact2.svg';
 import './NavBar2.css';
-
 const NavBar2 = (props) => {
   return (
     <div className="allNavBar2Container">

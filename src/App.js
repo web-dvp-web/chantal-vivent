@@ -33,6 +33,7 @@ function App() {
           logo={logochantalvivent}
           />
           </div>
+              <main className="main-content">
         <Routes>
           <Route path="/" element={<PagePrincipale />} />
           <Route exact path="/prestations-chantalvivent-Medium-Voyante" element={<PagePrestations />} />
@@ -57,7 +58,7 @@ function App() {
       <Route exact path="/mentionslegales" element={<PageMentionsLegales />} />
       <Route exact path="/charte-éthique" element={<PageCharte />} />
         </Routes>
-
+      </main>        
       </header>
       <Footer
         titre="CHANTAL VIVENT"
