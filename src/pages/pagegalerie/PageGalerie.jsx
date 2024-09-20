@@ -26,7 +26,7 @@ const PageGalerie = () => {
       <div className="cardsTexteContainerGalerie">
         <div className="allTexteContainer">
           <div className="titreButtonContainerGalerie">
-            <h2 className="h2ServicesTextContainer">Qui suis-je ?</h2>
+            <h2 className="h2ServicesTextContainer"  id="sectionapropos">Qui suis-je ?</h2>
             <h2 className="h2TextContainer">
             Animée par le désir d'aider les autres à trouver leur chemin,
              je mets mes capacités de médium voyante et énergéticienne au service de votre épanouissement.

@@ -4,7 +4,7 @@ const PageCharte = () => {
     return(
         <div className="pageCharteContainer">
             <b className='bCharte'>
-                <div className='h2CharteContainer'>
+                <div className='h2CharteContainer'  id="sectioncharte">
                <Fade direction="right">
                     <h2 className='h2Charte'>Les valeurs qui nous guident </h2>
           </Fade>

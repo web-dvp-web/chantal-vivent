@@ -35,9 +35,9 @@ function App() {
           </div>
         <Routes>
           <Route path="/" element={<PagePrincipale />} />
-          <Route exact path="/prestations-chantalvivent-Medium-Voyante" element={<PagePrestations />} />
+          <Route path="/prestations-chantalvivent-Medium-Voyante" element={<PagePrestations />} />
           <Route
-             exact path="/contact"
+             exact path="/contact-chantal-vivent"
             element={
               <PageContact
                 lundi="9h-20h30"
@@ -53,9 +53,9 @@ function App() {
               />
             }
           />
-          <Route exact path="/aproposdemoi-Chantal-Vivent" element={<PageGalerie />} />
-      <Route exact path="/mentionslegales" element={<PageMentionsLegales />} />
-      <Route exact path="/charte-éthique" element={<PageCharte />} />
+          <Route path="/aproposdemoi-Chantal-Vivent" element={<PageGalerie />} />
+      <Route  path="/mentionslegales" element={<PageMentionsLegales />} />
+      <Route  path="/charte-éthique" element={<PageCharte />} />
         </Routes>
 
       </header>

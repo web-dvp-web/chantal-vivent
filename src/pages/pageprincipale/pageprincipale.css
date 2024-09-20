@@ -1,3 +1,11 @@
+@media screen and (max-width: 768px){
+  h2.section{
+    position: fixed;
+    top: 50%;
+    width: 0;
+    height: 0;
+  }
+}
 .PagePrincipaleContainer {
   min-height: 50vh;
   width: 100%;
@@ -21,4 +29,9 @@
 }
 .papillonAccueil{
   width: 100%;
+}
+.section{
+  width: 0;
+  height: 0;
+  background-color: #4aafac00;
 }

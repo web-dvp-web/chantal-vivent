@@ -1,5 +1,6 @@
 import "./pageprincipale.css";
 import CardsPagePrincipale from "../../components/cardsPagePrincipale/CardsPagePrincipale";
+
 const PagePrincipale = () => {
   return (
     <div className="PagePrincipaleContainer">

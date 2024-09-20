@@ -1,9 +1,10 @@
 @media screen and (max-width: 768px) {
-div.allNavBar2Container{
+
+    div.allNavBar2Container{
     padding-top: 10%;
     padding-bottom: 10%;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     background-image: url('../../images/backgroundfleurs.png');
@@ -18,7 +19,7 @@ div.allNB2MentionsLegales{
     width: 70%;
     height: 5em;
 }
-div.aNB2MentionsLegale{
+   a.aNB2MentionsLegale{
     margin-bottom: 1em;
     width: 100%;
     height: 1.5em;
@@ -42,6 +43,13 @@ a.aNB2{
     font-family: "Dancing Script";
     color: white;
     transition-duration: 0.5s;
+}
+a.p1{
+    font-size: 20px;
+    color: white;
+}
+p.p1{
+    font-size: 20px;
 }
 p.p1ML{
     position: absolute;
@@ -73,7 +81,7 @@ div.allNB2{
     background-color: #2E808C;
     border-radius: 12px;
     padding: 10px;
-    width: 63%;
+    width: 100%;
     display: flex;
     height: 2em;
     justify-content: center;
@@ -89,11 +97,17 @@ div.logoTelContainer{
     height: 2em;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: -3%;
 }
 p.pTel{
     padding-left: 0px;
     font-size: 25px;
     position: absolute;
+}
+li.liNavBar2{
+    margin: 5px;
+    width: 60%;
 }
 }
 .allNavBar2Container{
@@ -107,7 +121,17 @@ p.pTel{
 .logoCamion{
     width: 5%;
 }
+.ulNavBar2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+.liNavBar2{
+    width: 10%;
+}
 .logoTelContainer{
+    width: 16%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,8 +141,14 @@ p.pTel{
     width: 10%;
     margin: 10px;
 }
+.aNavBar{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    font-family: "Dancing Script";
+}
 .aNB2{
-    width: 30%;
+    width: auto;
     height: 4em;
     display: flex;
     justify-content: center;
@@ -206,6 +236,7 @@ p.pTel{
     opacity: 0; 
    /* transition: opacity 0.3s ease-in-out;*/
   }
+  
 .p1ML2:hover{
     width: 100%;
     transition-duration: 0.5s;

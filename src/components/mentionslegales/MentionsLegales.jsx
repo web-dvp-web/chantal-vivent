@@ -6,7 +6,7 @@ const MentionsLegales = () => {
         <div className="mentionsLegaleContainer">
             <Fade direction="right">
             <div className='bandeauMentionsLegales'>
-                <h1 className='h1MentionsLegales'>
+                <h1 className='h1MentionsLegales' id="sectionmentionslegales">
                 Tout ce que vous devez savoir légalement sur le site
                 </h1>
             </div>
