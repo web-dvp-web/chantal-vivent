@@ -193,7 +193,7 @@ Par la guidance, vous serez alignez sur vos aspirations profondes en étant vous
                 perspectives." <br />
                 <br />
                 Demi-journée <b>70 €</b> <br />
-                Journée<b>100 €</b>
+                Journée<b>120 €</b>
               </p>
             </div>
             <div className="separationContainer"></div>

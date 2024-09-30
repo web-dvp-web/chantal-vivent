@@ -14,7 +14,7 @@ const Footer = (props) => {
           <div className="logoRsContainer">
            <p className="h2Footer">06 80 52 04 94</p>
           </div>
-           <p className="h2Footer">Siret : 89877682800011 </p>
+           <p className="h2Footer">Siret : 89877682800029           </p>
           <img
             className="logoFooter"
             src={props.logo}
