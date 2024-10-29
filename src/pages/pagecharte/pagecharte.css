@@ -54,8 +54,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    overflow: hidden;
     font-family: "Dancing Script";
+    background-color: white;
 }
 .imgCharte1{
     margin-top: 100px;

@@ -1,5 +1,6 @@
 import "./pagegalerie.css";
 import { useState } from "react";
+import {Fade} from "react-awesome-reveal";
 import chantalviventlatour2 from "../../images/nouvelles/latour 2.jpg";
 import CarteInformations7 from "../../components/carteinformations7/CarteInformations7";
 import papillon from "../../images/papillon2.png";
@@ -106,7 +107,9 @@ const PageGalerie = () => {
         <img className="imgchantalGalerie1" src={chantalviventlatour2} alt="chantalvivent" />
       </div>
       <div className="separationApropos">
+      <Fade direction="left" className="fadeContainer">
           <h2 className="h2APropos">GUIDANCE INTUITIVE PAR LES CITATIONS</h2>
+      </Fade>
       </div>
       <CarteInformations7
         titre="Laissez les mots vous montrez le chemin"

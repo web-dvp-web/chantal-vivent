@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./pageprestations.css";
+import { Fade } from "react-awesome-reveal";
 import imgIntroduction from "../../images/nouvelles/brasouvert2.png";
 import CardsCommentaire from "../../components/cardscommentaire/CardsCommentaire";
 import service1 from "../../images/nouvelles/bureau.jpg";
@@ -66,9 +67,9 @@ accompagne. "
         </div>
       </div>
       <div className="h2ServicesContainer">
-      
+      <Fade direction="left">
           <h2 className="h2Services"> DÉCOUVREZ MES PRESTATIONS </h2>
-      
+      </Fade>
       </div>
       <div className="allCards">
         <div className="cardsServicesContainer">
@@ -211,11 +212,11 @@ Par la guidance, vous serez alignez sur vos aspirations profondes en étant vous
         </div>
       </div>
       <div className="h1TitreCardsCommentairesContainer">
-     
+      <Fade direction="left">
           <h1 className="h1TitreCardsCommentaires">
             VOS TÉMOIGNAGES... EN VOUS REMERCIANT
           </h1>
-        
+        </Fade>
       </div>
       <div className="allCardsCommentaireContainer">
       

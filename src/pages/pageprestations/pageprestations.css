@@ -8,6 +8,8 @@
   }
   div.pageMenu1Container {
     display: flex;
+    display: flex;
+    overflow: hidden;
   }
   div.allH1Container{
     width: 100%;
@@ -103,15 +105,11 @@ p.titreServices{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: none;
-    transition: none;
   }
   div.css-y5zeoq {
    margin-top: 25px;
    margin-bottom: 25px;
    width: 100%;
-   animation: none;
-   transition: none;
   }
 
   img.imgSeparationCommentaire1 {

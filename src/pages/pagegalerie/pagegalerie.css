@@ -207,10 +207,11 @@ align-items: baseline;
   align-items: center;
   font-size: 55px;
   font-weight: 600;
+  overflow: hidden;
+  background-size: contain;
   color: #258083;
   text-shadow: 2px 4px rgba(0, 0, 0, 0.2);
   background-image: url(../../images/backgroundfleurs.png) ;
-  background-size: contain;
 }
 .h2APropos{
   margin-left : 2%;
@@ -246,4 +247,11 @@ align-items: baseline;
 .commentaireimg:hover{
   transform: scale(1.1);
   transition-duration: 1s;
+}
+.fadeContainer{
+  animation-delay: 0ms;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
